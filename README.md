@@ -92,7 +92,7 @@ As part of the design process, before starting my project I created sketched out
 
 [view initial drawings](assets/images/readme/initial-drawing.jpg)
 
-[View wireframes](// ADD WIREFRAMES HERE //)
+[View wireframes](assets/files/wireframes.pdf)
 
 ---
 ## &rarr; **Features**
