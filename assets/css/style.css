@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
 
-/* General */
+/*--- General ---*/
 .row,
 .col {
   margin: 0;
@@ -22,7 +22,7 @@ header {
   margin-left: 10px;
 }
 
-/* Nav Menu */
+/*--- Nav Menu ---*/
 .dropdown {
   text-align: right;
 }
@@ -79,4 +79,53 @@ header {
 .list-inline a:active {
   filter: brightness(120%);
   text-decoration: none;
+}
+
+/*--- Callout--- */
+.container {
+  position: relative;
+  text-align: center;
+}
+/* Marker */
+#marker {
+  font-size: 50px;
+  color:#8c5f66;
+  padding-top: 30px;
+}
+/* Brain Image */
+#brain {
+  width: 60%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/* Overlay text */
+#overlay-text {
+  /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+  background-color: #8c5f6690;
+  padding: 8px 60px;
+  font-size: 30px;
+  color: #fafafa;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Text */
+#intro-text {
+  text-align: center;
+  padding: 0 5rem;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* Start btn */
+.btn-container {
+  text-align: center;
+  padding: 20px;
+}
+#start-btn {
+  background-color: #adbca5;
+  border-color: #333333;
+  border-radius: 50%;
+  padding: 5px 20px;
+  font-weight: 600;
 }
