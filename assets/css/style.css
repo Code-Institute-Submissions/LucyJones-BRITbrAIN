@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
 
+/* General */
+.row,
+.col {
+  margin: 0;
+  padding: 0;
+}
 html body {
   margin: 0;
   padding: 0;
@@ -10,4 +16,71 @@ html body {
   color: #333333;
   font-size: 14px;
   font-weight: 300;
+}
+header {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Nav Menu */
+.dropdown {
+  text-align: right;
+}
+.dropdown-toggle::after {
+  content: none;
+}
+.dropdown-toggle,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  margin: 10px 10px 0 10px;
+  font-size: 30px;
+  border-color: none;
+  color: #8c5f66;
+  border: none;
+  box-shadow: none;
+}
+.dropdown-item {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  background-color: #fafafa;
+  color: #333333;
+}
+.dropdown-item:hover,
+.dropdown-item:focus,
+.dropdown-item:active {
+  background-color: #fafafa;
+  color: #333333;
+}
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+  text-decoration: underline solid #8c5f66;
+}
+#menu-item-leaderboard {
+  margin: 5px 0 10px 0;
+}
+#dropdown-item-leaderboard {
+  background: #adbca5;
+  border: 0.5px solid #333333;
+  margin: 5px;
+  padding: 5px 10px;
+}
+#dropdown-item-leaderboard:hover,
+#dropdown-item-leaderboard:focus,
+#dropdown-item-leaderboard:active {
+  filter: brightness(110%);
+}
+.list-inline {
+  text-align: center;
+}
+.list-inline a {
+  padding: 8px;
+  font-size: 18px;
+  color: #8c5f66;
+}
+.list-inline a:hover,
+.list-inline a:focus,
+.list-inline a:active {
+  filter: brightness(120%);
+  text-decoration: none;
 }
