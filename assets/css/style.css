@@ -47,8 +47,7 @@ header {
 }
 .menu-item:hover,
 .menu-item:focus,
-.menu-item:active,
-.menu-item.active {
+.menu-item:active {
   background-color: #fafafa;
   color: #333333;
   text-decoration: underline solid #8c5f66;
