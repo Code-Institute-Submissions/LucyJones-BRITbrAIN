@@ -90,7 +90,7 @@ The <u>key priorities</u> for my user are as follows:
 
 As part of the design process, before starting my project I created sketched out initial drawings then used <u>Balsamiq</u> to create sharper wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
 
-[view inItial drawings](// ADD INITIAL DRAWINGS HERE //)
+[view initial drawings](assets/images/readme/initial-drawing.jpg)
 
 [View wireframes](// ADD WIREFRAMES HERE //)
 
