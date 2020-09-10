@@ -18,8 +18,8 @@ html body {
   font-weight: 300;
 }
 header {
-    margin-right: 10px;
-    margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* Nav Menu */
@@ -45,15 +45,12 @@ header {
   background-color: #fafafa;
   color: #333333;
 }
-.dropdown-item:hover,
-.dropdown-item:focus,
-.dropdown-item:active {
-  background-color: #fafafa;
-  color: #333333;
-}
 .menu-item:hover,
 .menu-item:focus,
-.menu-item:active {
+.menu-item:active,
+.menu-item.active {
+  background-color: #fafafa;
+  color: #333333;
   text-decoration: underline solid #8c5f66;
 }
 #menu-item-leaderboard {
