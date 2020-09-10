@@ -16,6 +16,7 @@ html body {
   color: #333333;
   font-size: 14px;
   font-weight: 300;
+  letter-spacing: 0.5px;
 }
 header {
   margin-right: 10px;
@@ -41,7 +42,6 @@ header {
 }
 .dropdown-item {
   font-weight: 300;
-  letter-spacing: 0.5px;
   background-color: #fafafa;
   color: #333333;
 }
@@ -82,14 +82,18 @@ header {
 }
 
 /*--- Callout--- */
+#home-outer {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
 .container {
   position: relative;
   text-align: center;
 }
 /* Marker */
 #marker {
-  font-size: 50px;
-  color:#8c5f66;
+  font-size: 40px;
+  color: #8c5f66;
   padding-top: 30px;
 }
 /* Brain Image */
@@ -128,4 +132,95 @@ header {
   border-radius: 50%;
   padding: 5px 20px;
   font-weight: 600;
+}
+
+/*--- About section --- */
+.section-outer {
+  text-align: center;
+  padding: 40px 30px;
+}
+.bg-darker {
+  background-color: #e8b8ab80;
+}
+
+h2 {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+h2 span {
+  font-size: 20px;
+  color: #8c5f66;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+i.feature-icon {
+  font-size: 20px;
+  color: #8c5f66;
+}
+
+p {
+  font-size: 13px;
+  padding: 0 20px;
+}
+
+#feature-items {
+  padding: 20px;
+}
+
+/* Contact */
+
+#contact-form {
+  background-color: #fafafa;
+  padding: 25px;
+  border: 1px solid #333333;
+  border-radius: 5%;
+}
+
+.control-label {
+  padding-top: 5px;
+}
+
+/*--Submit button--*/
+
+#btn-submit {
+  text-align: center;
+  margin-top: 5%;
+}
+
+button[type="submit"] {
+  color: #fafafa;
+  background-color: #8c5f66;
+  border: none;
+  font-size: 14px;
+}
+
+button[type="submit"]:hover {
+  filter: brightness(110%);
+}
+
+/* Footer */
+footer {
+  margin: 0;
+  background-color: #8c5f6650;
+  min-height: 30px;
+  padding-bottom: 0;
+}
+
+#index-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.copyright {
+  font-size: 10px;
+  padding-top: 0.5rem;
+  font-weight: 500;
+  text-transform: none;
 }
