@@ -129,10 +129,17 @@ header {
 }
 #start-btn {
   background-color: #adbca5;
-  border-color: #333333;
-  border-radius: 50%;
+  border: solid 2px #333333;
+  border-radius: 5%;
   padding: 5px 20px;
   font-weight: 600;
+  color: #333333;
+}
+
+#start-btn:hover,
+#start-btn:focus {
+  filter: brightness(120%);
+  text-decoration: none;
 }
 
 /*--- About section --- */
