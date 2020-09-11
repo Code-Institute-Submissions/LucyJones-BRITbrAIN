@@ -71,3 +71,18 @@
     stroke-dashoffset: 226px;
   }
 }
+
+/* ------Start popup------ */
+
+.start-popup {
+  min-width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fafafa;
+  padding: 15px;
+  border: 1px solid #333333;
+  border-radius: 5%;
+  text-align: center;
+}

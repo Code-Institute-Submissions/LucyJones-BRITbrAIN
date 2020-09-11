@@ -108,7 +108,7 @@ header {
 #overlay-text {
   /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
   background-color: #8c5f6690;
-  padding: 5px 50px;
+  padding: 2px 50px;
   font-size: 30px;
   color: #fafafa;
   position: absolute;
