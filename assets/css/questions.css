@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
 
+.hide {
+  visibility: hidden;
+}
+
 .container {
   min-height: 100vh;
   overflow: hidden;
@@ -85,4 +89,19 @@
   border: 1px solid #333333;
   border-radius: 5%;
   text-align: center;
+}
+
+/* Map */
+
+#answer-buttons {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  padding: 20px 0;
+}
+.choice {
+  fill: #e8b9ab;
+}
+.choice:hover {
+  fill: #e09891;
 }
