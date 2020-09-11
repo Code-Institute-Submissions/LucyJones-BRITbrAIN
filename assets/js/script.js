@@ -44,28 +44,13 @@ $(document).ready(function () {
   // Function to show next question//
   function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
-    currentQuestionIndex++
+    currentQuestionIndex++;
+    $("#question-box").show();
   }
   // Show quesion from question array //
   function showQuestion(question) {
     questionElement.innerText = question.question;
   }
-
-  // My questions //
-  let questions = [
-    {
-      question: "In which region would you find a 'Brummie'?",
-      correctAnswer: "west-midlands",
-    },
-    {
-      question: "In which region would you find the Angel of the North?",
-      correctAnswer: "yorkshire-and-the-humber",
-    },
-    {
-      question: "In which region were the Beatles formed?",
-      correctAnswer: "north-west",
-    },
-  ];
 
   // Select answer //
   $(".choice").on("click", function () {
@@ -90,4 +75,29 @@ $(document).ready(function () {
       setNextQuestion();
     }
   });
+
+  // My questions //
+  var questions = [
+    {
+      question: "In which region would you find a 'Brummie'?",
+      correctAnswer: "west-midlands",
+    },
+    {
+      question: "In which region would you find the Angel of the North?",
+      correctAnswer: "yorkshire-and-the-humber",
+    },
+    {
+      question: "In which region were the Beatles formed?",
+      correctAnswer: "north-west",
+    },
+    {
+      question: "In which region would you find Windsor Castle?",
+      correctAnswer: "south-east",
+    },
+    {
+      question: "Which region is home to Glastonbury Festival?",
+      correctAnswer: "south-west",
+    },
+  ];
+
 });
