@@ -1,4 +1,5 @@
 # ![// PUT RESPONSIVE IMAGE HERE //](assets/images/readme/responsive-BRITbrAIN.png)
+
 <h1 align="center">BRITbrAIN</h1>
 
 BRITbrAIN is a map based quiz game with general knowledge questions. Answer the question by choosing the correct region on the map.
@@ -13,31 +14,31 @@ How well do you know Britain?
 
 ## <u>Table of contents</u>
 
-  - [&rarr; **User Experience (UX)**](#-rarr----user-experience--ux---)
-    + [Purpose](#purpose)
-    + [User stories](#user-stories)
-    + [Design](#design)
-    + [Wireframes](#wireframes)
+- [&rarr; **User Experience (UX)**](#-rarr----user-experience--ux---)
+  - [Purpose](#purpose)
+  - [User stories](#user-stories)
+  - [Design](#design)
+  - [Wireframes](#wireframes)
 - [&rarr; **Features**](#-rarr----features--)
-    + [Features used](#features-used)
-    + [To-do list](#to-do-list)
-    + [Status](#status)
+  - [Features used](#features-used)
+  - [To-do list](#to-do-list)
+  - [Status](#status)
 - [&rarr; **Technologies**](#-rarr----technologies--)
-    + [Languages](#languages)
-    + [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
+  - [Languages](#languages)
+  - [Frameworks, Libraries & Programs](#frameworks--libraries---programs)
 - [&rarr; **Deployment**](#-rarr----deployment--)
-    + [Deploy to Github](#deploy-to-github)
-    + [Accessing code](#accessing-code)
+  - [Deploy to Github](#deploy-to-github)
+  - [Accessing code](#accessing-code)
 - [&rarr; **Testing**](#-rarr----testing--)
-    + [Testing user stories](#testing-user-stories)
-    + [Validator checks](#validator-checks)
-    + [Responsive Design](#responsive-design)
-    + [Additional Testing](#additional-testing)
-    + [Bugs](#bugs)
+  - [Testing user stories](#testing-user-stories)
+  - [Validator checks](#validator-checks)
+  - [Responsive Design](#responsive-design)
+  - [Additional Testing](#additional-testing)
+  - [Bugs](#bugs)
 - [&rarr; **Credits**](#-rarr----credits--)
-    + [Content](#content)
-    + [Media](#media)
-    + [Acknowledgements](#acknowledgements)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 - [&rarr; **Contact**](#-rarr----contact--)
 
 ---
@@ -52,7 +53,7 @@ The purpose of this site is to create a fun interactive quiz for the user whilst
 
 The <u>key priorities</u> for my user are as follows:
 
-1. A user friendly site that is easy to navigate. 
+1. A user friendly site that is easy to navigate.
 
 2. An enjoyable, interactive quiz to play which also aims to develop their knowledge on Britain.
 
@@ -75,16 +76,17 @@ The <u>key priorities</u> for my user are as follows:
 #### Design
 
 - **Structure**
+
   - A simple design structure with a dropdown menu and page navigation to allow easy navigation throughout site.
 
 - **Colour scheme**
+
   - The colour scheme is primarily based around peaches in association with the brain and extra colours were added to compliment the palette using [Coolors](https://coolors.co).
   - I have used the 'opacity' property to create lighter and darker shades.
-  
+
     ![Colour Scheme](assets/images/readme/colourScheme.png)
 
 - **Typography**
-
 
 #### Wireframes
 
@@ -95,6 +97,7 @@ As part of the design process, before starting my project I created sketched out
 [View wireframes](assets/files/wireframes.pdf)
 
 ---
+
 ## &rarr; **Features**
 
 #### Features used:
@@ -104,11 +107,35 @@ As part of the design process, before starting my project I created sketched out
 #### Status
 
 ---
+
 ## &rarr; **Technologies**
 
 #### Languages
 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
 #### Frameworks, Libraries & Programs
+- [**Bootstrap 4.5.0**](https://getbootstrap.com/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website using design templates.
+
+- [**Google fonts**](https://fonts.google.com/)
+  - Google fonts were used to import the 'Raleway' font into the style.css file which is used on all pages throughout the project.
+  
+- [**Font Awesome 4.7.0**](https://fontawesome.com/)
+  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+- [**jQuery:**](https://jquery.com/)
+  - jQuery came with Bootstrap to make the components used responsive.
+  - Included at end of body tag within HTML files to ensure smooth running off HMTL and CSS.
+
+- [**Git**](https://git-scm.com/)
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+- [**GitHub**](https://github.com/)
+  - GitHub is used to store the project code after being pushed from Git.
+  - GitHub Wiki TOC generator used to format README.md table of contents.
 
 ---
 
@@ -118,9 +145,9 @@ As part of the design process, before starting my project I created sketched out
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the GitHub Repository. 
+1. Log in to GitHub and locate the GitHub Repository.
 
-2. At the top of the Repository (not top of page), locate the "Settings" button on the menu. 
+2. At the top of the Repository (not top of page), locate the "Settings" button on the menu.
 
 ![Deploy-settings](assets/images/readme/deploy-settings.png)
 
@@ -136,58 +163,57 @@ The project was deployed to GitHub Pages using the following steps...
 
 #### Accessing code
 
-
-  Follow the steps below if you are wanting to propose changes to the project or to use the project as a starting point for your own idea.
-
+Follow the steps below if you are wanting to propose changes to the project or to use the project as a starting point for your own idea.
 
 - **Forking the GitHub Repository**
 
-  Forking allows you to create a copy of the original repository and propose changes to the repository owner via a pull request. 
+  Forking allows you to create a copy of the original repository and propose changes to the repository owner via a pull request.
 
-    1. Log in to GitHub and locate the GitHub Repository
-    
-    2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
+  1. Log in to GitHub and locate the GitHub Repository
 
-    ![forking](assets/images/readme/forking.png)
-    
-    3. You should now have a copy of the original repository in your GitHub account.
+  2. At the top of the Repository (not top of page) just above the "Settings" button on the menu, locate the "Fork" button.
+
+  ![forking](assets/images/readme/forking.png)
+
+  3. You should now have a copy of the original repository in your GitHub account.
 
 - **Making a Local Clone**
 
 When you clone a repository, the repository is copied on to your local machine.
 
-  1. Log in to GitHub and locate the GitHub Repository.
+1. Log in to GitHub and locate the GitHub Repository.
 
-  2. Under the repository name, click the "download code" option.
+2. Under the repository name, click the "download code" option.
 
-  ![Clone](assets/images/readme/clone.png)
+![Clone](assets/images/readme/clone.png)
 
-  3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 
-  ![Clone-link](assets/images/readme/clone-link.png)
+![Clone-link](assets/images/readme/clone-link.png)
 
-  4. Open Git Bash
+4. Open Git Bash
 
-  5. Change the current working directory to the location where you want the cloned directory to be made.
+5. Change the current working directory to the location where you want the cloned directory to be made.
 
-  6. Type git clone, and then paste the URL you copied in Step 3. 
-  ```
-  $ git clone https://github.com/YOUR-USERNAME/BRITbrAIN.git
-  ```
+6. Type git clone, and then paste the URL you copied in Step 3.
 
-  7.	Press Enter. Your local clone will be created.
-    
-  ```
-  $ git clone https://github.com/YOUR-USERNAME/BRITbrAIN.git
+```
+$ git clone https://github.com/YOUR-USERNAME/BRITbrAIN.git
+```
 
-  > Cloning into `BRITbrAIN`...
-  > remote: Enumerating objects: 299, done.
-  > remote: Counting objects: 100%, (299/299),  done.
-  > remote: Compressing objects: 100% (156/156), done.
-  > Recieving objects: remove: Total 299 (delta 145), reused 267 (delta 126), pack-reused 0
-  > Recieving objects: 100% (299/299), 4.61MiB | 2.98 MiB/s, done.
-  > Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
-  ```
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/BRITbrAIN.git
+
+> Cloning into `BRITbrAIN`...
+> remote: Enumerating objects: 299, done.
+> remote: Counting objects: 100%, (299/299),  done.
+> remote: Compressing objects: 100% (156/156), done.
+> Recieving objects: remove: Total 299 (delta 145), reused 267 (delta 126), pack-reused 0
+> Recieving objects: 100% (299/299), 4.61MiB | 2.98 MiB/s, done.
+> Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
+```
 
 Now, you have a local copy of your fork of the BRITbrAIN repository.
 
@@ -198,27 +224,36 @@ Now, you have a local copy of your fork of the BRITbrAIN repository.
 ## &rarr; **Testing**
 
 #### Testing user stories
- Testing my user's <u>key priorities</u>:
 
- #### Validator checks
+Testing my user's <u>key priorities</u>:
 
- #### Responsive Design
+#### Validator checks
 
- #### Additional Testing
+#### Responsive Design
 
- #### Additional Testing
+#### Additional Testing
 
- #### Bugs
+#### Additional Testing
 
+#### Bugs
 
 ## &rarr; **Credits**
+
 #### Content
 
+- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, forms, buttons, nav menu,
+
+- [css-tricks.com](https://css-tricks.com/): Using 8 digit hex codes.
+
 #### Media
+
+- [pixabay.com](https://pixabay.com/): Brain image for game logo.
+- [mapchart.net](https://mapchart.net/): map image for game logo.
 
 #### Acknowledgements
 
 ## &rarr; **Contact**
+
 Created by @lucyjpjones
 
 If you have any problems, questions or suggestions for my project please contact me on the email below:
@@ -230,4 +265,4 @@ lucyjpjones@gmail.com
 Thanks for visiting.
 
 &copy;
-LucyJPJones 
+LucyJPJones
