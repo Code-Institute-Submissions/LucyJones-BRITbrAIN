@@ -90,7 +90,7 @@
     </header>
 
     <div class="container text-center">
-      <!--Game Header-->
+      <!----Game Header---->
       <div class="row" id="game-header">
         <!--Score count-->
         <div class="col-3" id="score-count">
@@ -109,7 +109,7 @@
         </div>
       </div>
 
-      <!--Start popup-->
+      <!----Start popup---->
       <div class="start-popup hide">
         <h2>HOW TO PLAY <i class="fa fa-question feature-icon"></i></h2>
         <p>
@@ -120,7 +120,19 @@
         <button id="start-btn" class="start-btn btn">Lets go!</button>
       </div>
 
-      <!-- Map Answers-->
+      <!----Question box---->
+      <div class="row hidden" id="question-container">
+        <!--Question button-->
+        <button class="col-2 btn btn-info" type="button">
+          <i class="fa fa-question-circle"> </i>
+        </button>
+        <!--Question content-->
+        <div class="col-8" id="question-box">
+          <div id="question"></div>
+        </div>
+      </div>
+
+      <!----Map Answers---->
       <svg
         class="hidden"
         id="answer-buttons"
@@ -355,7 +367,7 @@
       </svg>
     </div>
 
-    <!--Footer Section-->
+    <!----Footer---->
     <footer class="container-fluid text-center" id="questions-footer">
       <!--Footer copyright-->
       <h6 class="copyright">Copyright © 2020 Lucy J P Jones</h6>
