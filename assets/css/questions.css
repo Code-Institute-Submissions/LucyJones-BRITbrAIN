@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
+
+.container {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  margin: 0;
+}
+
+#questions-footer {
+  position: absolute;
+  bottom: 0;
+}
+
+/* ------Header------ */
+
+#game-header {
+  margin-top: 70px;
+}
+
+/* Score count */
+#game-header {
+  padding: 5px 20px;
+}
+#score-number,
+#question-number {
+  color: #8c5f66;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* 30s Timer */
+#countdown {
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  width: 80px;
+}
+#countdown-number {
+  color: #adbca5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 80px;
+}
+#svg-timer {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotateY(-180deg) rotateZ(-90deg);
+}
+#svg-timer circle {
+  stroke-dasharray: 226px;
+  stroke-dashoffset: 0px;
+  stroke-linecap: round;
+  stroke-width: 4px;
+  stroke: #adbca5;
+  fill: none;
+  animation: countdown 10s linear infinite forwards;
+}
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+  }
+  to {
+    stroke-dashoffset: 226px;
+  }
+}
