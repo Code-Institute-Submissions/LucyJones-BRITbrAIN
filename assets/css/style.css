@@ -127,7 +127,8 @@ header {
 .btn-container {
   padding: 20px;
 }
-#start-btn {
+#start-btn,
+#letsgo-btn {
   background-color: #adbca5;
   border: solid 2px #333333;
   border-radius: 5%;
@@ -137,7 +138,9 @@ header {
 }
 
 #start-btn:hover,
-#start-btn:focus {
+#start-btn:focus,
+#letsgo-btn:hover,
+#letsgo-btn:focus {
   filter: brightness(120%);
   text-decoration: none;
 }
