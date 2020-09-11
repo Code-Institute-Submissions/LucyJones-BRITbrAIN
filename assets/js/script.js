@@ -37,13 +37,14 @@ $(document).ready(function () {
     questionContainerElement.classList.remove("hide");
     answerButtonsElement.classList.remove("hide");
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
-    currentQuestionIndex = 1;
+    currentQuestionIndex = 0;
     setNextQuestion();
   }
 
   // Function to show next question//
   function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
+    currentQuestionIndex++
   }
   // Show quesion from question array //
   function showQuestion(question) {
@@ -65,4 +66,28 @@ $(document).ready(function () {
       correctAnswer: "north-west",
     },
   ];
+
+  // Select answer //
+  $(".choice").on("click", function () {
+    let userAnswer = $(this).attr("id");
+    if (userAnswer === questions[currentQuestionIndex].correctAnswer) {
+      //sweet alerts2 //
+      Swal.fire({
+        icon: "success",
+        title: "Correct Answer",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      setNextQuestion();
+    } else {
+      //sweet alerts2 //
+      Swal.fire({
+        icon: "error",
+        title: "Wrong Answer",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+      setNextQuestion();
+    }
+  });
 });
