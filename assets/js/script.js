@@ -23,7 +23,10 @@ $(document).ready(function () {
   const questionContainerElement = document.getElementById(
     "question-container"
   );
+  const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
+
+  let shuffledQuestions, currentQuestionIndex;
 
   startButton.addEventListener("click", startGame);
 
@@ -33,6 +36,33 @@ $(document).ready(function () {
     gameHeaderElement.classList.remove("hide");
     questionContainerElement.classList.remove("hide");
     answerButtonsElement.classList.remove("hide");
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+    currentQuestionIndex = 1;
+    setNextQuestion();
   }
-  
+
+  // Function to show next question//
+  function setNextQuestion() {
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
+  }
+  // Show quesion from question array //
+  function showQuestion(question) {
+    questionElement.innerText = question.question;
+  }
+
+  // My questions //
+  let questions = [
+    {
+      question: "In which region would you find a 'Brummie'?",
+      correctAnswer: "west-midlands",
+    },
+    {
+      question: "In which region would you find the Angel of the North?",
+      correctAnswer: "yorkshire-and-the-humber",
+    },
+    {
+      question: "In which region were the Beatles formed?",
+      correctAnswer: "north-west",
+    },
+  ];
 });
