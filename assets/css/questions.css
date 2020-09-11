@@ -12,14 +12,16 @@
   margin: 0;
 }
 
-#questions-footer {
+#questions-footer,
+#leaderboard-footer {
   position: absolute;
   bottom: 0;
 }
 
 /* ------Header------ */
 
-#game-header {
+#game-header,
+#leaderboard-header {
   margin-top: 70px;
 }
 
@@ -138,4 +140,32 @@
   font-size: 20px;
   padding: 5px 15px;
   color: #fafafa;
+}
+
+/* Leaderboard */
+
+#leaderboard-header {
+  font-size: 23px;
+  color: #8c5f66;
+  font-weight: 600;
+}
+
+#green-trophy {
+  font-size: 35px;
+  color: #adbca5;
+}
+
+table {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  background: #fafafa;
+}
+
+.table thead th,
+.table td,
+.table th {
+  border-bottom: 10px solid #e8b8ab40;
+  padding: .5rem;
+  border-radius: 5%;
 }
