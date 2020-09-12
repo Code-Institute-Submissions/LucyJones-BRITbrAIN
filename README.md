@@ -241,11 +241,18 @@ Testing my user's <u>key priorities</u>:
 
 #### Content
 
-- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, forms, buttons, nav menu,
+- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, forms, buttons, modals, nav menu, leaderboard table
 
 - [css-tricks.com](https://css-tricks.com/): Using 8 digit hex codes.
 
 - [codepen.io](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for game timer.
+
+- [codepen.io](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
+
+- [sweetalert2](https://sweetalert2.github.io/): Used for responsive popup boxes.
+
+- [youtube.com](youtube.com):
+  - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with code for js file.
 
 #### Media
 
