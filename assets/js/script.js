@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   /* Code from codepen for timer- more details in readme*/
   var countdownNumberEl = document.getElementById("countdown-number");
   var countdown = 10;
@@ -17,16 +16,30 @@ $(document).ready(function () {
     $("#question-box").toggle();
   });
 
+  // Question count //
+
+  const scoreCountElement = document.getElementById("score-number");
+  var scoreCount = 0;
+  scoreCountElement.textContent = scoreCount;
+
+  // Question count //
+
+  const questionCountElement = document.getElementById("question-number");
+  var questionCount = 1;
+  questionCountElement.textContent = questionCount;
+
   // Start Quiz //
   const popupStartBox = document.getElementById("start-popup");
   const startButton = document.getElementById("letsgo-btn");
   const gameHeaderElement = document.getElementById("game-header");
-  const questionContainerElement = document.getElementById("question-container");
+  const questionContainerElement = document.getElementById(
+    "question-container"
+  );
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
 
   let shuffledQuestions, currentQuestionIndex;
-  
+
   //Event listener to start game//
   startButton.addEventListener("click", startGame);
 
@@ -37,22 +50,22 @@ $(document).ready(function () {
     questionContainerElement.classList.remove("hide");
     answerButtonsElement.classList.remove("hide");
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
-    currentQuestionIndex = 0;
+    currentQuestionIndex = 1;
     setNextQuestion();
   }
 
   // Function to show next question//
   function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
-    currentQuestionIndex++;
     $("#question-box").show();
+    questionCount++;
   }
   // Show question content from question array //
   function showQuestion(question) {
     questionElement.innerText = question.question;
   }
 
-// My questions //
+  // My questions //
   var questions = [
     {
       question: "In which region would you find a 'Brummie'?",
@@ -79,6 +92,9 @@ $(document).ready(function () {
   // Select answer //
   $(".choice").on("click", function () {
     let userAnswer = $(this).attr("id");
+    console.log(userAnswer);
+    console.log(questions[currentQuestionIndex].question);
+    console.log(questions[currentQuestionIndex].correctAnswer);
     if (userAnswer === questions[currentQuestionIndex].correctAnswer) {
       //sweet alerts2 //
       Swal.fire({
@@ -87,6 +103,7 @@ $(document).ready(function () {
         showConfirmButton: false,
         timer: 1500,
       });
+      currentQuestionIndex++;
       setNextQuestion();
     } else {
       //sweet alerts2 //
@@ -96,22 +113,9 @@ $(document).ready(function () {
         showConfirmButton: false,
         timer: 1500,
       });
+      currentQuestionIndex++;
       setNextQuestion();
     }
   });
-
-  // Question count //
-  
-  const scoreCountElement = document.getElementById("score-number");
-  var scoreCount = 0;
-
-  scoreCountElement.textContent = scoreCount;
-
-  // Score count //
-
-  const questionCountElement = document.getElementById("question-number");
-  var questionCount = 0;
-
-  questionCountElement.textContent = questionCount;
-
+  setNextQuestion();
 });
