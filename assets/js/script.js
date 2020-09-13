@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  /* Code from codepen for timer- more details in readme*/
+  // Timer //
   var countdownNumberEl = document.getElementById("countdown-number");
   var countdown = 10;
 
@@ -16,17 +16,23 @@ $(document).ready(function () {
     $("#question-box").toggle();
   });
 
+  scoreCount = 0;
+  questionCount = 0;
+
+  // Score count //
+  function scoring() {
+    const scoreCountElement = document.getElementById("score-number");
+    scoreCount ++;
+    scoreCountElement.textContent = scoreCount;
+  }
+
   // Question count //
 
-  const scoreCountElement = document.getElementById("score-number");
-  var scoreCount = 0;
-  scoreCountElement.textContent = scoreCount;
-
-  // Question count //
-
-  const questionCountElement = document.getElementById("question-number");
-  var questionCount = 1;
-  questionCountElement.textContent = questionCount;
+  function progress() {
+    const questionCountElement = document.getElementById("question-number");
+    questionCount++;
+    questionCountElement.textContent = questionCount;
+  }
 
   // Start Quiz //
   const popupStartBox = document.getElementById("start-popup");
@@ -58,7 +64,7 @@ $(document).ready(function () {
   function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
     $("#question-box").show();
-    questionCount++;
+    progress();
   }
   // Show question content from question array //
   function showQuestion(question) {
@@ -92,9 +98,6 @@ $(document).ready(function () {
   // Select answer //
   $(".choice").on("click", function () {
     let userAnswer = $(this).attr("id");
-    console.log(userAnswer);
-    console.log(questions[currentQuestionIndex].question);
-    console.log(questions[currentQuestionIndex].correctAnswer);
     if (userAnswer === questions[currentQuestionIndex].correctAnswer) {
       //sweet alerts2 //
       Swal.fire({
@@ -105,6 +108,7 @@ $(document).ready(function () {
       });
       currentQuestionIndex++;
       setNextQuestion();
+      scoring()
     } else {
       //sweet alerts2 //
       Swal.fire({
