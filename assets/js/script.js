@@ -1,15 +1,28 @@
 $(document).ready(function () {
-  // Timer //
-  var countdownNumberEl = document.getElementById("countdown-number");
-  var countdown = 10;
+  /* Code from codepen for timer*/
+  var timeLeft = 10;
+  var countdownNumber = document.getElementById("countdown-number");
+  var myTimer = setInterval(countdown, 1000);
 
-  countdownNumberEl.textContent = countdown;
+  function countdown() {
+    timeLeft = --timeLeft <= -1 ? 10 : timeLeft;
+    countdownNumber.textContent = timeLeft;
+    if (timeLeft === 0) {
+      clearTimeout(myTimer);
+      noTimeLeft();
+    } else {
+      countdownNumber.textContent = timeLeft;
+    }
+  }
 
-  setInterval(function () {
-    countdown = --countdown <= 0 ? 10 : countdown;
-
-    countdownNumberEl.textContent = countdown;
-  }, 1000);
+  function noTimeLeft() {
+    Swal.fire({
+      title: "Times up!",
+      text: "Next question will start in 5 seconds.",
+      timer: 5000,
+      showConfirmButton: false,
+    });
+  }
 
   // Toggle question //
   $(".btn-info").click(function () {
@@ -22,7 +35,7 @@ $(document).ready(function () {
   // Score count //
   function scoring() {
     const scoreCountElement = document.getElementById("score-number");
-    scoreCount ++;
+    scoreCount++;
     scoreCountElement.textContent = scoreCount;
   }
 
@@ -108,7 +121,7 @@ $(document).ready(function () {
       });
       currentQuestionIndex++;
       setNextQuestion();
-      scoring()
+      scoring();
     } else {
       //sweet alerts2 //
       Swal.fire({
@@ -123,3 +136,5 @@ $(document).ready(function () {
   });
   setNextQuestion();
 });
+
+// End quiz //
