@@ -257,6 +257,8 @@ Testing my user's <u>key priorities</u>:
   - [sitpoint.com](https://www.sitepoint.com/):
   - [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/): Helped with code for js file.
 
+  - [codeinstitute.net](https://courses.codeinstitute.net/): Sending Emails Using EmailJS.
+
 #### Media
 
 - [pixabay.com](https://pixabay.com/): Brain image for game logo.
