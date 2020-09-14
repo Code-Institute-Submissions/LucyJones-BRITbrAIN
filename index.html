@@ -16,6 +16,15 @@
       type="text/css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_qZ2fQYOyvPucFHRyubh33");
+      })();
+    </script>
   </head>
 
   <body>
@@ -170,7 +179,7 @@
 
     <!--Contact form-->
     <section class="section-outer" id="contact">
-      <form id="contact-form">
+      <form id="contact-form" onsubmit="return sendMail(this);">
         <h2>CONTACT ME</h2>
         <h3>I'd love to hear from you!</h3>
         <label class="control-label" for="fullname"></label>
@@ -247,5 +256,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
   </body>
 </html>
