@@ -94,17 +94,19 @@
       <div class="row hide" id="game-header">
         <!--Score count-->
         <div class="col-3" id="score-count">
-          <div id="score-number">10</div>
+          <h3>Score</h3>
+          <div id="score-number">0</div>
         </div>
         <!--Timer-->
         <div class="col-6" id="countdown">
-          <div id="countdown-number"></div>
+          <div id="countdown-number">10</div>
           <svg id="svg-timer">
-            <circle r="36" cx="40" cy="40"></circle>
+            <circle r="36" cx="40" cy="40" id="timer-animation"></circle>
           </svg>
         </div>
         <!--Question count-->
         <div class="col-3" id="question-count">
+          <h3>Question</h3>
           <div id="question-number">5</div>
         </div>
       </div>
@@ -365,6 +367,33 @@
           ></polygon>
         </a>
       </svg>
+    </div>
+
+    <!----End popup---->
+    <div id="end-popup" class="hide">
+      <h2>YOU SCORED</h2>
+      <p id="final-score">0</p>
+      <form>
+        <label class="control-label" for="Name">Please enter your name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          required
+          data-error="Please enter your name"
+        />
+        <button
+          id="submit-btn"
+          class="start-btn btn"
+          type="submit"
+          value="Submit"
+        >
+          Submit
+        </button>
+      </form>
+      <a class="start-btn btn" href="questions.html">Play again</a>
+      <a class="start-btn btn" href="leaderboard.html">View Leaderboard</a>
     </div>
 
     <!----Footer---->

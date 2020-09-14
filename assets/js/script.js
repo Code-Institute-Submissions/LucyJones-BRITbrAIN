@@ -2,27 +2,6 @@ $(document).ready(function () {
   /* Code from codepen for timer*/
   var timeLeft = 10;
   var countdownNumber = document.getElementById("countdown-number");
-  var myTimer = setInterval(countdown, 1000);
-
-  function countdown() {
-    timeLeft = --timeLeft <= -1 ? 10 : timeLeft;
-    countdownNumber.textContent = timeLeft;
-    if (timeLeft === 0) {
-      clearTimeout(myTimer);
-      noTimeLeft();
-    } else {
-      countdownNumber.textContent = timeLeft;
-    }
-  }
-
-  function noTimeLeft() {
-    Swal.fire({
-      title: "Times up!",
-      text: "Next question will start in 5 seconds.",
-      timer: 5000,
-      showConfirmButton: false,
-    });
-  }
 
   // Toggle question //
   $(".btn-info").click(function () {
@@ -56,6 +35,7 @@ $(document).ready(function () {
   );
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
+  const FinalScore = document.getElementById("end-popup");
 
   let shuffledQuestions, currentQuestionIndex;
 
@@ -70,7 +50,27 @@ $(document).ready(function () {
     answerButtonsElement.classList.remove("hide");
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 1;
+    setInterval(countdown, 1000);
     setNextQuestion();
+  }
+  //Timer//
+  function countdown() {
+    timeLeft = --timeLeft <= -1 ? 10 : timeLeft;
+    countdownNumber.textContent = timeLeft;
+    if (timeLeft === 0) {
+      noTimeLeft();
+    } else {
+      countdownNumber.textContent = timeLeft;
+    }
+  }
+
+  function noTimeLeft() {
+    const finalScoreCount = document.getElementById("final-score");
+    finalScoreCount.textContent = scoreCount;
+    FinalScore.classList.remove("hide");
+    gameHeaderElement.classList.add("hide");
+    questionContainerElement.classList.add("hide");
+    answerButtonsElement.classList.add("hide");
   }
 
   // Function to show next question//
@@ -117,7 +117,7 @@ $(document).ready(function () {
         icon: "success",
         title: "Correct Answer",
         showConfirmButton: false,
-        timer: 1500,
+        timer: 1000,
       });
       currentQuestionIndex++;
       setNextQuestion();
@@ -128,13 +128,10 @@ $(document).ready(function () {
         icon: "error",
         title: "Wrong Answer",
         showConfirmButton: false,
-        timer: 1500,
+        timer: 1000,
       });
       currentQuestionIndex++;
       setNextQuestion();
     }
   });
-  setNextQuestion();
 });
-
-// End quiz //

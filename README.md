@@ -254,6 +254,9 @@ Testing my user's <u>key priorities</u>:
 - [youtube.com](youtube.com):
   - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with code for js file.
 
+  - [sitpoint.com](https://www.sitepoint.com/):
+  - [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/): Helped with code for js file.
+
 #### Media
 
 - [pixabay.com](https://pixabay.com/): Brain image for game logo.
