@@ -37,8 +37,8 @@
 }
 
 #score-number h3,
-#question-number h3{
-    text-align: center;
+#question-number h3 {
+  text-align: center;
 }
 
 #finalScore {
@@ -108,6 +108,9 @@
 }
 #end-popup {
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a.start-btn.btn {
@@ -116,6 +119,14 @@ a.start-btn.btn {
   padding: 2px;
   margin: 5px;
   font-size: 14px;
+}
+
+.btn-size {
+  width: 10rem;
+}
+
+#username {
+  box-shadow: 0 0.1rem .5rem 0 #333333;
 }
 
 /* Map */
