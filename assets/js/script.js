@@ -1,4 +1,28 @@
 $(document).ready(function () {
+  // My questions //
+  var questions = [
+    {
+      question: "In which region would you find a 'Brummie'?",
+      correctAnswer: "west-midlands",
+    },
+    {
+      question: "In which region would you find the Angel of the North?",
+      correctAnswer: "yorkshire-and-the-humber",
+    },
+    {
+      question: "In which region were the Beatles formed?",
+      correctAnswer: "north-west",
+    },
+    {
+      question: "In which region would you find Windsor Castle?",
+      correctAnswer: "south-east",
+    },
+    {
+      question: "Which region is home to Glastonbury Festival?",
+      correctAnswer: "south-west",
+    },
+  ];
+
   /* Code from codepen for timer*/
   var timeLeft = 10;
   var countdownNumber = document.getElementById("countdown-number");
@@ -12,9 +36,15 @@ $(document).ready(function () {
   questionCount = 0;
 
   // Score count //
-  function scoring() {
+  function correctScore() {
     const scoreCountElement = document.getElementById("score-number");
     scoreCount++;
+    scoreCountElement.textContent = scoreCount;
+  }
+
+  function incorrectScore() {
+    const scoreCountElement = document.getElementById("score-number");
+    scoreCount--;
     scoreCountElement.textContent = scoreCount;
   }
 
@@ -35,7 +65,7 @@ $(document).ready(function () {
   );
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
-  const FinalScore = document.getElementById("end-popup");
+  const finalScore = document.getElementById("end-popup");
 
   let shuffledQuestions, currentQuestionIndex;
 
@@ -65,9 +95,9 @@ $(document).ready(function () {
   }
 
   function noTimeLeft() {
-    const finalScoreCount = document.getElementById("final-score");
+    const finalScoreCount = document.getElementById("finalScore");
     finalScoreCount.textContent = scoreCount;
-    FinalScore.classList.remove("hide");
+    finalScore.classList.remove("hide");
     gameHeaderElement.classList.add("hide");
     questionContainerElement.classList.add("hide");
     answerButtonsElement.classList.add("hide");
@@ -84,30 +114,6 @@ $(document).ready(function () {
     questionElement.innerText = question.question;
   }
 
-  // My questions //
-  var questions = [
-    {
-      question: "In which region would you find a 'Brummie'?",
-      correctAnswer: "west-midlands",
-    },
-    {
-      question: "In which region would you find the Angel of the North?",
-      correctAnswer: "yorkshire-and-the-humber",
-    },
-    {
-      question: "In which region were the Beatles formed?",
-      correctAnswer: "north-west",
-    },
-    {
-      question: "In which region would you find Windsor Castle?",
-      correctAnswer: "south-east",
-    },
-    {
-      question: "Which region is home to Glastonbury Festival?",
-      correctAnswer: "south-west",
-    },
-  ];
-
   // Select answer //
   $(".choice").on("click", function () {
     let userAnswer = $(this).attr("id");
@@ -117,21 +123,24 @@ $(document).ready(function () {
         icon: "success",
         title: "Correct Answer",
         showConfirmButton: false,
-        timer: 1000,
+        timer: 1200,
       });
       currentQuestionIndex++;
       setNextQuestion();
-      scoring();
+      correctScore();
     } else {
       //sweet alerts2 //
       Swal.fire({
         icon: "error",
         title: "Wrong Answer",
         showConfirmButton: false,
-        timer: 1000,
+        timer: 1200,
       });
       currentQuestionIndex++;
       setNextQuestion();
+      incorrectScore();
     }
   });
+
+  // local storage //
 });

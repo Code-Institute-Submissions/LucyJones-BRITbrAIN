@@ -4,6 +4,7 @@ $(document).ready(function () {
   const finalScore = document.getElementById("finalScore");
   const mostRecentScore = document.getElementById("mostRecentScore");
 
+  // Get highscores or if first time get empty array //
   const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
   const MAX_HIGH_SCORES = 5;
@@ -14,7 +15,7 @@ $(document).ready(function () {
     submitScoreBtn.disabled = !username.value;
   });
 
-  saveHighScore = (e) => {
+  submitHighScore = (e) => {
     console.log("clicked the submit button!");
     e.preventDefault();
 
@@ -23,7 +24,9 @@ $(document).ready(function () {
       name: username.value,
     };
     highScores.push(score);
+    // Sort scores highest to lowest //
     highScores.sort((a, b) => b.score - a.score);
+    // Only keep top 5 scores //
     highScores.splice(5);
 
     localStorage.setItem("highScores", JSON.stringify(highScores));

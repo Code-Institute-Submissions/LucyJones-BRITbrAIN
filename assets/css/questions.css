@@ -36,7 +36,12 @@
   font-weight: 500;
 }
 
-#final-score {
+#score-number h3,
+#question-number h3{
+    text-align: center;
+}
+
+#finalScore {
   color: #8c5f66;
   font-size: 40px;
   font-weight: 500;
@@ -100,6 +105,17 @@
   border-radius: 5%;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#end-popup {
+  margin-bottom: 5px;
+}
+
+a.start-btn.btn {
+  border: solid 1px #333333;
+  background-color: #adbca5;
+  padding: 2px;
+  margin: 5px;
+  font-size: 14px;
 }
 
 /* Map */
