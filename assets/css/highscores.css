@@ -1,4 +1,11 @@
+li.high-score {
+  list-style: none;
+  border-bottom: 10px solid #e8b8ab40;
+  padding: 0.5rem;
+  border-radius: 5%;
+}
+
 ul#highScoresList {
-    border: 1px solid #333333;
-  color: #333333;
+  padding: 0;
+  background: #fafafa;
 }
