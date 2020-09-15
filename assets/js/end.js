@@ -11,6 +11,7 @@ $(document).ready(function () {
 
   finalScore.innerText = mostRecentScore;
 
+  // Submit button will not work unless username entered //
   username.addEventListener("keyup", () => {
     submitScoreBtn.disabled = !username.value;
   });
