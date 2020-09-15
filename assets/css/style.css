@@ -83,7 +83,7 @@ header {
 
 /*--- Callout--- */
 #home-outer {
-  margin-top: 70px;
+  margin-top: 20%;
   padding-bottom: 30px;
 
   text-align: center;
@@ -108,7 +108,7 @@ header {
 #overlay-text {
   /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
   background-color: #8c5f6690;
-  padding: 2px 50px;
+  padding: 1% 10%;
   font-size: 30px;
   color: #fafafa;
   position: absolute;
@@ -148,7 +148,7 @@ header {
 /*--- About section --- */
 .section-outer {
   text-align: center;
-  padding: 30px 30px;
+  padding: 8% 10%;
 }
 .bg-darker {
   background-color: #e8b8ab80;
@@ -248,4 +248,40 @@ footer {
 .scroll:focus {
   color: #8c5f66;
   filter: brightness(120%);
+}
+/*---------------------------------Media Queries---*/
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+  #brain {
+    width: 50%;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+  .section-outer {
+    padding: 8% 12%;
+  }
+  #brain {
+    max-width: 40%;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+  .section-outer {
+    padding: 8% 15%;
+  }
+  #brain {
+    max-width: 30%;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
 }
