@@ -227,6 +227,79 @@ Now, you have a local copy of your fork of the BRITbrAIN repository.
 
 Testing my user's <u>key priorities</u>:
 
+1. **A user friendly site that is easy to navigate**
+- Site includes a main menu and also scroll navigation arrows on home page.
+- Button to start game easy to access.
+
+![Navigation](assets/images/readme/US1-1.png)
+
+2. **An enjoyable, interactive quiz to play which also aims to develop their knowledge on Britain**
+- An interactive quiz with questions based on Britain.
+
+![Game images](assets/images/readme/US2-1.png)
+
+3. **An easily accessible button to start the quiz**
+- 'Start Quiz' button visible to user on first view of site.
+
+![start button](assets/images/readme/US3-1.png)
+
+4. **Clear instructions for the user on how to play**
+- Instructions on 'How to play' is located on the homepage and can be navigated to through the main menu or same page scroll arrows.
+
+![How to play](assets/images/readme/US4-1.png)
+
+- When user clicks start game they are presented with a popup box 'how to play?' before they begin.
+
+![How to play popup](assets/images/readme/US4-2.png)
+
+5. **Recorded score and leaderboard, for user to check personal performance and ranking against other players**
+- Score counter displayed at top of question page to keep track of users score.
+
+![Score counter](assets/images/readme/US5-1.png)
+
+- When timer ends, final score is presented to the user.
+
+![End of game popup](assets/images/readme/US5-2.png)
+
+- User is able to enter their name and submit score to leaderboard.
+
+![Leaderboard](assets/images/readme/US5-3.png)
+
+- Leaderboard shows top 10 scores to user using local storage.
+
+6. **A question counter to keep track of their progress throughout the quiz**
+- Question counter displayed at top of page to keep track of question number.
+
+![Question progress](assets/images/readme/US6-1.png)
+
+7.**A timer to limit the time per question to add further interaction for the user and prevent any users from cheating**
+- Timer visible on question page once game has started.
+- Timer limit is a total of 60 seconds with the game automatically ending when it reaches 0.
+
+![Timer](assets/images/readme/US7-1.png)
+
+8. **Ability to contact me through an online form**
+- Contact form on landing page linked directly to my gmail account allowing user to easily get in touch.
+
+![contact form](assets/images/readme/US8-1.png)
+![contact form email delivery](assets/images/readme/US8-2.png)
+
+
+- Easily navigated to form through the main menu or scroll arrows located on homepage.
+
+![contact form navigation](assets/images/readme/US8-3.png)
+
+9. **About us and features section on site**
+- 'About us' and 'features' section found on homepage and easily navigated to through the main menu or same page scroll arrows..
+
+![About us and features section](assets/images/readme/US9-1.png)
+
+10. **Links to social media sites**
+- Social media links found in main menu.
+
+![Socail media links](assets/images/readme/US10-1.png)
+
+
 #### Validator checks
 
 #### Responsive Design
