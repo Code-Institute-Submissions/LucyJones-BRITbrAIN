@@ -89,18 +89,12 @@ html body {
   position: relative;
   text-align: center;
 }
-/* Marker */
-#marker {
-  font-size: 40px;
-  color: #8c5f66;
-  padding-top: 30px;
-  filter: opacity(0.85);
-}
+
 /* Brain Image */
 #brain {
   width: 60%;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 15%;
+  padding-bottom: 5%;
   filter: opacity(0.85);
 }
 /* Overlay text */
@@ -110,7 +104,7 @@ html body {
   font-size: 30px;
   color: #fafafa;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -122,7 +116,7 @@ html body {
 }
 /* Start btn */
 .btn-container {
-  padding: 20px;
+  padding: 10px;
 }
 #start-btn,
 #letsgo-btn {
@@ -255,6 +249,9 @@ footer {
   #brain {
     width: 50%;
   }
+  #home-outer {
+    margin-top: 10%;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -265,6 +262,9 @@ footer {
   }
   #brain {
     max-width: 40%;
+  }
+  #home-outer {
+    margin-top: 8%;
   }
 }
 
@@ -277,9 +277,15 @@ footer {
   #brain {
     max-width: 30%;
   }
+  #home-outer {
+    margin-top: 3%;
+  }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
+    #home-outer {
+    margin-top: 1%;
+  }
 }

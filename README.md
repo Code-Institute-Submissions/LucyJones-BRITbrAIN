@@ -328,6 +328,7 @@ Testing my user's <u>key priorities</u>:
 
 - [youtube.com](youtube.com):
   - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with code for js file.
+  - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped with js for Leaderboard.
 
   - [sitpoint.com](https://www.sitepoint.com/):
   - [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/): Helped with code for js file.
