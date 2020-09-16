@@ -1,11 +1,6 @@
-li.high-score {
-  list-style: none;
-  border-bottom: 10px solid #e8b8ab40;
-  padding: 0.5rem;
-  border-radius: 5%;
-}
-
 ul#highScoresList {
+  list-style: none;
   padding: 0;
   background: #fafafa;
+  text-align: center;
 }
