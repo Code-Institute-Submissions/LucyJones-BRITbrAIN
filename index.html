@@ -1,189 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BRITbrAIN</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script
-      type="text/javascript"
-      src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("user_qZ2fQYOyvPucFHRyubh33");
-      })();
-    </script>
-  </head>
 
-  <body>
-    <!--Nav Menu-->
-    <header>
-      <div class="dropdown fixed-top">
-        <a
-          class="btn dropdown-toggle"
-          href="#"
-          role="button"
-          id="dropdownMenuLink"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          <i class="fa fa-bars"></i>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item menu-item" href="#">Home</a>
-          <a class="dropdown-item menu-item" href="#about">About</a>
-          <a class="dropdown-item menu-item" href="#features">Features</a>
-          <a class="dropdown-item menu-item" href="#instructions"
-            >How to play</a
-          >
-          <a class="dropdown-item menu-item" href="#contact">Contact</a>
-          <a
-            class="dropdown-item"
-            id="menu-item-leaderboard"
-            href="leaderboard.html"
-            ><span id="dropdown-item-leaderboard">Leaderboard</span></a
-          >
-          <ul class="list-inline dropdown-item row">
-            <a
-              class="col"
-              target="_blank"
-              href="https://github.com/Lucyjpjones/"
-            >
-              <li class="list-inline-item">
-                <i class="fa fa-github" aria-hidden="true"></i>
-                <span class="sr-only">GitHub</span>
-              </li>
-            </a>
-            <a
-              class="col"
-              target="_blank"
-              href="https://www.instagram.com/lucyjpj/?hl=en"
-            >
-              <li class="list-inline-item">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </li>
-            </a>
-            <a
-              class="col"
-              target="_blank"
-              href="https://www.linkedin.com/in/lucy-jones-1304"
-            >
-              <li class="list-inline-item">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <span class="sr-only">Linkedin</span>
-              </li>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </header>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BRITbrAIN</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
+	<script type="text/javascript">
+		(function() {
+		emailjs.init("user_qZ2fQYOyvPucFHRyubh33");
+		})();
+	</script>
+</head>
 
-    <!--Callout-->
-    <section id="home-outer">
-      <!--Map Marker-->
-      <div class="text-center" id="marker">
-        <i class="fa fa-map-marker" aria-hidden="true"> </i>
-      </div>
-      <!--Brain Image-->
-      <div class="container">
-        <img
+<body>
+	<!--Nav Menu-->
+	<header>
+		<div class="dropdown fixed-top">
+			<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+				aria-haspopup="true" aria-expanded="false">
+				<i class="fa fa-bars"></i>
+			</a>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item menu-item" href="#">Home</a>
+				<a class="dropdown-item menu-item" href="#about">About</a>
+				<a class="dropdown-item menu-item" href="#features">Features</a>
+				<a class="dropdown-item menu-item" href="#instructions">How to play</a>
+				<a class="dropdown-item menu-item" href="#contact">Contact</a>
+				<a class="dropdown-item" id="menu-item-leaderboard"
+					href="leaderboard.html"><span id="dropdown-item-leaderboard">Leaderboard</span></a>
+				<ul class="list-inline dropdown-item row">
+					<a class="col" target="_blank" href="https://github.com/Lucyjpjones/">
+						<li class="list-inline-item">
+							<i class="fa fa-github" aria-hidden="true"></i>
+							<span class="sr-only">GitHub</span>
+						</li>
+					</a>
+					<a class="col" target="_blank" href="https://www.instagram.com/lucyjpj/?hl=en">
+						<li class="list-inline-item">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</li>
+					</a>
+					<a class="col" target="_blank" href="https://www.linkedin.com/in/lucy-jones-1304">
+						<li class="list-inline-item">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">Linkedin</span>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<!--Callout-->
+	<section id="home-outer">
+		<!--Map Marker-->
+		<div class="text-center" id="marker">
+			<i class="fa fa-map-marker" aria-hidden="true"> </i>
+		</div>
+		<!--Brain Image-->
+		<div class="container">
+			<img
           id="brain"
           src="assets/images/brain.png"
           alt="Brain with map of UK"
           class="img-fluid"
         />
-        <h1 id="overlay-text">BRITbrAIN</h1>
-      </div>
-      <!--Text under img-->
-      <div id="intro-text">
-        You are from Britain, but how well do you know it? Take the quiz to find
-        out...
-      </div>
-      <!--Start btn-->
-      <div class="btn-container">
-        <a id="start-btn" href="questions.html">START QUIZ</a>
-      </div>
-      <a href="#about" class="scroll"
-        ><span></span><i class="fa fa-chevron-down"></i
-      ></a>
-    </section>
+			<h1 id="overlay-text">BRITbrAIN</h1>
+		</div>
+		<!--Text under img-->
+		<div id="intro-text">
+			You are from Britain, but how well do you know it? Take the quiz to find
+			out...
+		</div>
+		<!--Start btn-->
+		<div class="btn-container">
+			<a id="start-btn" href="questions.html">START QUIZ</a>
+		</div>
+		<a href="#about" class="scroll"><span></span><i class="fa fa-chevron-down"></i></a>
+	</section>
 
-    <!--About-->
-    <section class="section-outer bg-darker" id="about">
-      <h2>ABOUT<span>BRITbrAIN</span></h2>
-      <p>
-        BRITbrAIN is a map based quiz game which tests your knowledge through
-        trivia questions. I love to get feedback from my users. Please feel free
-        to contact me, i'll be happy to hear from you!
-      </p>
-      <a href="#features" class="scroll"
-        ><span></span><i class="fa fa-chevron-down"></i
-      ></a>
-    </section>
+	<!--About-->
+	<section class="section-outer bg-darker" id="about">
+		<h2>ABOUT<span>BRITbrAIN</span></h2>
+		<p>
+			BRITbrAIN is a map based quiz game which tests your knowledge through
+			trivia questions. I love to get feedback from my users. Please feel free
+			to contact me, i'll be happy to hear from you!
+		</p>
+		<a href="#features" class="scroll"><span></span><i class="fa fa-chevron-down"></i></a>
+	</section>
 
-    <!--Features-->
-    <section class="section-outer" id="features">
-      <h2>FEATURES</h2>
+	<!--Features-->
+	<section class="section-outer" id="features">
+		<h2>FEATURES</h2>
 
-      <div id="feature-items">
-        <div class="text-left">
-          <h3><i class="fa fa-user feature-icon"></i> User friendly</h3>
-          <p>
-            Simple and user friendly design so can start playing in no time.
-          </p>
-        </div>
-        <div class="text-right">
-          <h3>Play and Learn <i class="fa fa-star feature-icon"></i></h3>
-          <p>
-            Simple and user friendly design so can start playing in no time.
-          </p>
-        </div>
-        <div class="text-left">
-          <h3><i class="fa fa-trophy feature-icon"></i> Leaderboard</h3>
-          <p>
-            Simple and user friendly design so can start playing in no time.
-          </p>
-        </div>
-      </div>
-      <a href="#instructions" class="scroll"
-        ><span></span><i class="fa fa-chevron-down"></i
-      ></a>
-    </section>
+		<div id="feature-items">
+			<div class="text-left">
+				<h3><i class="fa fa-user feature-icon"></i> User friendly</h3>
+				<p>
+					Simple and user friendly design so can start playing in no time.
+				</p>
+			</div>
+			<div class="text-right">
+				<h3>Play and Learn <i class="fa fa-star feature-icon"></i></h3>
+				<p>
+					Simple and user friendly design so can start playing in no time.
+				</p>
+			</div>
+			<div class="text-left">
+				<h3><i class="fa fa-trophy feature-icon"></i> Leaderboard</h3>
+				<p>
+					Simple and user friendly design so can start playing in no time.
+				</p>
+			</div>
+		</div>
+		<a href="#instructions" class="scroll"><span></span><i class="fa fa-chevron-down"></i></a>
+	</section>
 
-    <!--How to play-->
-    <section class="section-outer bg-darker" id="instructions">
-      <h2>HOW TO PLAY <i class="fa fa-question feature-icon"></i></h2>
-      <p>
-        The quiz consists of 10 questions. Read the question and select the
-        correct region on the map to score points. You will have 10 seconds to
-        complete each question.
-      </p>
-      <a href="#contact" class="scroll"
-        ><span></span><i class="fa fa-chevron-down"></i
-      ></a>
-    </section>
+	<!--How to play-->
+	<section class="section-outer bg-darker" id="instructions">
+		<h2>HOW TO PLAY <i class="fa fa-question feature-icon"></i></h2>
+		<p>
+			The quiz consists of 10 questions. Read the question and select the
+			correct region on the map to score points. You will have 10 seconds to
+			complete each question.
+		</p>
+		<a href="#contact" class="scroll"><span></span><i class="fa fa-chevron-down"></i></a>
+	</section>
 
-    <!--Contact form-->
-    <section class="section-outer" id="contact">
-      <form id="contact-form" onsubmit="return sendMail(this);">
-        <h2>CONTACT ME</h2>
-        <h3>I'd love to hear from you!</h3>
-        <label class="control-label" for="fullname"></label>
-        <input
+	<!--Contact form-->
+	<section class="section-outer" id="contact">
+		<form id="contact-form" onsubmit="return sendMail(this);">
+			<h2>CONTACT ME</h2>
+			<h3>I'd love to hear from you!</h3>
+			<label class="control-label" for="fullname"></label>
+			<input
           type="text"
           name="name"
           id="fullname"
@@ -192,8 +150,8 @@
           data-error="Please enter your name"
           placeholder="Name"
         />
-        <label class="control-label" for="emailaddress"></label>
-        <input
+			<label class="control-label" for="emailaddress"></label>
+			<input
           type="email"
           name="email"
           id="emailaddress"
@@ -202,8 +160,8 @@
           data-error="Please enter your email"
           placeholder="Email"
         />
-        <label class="control-label" for="subject"></label>
-        <input
+			<label class="control-label" for="subject"></label>
+			<input
           type="text"
           name="subject"
           id="subject"
@@ -212,8 +170,8 @@
           data-error="Please enter your message subject"
           placeholder="Subject"
         />
-        <label class="control-label" for="projectsummary"></label>
-        <textarea
+			<label class="control-label" for="projectsummary"></label>
+			<textarea
           rows="5"
           name="projectsummary"
           id="projectsummary"
@@ -222,40 +180,35 @@
           data-error="Write your message"
           placeholder="Message"
         ></textarea>
-        <!--Submit button-->
-        <div id="btn-submit">
-          <div class="col">
-            <button type="submit" class="btn btn-secondary text-uppercase">
+			<!--Submit button-->
+			<div id="btn-submit">
+				<div class="col">
+					<button type="submit" class="btn btn-secondary text-uppercase">
               Send
             </button>
-          </div>
-        </div>
-      </form>
-    </section>
+				</div>
+			</div>
+		</form>
+	</section>
 
-    <!--Footer-->
-    <footer class="container-fluid text-center">
-      <!--Footer copyright-->
-      <h6 class="copyright">Copyright © 2020 Lucy J P Jones</h6>
-    </footer>
+	<!--Footer-->
+	<footer class="container-fluid text-center">
+		<!--Footer copyright-->
+		<h6 class="copyright">Copyright © 2020 Lucy J P Jones</h6>
+	</footer>
 
-    <!-- Scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/sendEmail.js"></script>
-  </body>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/sendEmail.js"></script>
+</body>
+
 </html>
