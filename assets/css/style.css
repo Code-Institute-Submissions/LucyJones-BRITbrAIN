@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
 
-/*--- General ---*/
+/*---- General ----*/
 .row,
 .col {
   margin: 0;
@@ -18,12 +18,8 @@ html body {
   font-weight: 300;
   letter-spacing: 0.5px;
 }
-header {
-  margin-right: 10px;
-  margin-left: 10px;
-}
 
-/*--- Nav Menu ---*/
+/*---- Nav Menu ----*/
 .dropdown {
   text-align: right;
 }
@@ -43,7 +39,6 @@ header {
 .dropdown-item {
   font-weight: 300;
   background-color: #fafafa;
-  color: #333333;
 }
 .menu-item:hover,
 .menu-item:focus,
@@ -52,6 +47,7 @@ header {
   color: #333333;
   text-decoration: underline solid #8c5f66;
 }
+/*-- Leaderboard button --*/
 #menu-item-leaderboard {
   margin: 5px 0 10px 0;
 }
@@ -66,6 +62,8 @@ header {
 #dropdown-item-leaderboard:active {
   filter: brightness(110%);
 }
+
+/*-- Social Links --*/
 .list-inline {
   text-align: center;
 }
@@ -81,11 +79,10 @@ header {
   text-decoration: none;
 }
 
-/*--- Callout--- */
+/*---- Callout ---- */
 #home-outer {
   margin-top: 20%;
   padding-bottom: 30px;
-
   text-align: center;
 }
 .container {
@@ -97,16 +94,17 @@ header {
   font-size: 40px;
   color: #8c5f66;
   padding-top: 30px;
+  filter: opacity(0.85);
 }
 /* Brain Image */
 #brain {
   width: 60%;
   padding-top: 10px;
   padding-bottom: 20px;
+  filter: opacity(0.85);
 }
 /* Overlay text */
 #overlay-text {
-  /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
   background-color: #8c5f6690;
   padding: 1% 10%;
   font-size: 30px;
@@ -120,7 +118,6 @@ header {
 #intro-text {
   text-align: center;
   padding: 0 5rem;
-  font-size: 13px;
   font-weight: 400;
 }
 /* Start btn */
@@ -129,12 +126,13 @@ header {
 }
 #start-btn,
 #letsgo-btn {
-  background-color: #adbca5;
-  border: solid 2px #333333;
+  background-color: #adbca590;
+  border: solid 1px #adbca5;
   border-radius: 5%;
   padding: 5px 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #333333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #start-btn:hover,

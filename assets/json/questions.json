@@ -18,5 +18,21 @@
   {
     "question": "Which region is home to Glastonbury Festival?",
     "correctAnswer": "south-west"
+  },
+  {
+    "question": "In which region is the capital of the UK?",
+    "correctAnswer": "london"
+  },
+  {
+    "question": "In which region is Coronation Street filmed?",
+    "correctAnswer": "north-west"
+  },
+  {
+    "question": "In which region would you find 'The Humber Bridge'?",
+    "correctAnswer": "yorkshire-and-the-humber"
+  },
+  {
+    "question": "In which region would you find 'The University of Cambridge'?",
+    "correctAnswer": "eastern"
   }
 ]

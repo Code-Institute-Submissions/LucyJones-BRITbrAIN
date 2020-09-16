@@ -318,6 +318,8 @@ Testing my user's <u>key priorities</u>:
 
 - [css-tricks.com](https://css-tricks.com/): Using 8 digit hex codes.
 
+- [w3schools.com](https://www.w3schools.com/): Overlaying text
+
 - [codepen.io](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for game timer.
 
 - [codepen.io](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
