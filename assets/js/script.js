@@ -51,7 +51,7 @@ $(document).ready(function () {
     questionContainerElement.classList.remove("hide");
     answerButtonsElement.classList.remove("hide");
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
-    currentQuestionIndex = 1;
+    currentQuestionIndex = 0;
     setInterval(countdown, 1000);
     setNextQuestion();
   }
@@ -68,11 +68,11 @@ $(document).ready(function () {
   }
   //Timer//
 
-  let timeLeft = 10;
+  let timeLeft = 30;
   const countdownNumber = document.getElementById("countdown-number");
 
   function countdown() {
-    timeLeft = --timeLeft <= -1 ? 10 : timeLeft;
+    timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
     countdownNumber.textContent = timeLeft;
     if (timeLeft === 0) {
       noTimeLeft();
