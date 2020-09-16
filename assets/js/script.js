@@ -38,13 +38,13 @@ $(document).ready(function () {
   // Score count //
   function correctScore() {
     const scoreCountElement = document.getElementById("score-number");
-    scoreCount++;
+    scoreCount += 10;
     scoreCountElement.textContent = scoreCount;
   }
 
   function incorrectScore() {
     const scoreCountElement = document.getElementById("score-number");
-    scoreCount--;
+    scoreCount -= 5;
     scoreCountElement.textContent = scoreCount;
   }
 
@@ -101,6 +101,7 @@ $(document).ready(function () {
     gameHeaderElement.classList.add("hide");
     questionContainerElement.classList.add("hide");
     answerButtonsElement.classList.add("hide");
+    localStorage.setItem("newScore", scoreCount);
   }
 
   // Function to show next question//

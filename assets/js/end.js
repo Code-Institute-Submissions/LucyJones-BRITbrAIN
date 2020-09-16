@@ -1,15 +1,11 @@
 $(document).ready(function () {
   const username = document.getElementById("username");
   const submitScoreBtn = document.getElementById("submitScoreBtn");
-  const finalScore = document.getElementById("finalScore");
-  const mostRecentScore = document.getElementById("mostRecentScore");
-
-  // Get highscores or if first time get empty array //
-  const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-
+  const newScore = localStorage.getItem("newScore");
   const MAX_HIGH_SCORES = 5;
 
-  finalScore.innerText = mostRecentScore;
+  // Get highscores or if first time get empty array //
+  const results = JSON.parse(localStorage.getItem("results")) || [];
 
   // Submit button will not work unless username entered //
   username.addEventListener("keyup", () => {
@@ -20,17 +16,17 @@ $(document).ready(function () {
     console.log("clicked the submit button!");
     e.preventDefault();
 
-    const score = {
-      score: Math.floor(Math.random() * 100),
+    const record = {
       name: username.value,
+      score: newScore,
     };
-    highScores.push(score);
+    results.push(record);
     // Sort scores highest to lowest //
-    highScores.sort((a, b) => b.score - a.score);
+    results.sort((a, b) => b.score - a.score);
     // Only keep top 5 scores //
-    highScores.splice(5);
+    results.splice(5);
 
-    localStorage.setItem("highScores", JSON.stringify(highScores));
+    localStorage.setItem("results", JSON.stringify(results));
     // Automatically go to leaderboard after submission //
     window.location.assign("highscores.html");
   };
