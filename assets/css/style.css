@@ -220,7 +220,7 @@ button[type="submit"]:hover {
 footer {
   margin: 0;
   background-color: #8c5f6650;
-  min-height: 30px;
+  min-height: 5vh;
   padding-bottom: 0;
 }
 

@@ -1,6 +1,33 @@
+/* Leaderboard */
+
+#leaderboard-container{
+    min-height: 95vh;
+}
+
+#leaderboard-header {
+  font-size: 23px;
+  color: #8c5f66;
+  font-weight: 600;
+  margin-bottom: 10%;
+}
+
+#green-trophy {
+  font-size: 35px;
+  color: #adbca5;
+}
+
 ul#highScoresList {
   list-style: none;
   padding: 0;
-  background: #fafafa;
-  text-align: center;
+  justify-content: center;
+}
+
+.col-6,
+.col-2 {
+  background-color: #fafafa;
+  border: 1px solid #8c5f66;
+  font-size: 18px;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
 }

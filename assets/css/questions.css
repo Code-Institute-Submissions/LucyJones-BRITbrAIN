@@ -79,7 +79,7 @@
   stroke-width: 4px;
   stroke: #adbca5;
   fill: none;
-  animation: countdown 10s linear 1 forwards;
+  animation: countdown 30s linear 1 forwards;
 }
 @keyframes countdown {
   from {
@@ -178,30 +178,3 @@ a.start-btn.btn {
   color: #fafafa;
 }
 
-/* Leaderboard */
-
-#leaderboard-header {
-  font-size: 23px;
-  color: #8c5f66;
-  font-weight: 600;
-}
-
-#green-trophy {
-  font-size: 35px;
-  color: #adbca5;
-}
-
-table {
-  max-width: 90%;
-  margin: auto;
-  margin-top: 1rem;
-  background: #fafafa;
-}
-
-.table thead th,
-.table td,
-.table th {
-  border-bottom: 10px solid #e8b8ab40;
-  padding: 0.5rem;
-  border-radius: 5%;
-}
