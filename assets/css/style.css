@@ -36,6 +36,9 @@ html body {
   border: none;
   box-shadow: none;
 }
+.dropdown-menu{
+    background: #fafafa;
+}
 .dropdown-item {
   font-weight: 300;
   background-color: #fafafa;
@@ -82,7 +85,7 @@ html body {
 /*---- Callout ---- */
 #home-outer {
   margin-top: 20%;
-  padding-bottom: 30px;
+  padding-bottom: 0;
   text-align: center;
 }
 .container {
@@ -93,6 +96,7 @@ html body {
 /* Brain Image */
 #brain {
   width: 60%;
+  max-width: 250px;
   padding-top: 15%;
   padding-bottom: 5%;
   filter: opacity(0.85);
@@ -141,6 +145,7 @@ html body {
 .section-outer {
   text-align: center;
   padding: 8% 10%;
+  padding-bottom: 0;
 }
 .bg-darker {
   background-color: #e8b8ab80;
@@ -232,8 +237,7 @@ footer {
 .scroll {
   font-size: 20px;
   color: #8c5f66;
-  position: absolute;
-  padding-bottom: 0;
+  position: relative;
 }
 
 .scroll:hover,
@@ -247,7 +251,7 @@ footer {
 
 @media (min-width: 576px) {
   #brain {
-    width: 50%;
+    padding-top: 10%;
   }
   #home-outer {
     margin-top: 10%;
@@ -260,13 +264,9 @@ footer {
   .section-outer {
     padding: 8% 12%;
   }
-  #brain {
-    max-width: 40%;
-  }
   #home-outer {
     margin-top: 8%;
   }
-}
 
 /*Large devices (desktops, 992px and up)*/
 
@@ -274,9 +274,7 @@ footer {
   .section-outer {
     padding: 8% 15%;
   }
-  #brain {
-    max-width: 30%;
-  }
+ 
   #home-outer {
     margin-top: 3%;
   }
@@ -287,5 +285,9 @@ footer {
 @media (min-width: 1200px) {
     #home-outer {
     margin-top: 1%;
+  }
+
+  #start-popup {
+      top: 20%;
   }
 }
