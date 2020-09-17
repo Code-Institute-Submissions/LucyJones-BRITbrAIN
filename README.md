@@ -2,13 +2,13 @@
 
 <h1 align="center">BRITbrAIN</h1>
 
-BRITbrAIN is a map based quiz game with general knowledge questions. Answer the question by choosing the correct region on the map.
+BRITbrAIN is a map based quiz game with Britain based general knowledge questions. Answer the question by choosing the correct region on the map.
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 How well do you know Britain?
 
-[Take the Quiz] // PUT SITE LINK HERE //
+[Take the Quiz](https://lucyjpjones.github.io/BRITbrAIN-QUIZ/)
 
 ---
 
@@ -47,7 +47,7 @@ How well do you know Britain?
 
 #### Purpose
 
-The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my general knowledge of my country.
+The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge of my country.
 
 #### User stories
 
@@ -88,9 +88,11 @@ The <u>key priorities</u> for my user are as follows:
 
 - **Typography**
 
+  - The Raleway font is used throughout the whole website with Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly. Raleway belongs to the sans-serif typeface family and which is clean and elegant, making it a good choice for web design.
+
 #### Wireframes
 
-As part of the design process, before starting my project I created sketched out initial drawings then used <u>Balsamiq</u> to create sharper wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
+As part of the design process, before starting my project I sketched out initial drawings then used <u>Balsamiq</u> to create sharper looking wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
 
 [view initial drawings](assets/images/readme/initial-drawing.jpg)
 
@@ -102,9 +104,48 @@ As part of the design process, before starting my project I created sketched out
 
 #### Features used:
 
+- **Responsive on all device sizes**
+
+  - Responsive through using Bootstrap grid system and CSS media queries.
+
+- **Navigation dropdown menu**
+
+  - A navigation dropdown menu to allow the user to easily access different pages of the site.
+
+- **Page navigation Arrows**
+
+  - Arrow navigations to scroll down through sections on homepage.
+
+- **External links to social platforms**
+
+  - Recognisable icons with links to my external social platforms located at the bottom of dropdown navigation menu.
+
+- **Contact Form with JSemail**
+  - A contact form with submit button for users to easily get in touch via my website.
+  - The form has been set up to ensure all fields are filled out and that the email is written in the correct format.
+  - The from is working and messages sent are linked to my gmail account.
+
+- **Timer**
+  - 30s circle countdown timer created using html, css and javascript. 
+
+- **Leaderboard**
+  - Game leaderboard created through javascript and local storage.
+
+
 #### To-do list:
 
 #### Status
+
+> Project is: <u>ongoing</u>
+
+I will continue to update my project with new questions to allow the user to play frequently and also have future development plans as listed below.
+
+**Future Development plans** 
+- Creating different levels of difficulty;
+  - Questions of different difficulty
+  - Breaking up region answer selectors into smaller areas such as cities.
+
+- Creating different games based on categories.
 
 ---
 
@@ -117,20 +158,26 @@ As part of the design process, before starting my project I created sketched out
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 #### Frameworks, Libraries & Programs
+
 - [**Bootstrap 4.5.0**](https://getbootstrap.com/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website using design templates.
+
+  - Bootstrap was used to assist with the responsiveness and styling of the website using design templates.
 
 - [**Google fonts**](https://fonts.google.com/)
+
   - Google fonts were used to import the 'Raleway' font into the style.css file which is used on all pages throughout the project.
-  
+
 - [**Font Awesome 4.7.0**](https://fontawesome.com/)
+
   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 - [**jQuery:**](https://jquery.com/)
+
   - jQuery came with Bootstrap to make the components used responsive.
   - Included at end of body tag within HTML files to ensure smooth running off HMTL and CSS.
 
 - [**Git**](https://git-scm.com/)
+
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 - [**GitHub**](https://github.com/)
@@ -228,22 +275,26 @@ Now, you have a local copy of your fork of the BRITbrAIN repository.
 Testing my user's <u>key priorities</u>:
 
 1. **A user friendly site that is easy to navigate**
+
 - Site includes a main menu and also scroll navigation arrows on home page.
 - Button to start game easy to access.
 
 ![Navigation](assets/images/readme/US1-1.png)
 
 2. **An enjoyable, interactive quiz to play which also aims to develop their knowledge on Britain**
+
 - An interactive quiz with questions based on Britain.
 
 ![Game images](assets/images/readme/US2-1.png)
 
 3. **An easily accessible button to start the quiz**
+
 - 'Start Quiz' button visible to user on first view of site.
 
 ![start button](assets/images/readme/US3-1.png)
 
 4. **Clear instructions for the user on how to play**
+
 - Instructions on 'How to play' is located on the homepage and can be navigated to through the main menu or same page scroll arrows.
 
 ![How to play](assets/images/readme/US4-1.png)
@@ -253,6 +304,7 @@ Testing my user's <u>key priorities</u>:
 ![How to play popup](assets/images/readme/US4-2.png)
 
 5. **Recorded score and leaderboard, for user to check personal performance and ranking against other players**
+
 - Score counter displayed at top of question page to keep track of users score.
 
 ![Score counter](assets/images/readme/US5-1.png)
@@ -268,37 +320,40 @@ Testing my user's <u>key priorities</u>:
 - Leaderboard shows top 10 scores to user using local storage.
 
 6. **A question counter to keep track of their progress throughout the quiz**
+
 - Question counter displayed at top of page to keep track of question number.
 
 ![Question progress](assets/images/readme/US6-1.png)
 
 7.**A timer to limit the time per question to add further interaction for the user and prevent any users from cheating**
+
 - Timer visible on question page once game has started.
 - Timer limit is a total of 60 seconds with the game automatically ending when it reaches 0.
 
 ![Timer](assets/images/readme/US7-1.png)
 
 8. **Ability to contact me through an online form**
+
 - Contact form on landing page linked directly to my gmail account allowing user to easily get in touch.
 
 ![contact form](assets/images/readme/US8-1.png)
 ![contact form email delivery](assets/images/readme/US8-2.png)
-
 
 - Easily navigated to form through the main menu or scroll arrows located on homepage.
 
 ![contact form navigation](assets/images/readme/US8-3.png)
 
 9. **About us and features section on site**
+
 - 'About us' and 'features' section found on homepage and easily navigated to through the main menu or same page scroll arrows..
 
 ![About us and features section](assets/images/readme/US9-1.png)
 
 10. **Links to social media sites**
+
 - Social media links found in main menu.
 
 ![Socail media links](assets/images/readme/US10-1.png)
-
 
 #### Validator checks
 
@@ -327,6 +382,7 @@ Testing my user's <u>key priorities</u>:
 - [sweetalert2](https://sweetalert2.github.io/): Used for responsive popup boxes.
 
 - [youtube.com](youtube.com):
+
   - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with code for js file.
   - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped with js for Leaderboard.
 
