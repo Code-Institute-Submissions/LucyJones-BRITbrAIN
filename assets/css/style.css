@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Ranchers&display=swap");
 
 /*---- General ----*/
 .row,
@@ -109,8 +109,10 @@ html body {
 /* Overlay text */
 #overlay-text {
   background-color: #8c5f6690;
+  font-family: "Ranchers", sans-serif;
   padding: 0% 14%;
-  font-size: 30px;
+  font-size: 35px;
+  letter-spacing: 1px;
   color: #fafafa;
   position: absolute;
   top: 60%;
