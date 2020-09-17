@@ -121,16 +121,17 @@ As part of the design process, before starting my project I sketched out initial
   - Recognisable icons with links to my external social platforms located at the bottom of dropdown navigation menu.
 
 - **Contact Form with JSemail**
+
   - A contact form with submit button for users to easily get in touch via my website.
   - The form has been set up to ensure all fields are filled out and that the email is written in the correct format.
   - The from is working and messages sent are linked to my gmail account.
 
 - **Timer**
-  - 30s circle countdown timer created using html, css and javascript. 
+
+  - 30s circle countdown timer created using html, css and javascript.
 
 - **Leaderboard**
   - Game leaderboard created through javascript and local storage.
-
 
 #### To-do list:
 
@@ -140,8 +141,10 @@ As part of the design process, before starting my project I sketched out initial
 
 I will continue to update my project with new questions to allow the user to play frequently and also have future development plans as listed below.
 
-**Future Development plans** 
+**Future Development plans**
+
 - Creating different levels of difficulty;
+
   - Questions of different difficulty
   - Breaking up region answer selectors into smaller areas such as cities.
 
@@ -181,8 +184,12 @@ I will continue to update my project with new questions to allow the user to pla
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 - [**GitHub**](https://github.com/)
+
   - GitHub is used to store the project code after being pushed from Git.
   - GitHub Wiki TOC generator used to format README.md table of contents.
+
+- [**Sweetalert2**](https://sweetalert2.github.io/)
+  - Used for responsive pop up boxes.
 
 ---
 
@@ -357,11 +364,32 @@ Testing my user's <u>key priorities</u>:
 
 #### Validator checks
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input.
+
+- [**HTML Validator**](https://validator.w3.org/nu/#textarea)
+
+- [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+
 #### Responsive Design
 
-#### Additional Testing
+- Site created as a mobile-first design inline with Bootstrap.
+
+- Viewport tag included in the head of HTML files to tell the browser how to respond to different resolutions, particularly mobile ones.
+
+- Media queries used in the CSS file to target larger devices.
 
 #### Additional Testing
+
+- The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+
+- The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhones (Version 6,8).
+
+- Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
+
+  - Feedback action:
+
+- Project posted on Slack, asking for feedback from fellow students.
 
 #### Bugs
 
@@ -375,9 +403,10 @@ Testing my user's <u>key priorities</u>:
 
 - [w3schools.com](https://www.w3schools.com/): Overlaying text
 
-- [codepen.io](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for game timer.
+- [codepen.io](https://codepen.io/)
 
-- [codepen.io](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
+  - [Countdown timer with SVG circle](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for game timer.
+  - [UK clickable map](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
 
 - [sweetalert2](https://sweetalert2.github.io/): Used for responsive popup boxes.
 
@@ -386,17 +415,27 @@ Testing my user's <u>key priorities</u>:
   - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with code for js file.
   - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped with js for Leaderboard.
 
-  - [sitpoint.com](https://www.sitepoint.com/):
+- [sitpoint.com](https://www.sitepoint.com/):
+
   - [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/): Helped with code for js file.
 
-  - [codeinstitute.net](https://courses.codeinstitute.net/): Sending Emails Using EmailJS.
+- [codeinstitute.net](https://courses.codeinstitute.net/): Sending Emails Using EmailJS.
 
 #### Media
 
 - [pixabay.com](https://pixabay.com/): Brain image for game logo.
+
 - [mapchart.net](https://mapchart.net/): map image for game logo.
 
+- The mockup image showing all devices on my README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
+
 #### Acknowledgements
+
+- My Mentor for continuous help and support throughout the project.
+
+- The [Code Institute](https://codeinstitute.net/) Slack Community.
+
+- Friends & Family for continuous feedback and support.
 
 ## &rarr; **Contact**
 
