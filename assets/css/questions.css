@@ -184,9 +184,6 @@ a.start-btn.btn {
 /*Small devices (landscape phones, 576px and up)*/
 
 @media (min-width: 576px) {
-  #start-popup {
-    top: 40%;
-  }
   #answer-buttons {
       max-width: 50%;
   }
@@ -195,7 +192,7 @@ a.start-btn.btn {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   #start-popup {
-    top: 30%;
+    top: 40%;
   }
   #answer-buttons {
       max-width: 50%;
@@ -206,7 +203,7 @@ a.start-btn.btn {
 
 @media (min-width: 992px) {
   #start-popup {
-    top: 25%;
+    top: 35%;
   }
   #answer-buttons {
       max-width: 40%;
@@ -216,9 +213,6 @@ a.start-btn.btn {
 /*Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
-  #start-popup {
-    top: 20%;
-  }
 
   #answer-buttons {
       max-width: 35%;
