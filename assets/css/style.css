@@ -68,7 +68,7 @@ html body {
 #dropdown-item-leaderboard:hover,
 #dropdown-item-leaderboard:focus,
 #dropdown-item-leaderboard:active {
-  filter: brightness(110%);
+  filter: brightness(120%);
 }
 
 /*-- Social Links --*/
@@ -223,12 +223,16 @@ p {
 button[type="submit"] {
   color: #fafafa;
   background-color: #8c5f66;
-  border: none;
+  border: 1px solid #333333;
   font-size: 14px;
 }
 
-button[type="submit"]:hover {
-  filter: brightness(110%);
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+button[type="submit"]:active {
+  background-color: #8c5f66;
+  filter: brightness(120%);
+  color: #fafafa;
 }
 
 /* Footer */
@@ -274,7 +278,7 @@ footer {
   #overlay-text {
     top: 55%;
   }
-   #start-popup {
+  #start-popup {
     top: 40%;
   }
 }
@@ -335,5 +339,4 @@ footer {
     padding-right: 16%;
     padding-left: 16%;
   }
-
 }

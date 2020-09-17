@@ -121,6 +121,11 @@ a.start-btn.btn {
   font-size: 14px;
 }
 
+a.start-btn.btn:hover,
+a.start-btn.btn:focus {
+    filter: brightness(120%);
+}
+
 .btn-size {
   width: 10rem;
 }
