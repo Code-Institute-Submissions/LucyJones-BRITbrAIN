@@ -1,16 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Ranchers&display=swap");
 
-/*---- General ----*/
+/* -------------------- General paddings/margins/text/colors */
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 12px;
+}
+
+p {
+  padding: 0 20px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+}
 .row,
 .col {
   margin: 0;
   padding: 0;
 }
 
-p {
-  padding: 0;
-  margin: 0;
-}
 html body {
   margin: 0;
   padding: 0;
@@ -19,12 +43,19 @@ html body {
   background: #e8b8ab40;
   font-family: "Raleway", sans-serif;
   color: #333333;
-  font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.5px;
 }
 
-/*---- Nav Menu ----*/
+.bg-darker {
+  background-color: #e8b8ab80;
+}
+
+.container {
+  position: relative;
+}
+
+/* -------------------- Navigation menu */
 .dropdown {
   text-align: right;
 }
@@ -34,18 +65,20 @@ html body {
 .dropdown-toggle,
 .dropdown-toggle:hover,
 .dropdown-toggle:focus {
-  margin: 10px 10px 0 10px;
-  font-size: 30px;
+  margin: 10px;
+  font-size: 40px;
   color: #8c5f66;
   border: none;
   box-shadow: none;
 }
-.dropdown-menu {
+.dropdown-menu,
+.dropdown-item {
   background: #fafafa;
 }
-.dropdown-item {
-  font-weight: 300;
-  background-color: #fafafa;
+.dropdown-item.active,
+.dropdown-item:active {
+  background: none;
+  color: #333333;
 }
 .menu-item:hover,
 .menu-item:focus,
@@ -54,7 +87,8 @@ html body {
   color: #333333;
   text-decoration: underline solid #8c5f66;
 }
-/*-- Leaderboard button --*/
+
+/* ---------- Leaderboard button */
 #menu-item-leaderboard {
   margin: 5px 0 10px 0;
 }
@@ -69,13 +103,12 @@ html body {
 #dropdown-item-leaderboard:active {
   filter: brightness(120%);
 }
-
-/*-- Social Links --*/
+/* ---------- Social Links */
 .list-inline {
   text-align: center;
 }
 .list-inline a {
-  padding: 8px;
+  padding: 4px;
   font-size: 18px;
   color: #8c5f66;
 }
@@ -86,37 +119,35 @@ html body {
   text-decoration: none;
 }
 
-.dropdown-item.active,
-.dropdown-item:active {
-  background: none;
-  color: #333333;
+/* -------------------- Scroll arrows */
+.scroll {
+  font-size: 24px;
+  color: #8c5f66;
 }
-
-/*---- Callout ---- */
+.scroll:hover,
+.scroll:focus {
+  color: #8c5f66;
+  filter: brightness(120%);
+}
+/* -------------------- Callout */
 #home-outer {
   margin-top: 8%;
-  padding-bottom: 0;
-  text-align: center;
-}
-.container {
-  position: relative;
   text-align: center;
 }
 
-/* Brain Image */
+/* ---------- Brain image */
 #brain {
   width: 60%;
   max-width: 250px;
   margin-top: 25%;
   padding-bottom: 20px;
-  filter: opacity(0.85);
+  filter: opacity(0.9);
 }
-/* Overlay text */
+/* ---------- Overlay text */
 #overlay-text {
   background-color: #8c5f6690;
   font-family: "Ranchers", sans-serif;
   padding: 0% 14%;
-  font-size: 35px;
   letter-spacing: 1px;
   color: #fafafa;
   position: absolute;
@@ -124,29 +155,28 @@ html body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* Text */
-#intro-text {
-  text-align: center;
-  font-weight: 400;
-  padding: 10px;
+#overlay-text span {
+  font-size: 80%;
 }
-/* Start btn */
+/* ----------Intro text */
+#intro-text p {
+  font-weight: 600;
+}
+/* ----------Start button */
 .btn-container {
   padding: 20px;
 }
 #start-btn,
 #letsgo-btn {
-  font-size: 16px;
   background-color: #adbca590;
-  border: solid 1px #adbca5;
+  border: solid 0.5px #adbca5;
   border-radius: 5%;
   padding: 5px 20px;
   font-weight: 600;
+  text-transform: uppercase;
   color: #333333;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  letter-spacing: 0.5px;
 }
-
 #start-btn:hover,
 #start-btn:focus,
 #letsgo-btn:hover,
@@ -154,130 +184,72 @@ html body {
   filter: brightness(120%);
   text-decoration: none;
 }
-
 #letsgo-btn {
   margin-top: 10px;
 }
 
-/*--- About section --- */
+/* -------------------- Sections- about, features, how to play, contact */
 .section-outer {
   text-align: center;
-  padding: 8% 10% 0% 10%;
+  padding: 25px 25px 0% 25px;
 }
-.bg-darker {
-  background-color: #e8b8ab80;
-}
-
-h2 {
-  font-size: 18px;
-  letter-spacing: 0.5px;
-  font-weight: 600;
-}
-
 h2 span {
   font-size: 24px;
   color: #8c5f66;
   font-family: "Ranchers", sans-serif;
   letter-spacing: 1px;
 }
-
-h3 {
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
 i.feature-icon {
-  font-size: 20px;
+  font-size: 22px;
   color: #8c5f66;
 }
-
-p {
-  font-size: 13px;
-  padding: 0 15px;
-}
 .section-p {
-  padding-bottom: 8%;
+  padding-bottom: 15px;
 }
-
 #feature-items {
   padding: 20px;
 }
-
-/* Contact */
-
-#contact {
-  padding-bottom: 4%;
+#feature-items p {
+  padding-bottom: 15px;
 }
-
+#contact {
+  padding-bottom: 25px;
+}
 #contact-form {
   background-color: #fafafa;
   padding: 25px;
-  border: 1px solid #333333;
-  border-radius: 5%;
+  border: 0.5px solid #333333;
+  border-radius: 5px;
   max-width: 550px;
   justify-content: center;
   margin: auto;
 }
-
-.control-label {
-  padding-top: 5px;
-}
-
-/*--Submit button--*/
-
 #btn-submit {
-  text-align: center;
-  margin-top: 5%;
+  padding-top: 25px;
 }
-
 button[type="submit"] {
   color: #fafafa;
   background-color: #8c5f66;
   border: 1px solid #333333;
-  font-size: 14px;
+  text-transform: uppercase;
 }
-
 button[type="submit"]:hover,
 button[type="submit"]:focus,
 button[type="submit"]:active {
   background-color: #8c5f66;
-  filter: brightness(120%);
   color: #fafafa;
+  filter: brightness(120%);
 }
 
-/* Footer */
+/* -------------------- Footer */
 footer {
   margin: 0;
   background-color: #8c5f6650;
   min-height: 5vh;
-  padding-bottom: 0;
+  text-align: center;
+  padding: 10px 0;
 }
 
-#index-footer {
-  position: absolute;
-  bottom: 0;
-}
-
-.copyright {
-  font-size: 10px;
-  padding-top: 0.5rem;
-  font-weight: 500;
-  text-transform: none;
-}
-
-/* Scroll */
-.scroll {
-  font-size: 20px;
-  color: #8c5f66;
-  position: relative;
-}
-
-.scroll:hover,
-.scroll:focus {
-  color: #8c5f66;
-  filter: brightness(120%);
-}
 /*---------------------------------Media Queries---*/
 
 /*Small devices (landscape phones, 576px and up)*/
