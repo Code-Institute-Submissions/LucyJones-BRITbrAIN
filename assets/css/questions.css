@@ -87,6 +87,18 @@
 
 /* ------Start popup------ */
 
+#start-popup ul {
+  padding-inline-start: 20px;
+  list-style-type: circle;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+#start-popup ul,
+#start-popup li {
+  margin-bottom: 10px;
+}
+
 #start-popup,
 #end-popup {
   min-width: 70%;
@@ -118,7 +130,7 @@ a.start-btn.btn {
 
 a.start-btn.btn:hover,
 a.start-btn.btn:focus {
-    filter: brightness(120%);
+  filter: brightness(120%);
 }
 
 .btn-size {
@@ -185,7 +197,7 @@ a.start-btn.btn:focus {
 
 @media (min-width: 576px) {
   #answer-buttons {
-      max-width: 50%;
+    max-width: 50%;
   }
 }
 
@@ -195,7 +207,7 @@ a.start-btn.btn:focus {
     top: 40%;
   }
   #answer-buttons {
-      max-width: 50%;
+    max-width: 50%;
   }
 }
 
@@ -206,15 +218,14 @@ a.start-btn.btn:focus {
     top: 35%;
   }
   #answer-buttons {
-      max-width: 40%;
+    max-width: 40%;
   }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
-
   #answer-buttons {
-      max-width: 35%;
+    max-width: 35%;
   }
 }
