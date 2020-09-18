@@ -12,27 +12,26 @@
   margin: auto;
 }
 
-#questions-footer,
-#leaderboard-footer {
-  position: absolute;
-  bottom: 0;
-}
-
 /* ------Header------ */
 
 #game-header,
 #leaderboard-header {
-  margin-top: 70px;
+  margin-top: 85px;
 }
 
 /* Score count */
 #game-header {
-  padding: 5px 20px;
+  padding: 0 20px;
+}
+
+#score-count h3,
+#question-count h3 {
+  font-size: 14px;
 }
 #score-number,
 #question-number {
   color: #8c5f66;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 500;
 }
 
