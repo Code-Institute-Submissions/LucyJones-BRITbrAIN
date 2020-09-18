@@ -92,6 +92,13 @@
   text-align: left;
 }
 
+#start-popup div {
+    border: 2px dashed #adbca5;
+    padding: 5px;
+    margin: 5px 20px 5px 0px;
+    font-size: 12px;
+}
+
 #start-popup ul,
 #start-popup li {
   margin-bottom: 10px;
