@@ -1,6 +1,6 @@
 # ![// PUT RESPONSIVE IMAGE HERE //](assets/images/readme/responsive-BRITbrAIN.png)
 
-<h1 align="center">BRITbrAIN</h1>
+![title](assets/images/readme/title.png)
 
 BRITbrAIN is a map based quiz game with Britain based general knowledge questions. Answer the question by choosing the correct region on the map.
 
@@ -89,9 +89,9 @@ The <u>key priorities</u> for my user are as follows:
 - **Typography**
 
   - The main font used throughout the site is 'Raleway' belongs to the sans-serif typeface family and is clean and elegant, making it a good choice for web design.
-  
+
   - Ranchers font has been used for the 'BRITbrAIN' logo to add fun with its general style comparison with the Brain.
-  
+
   - Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly.
 
 #### Wireframes
@@ -193,7 +193,14 @@ I will continue to update my project with new questions to allow the user to pla
   - GitHub Wiki TOC generator used to format README.md table of contents.
 
 - [**Sweetalert2**](https://sweetalert2.github.io/)
+
   - Used for responsive pop up boxes.
+
+- [**Grammarly**](https://www.grammarly.com/)
+  - Grammarly was used to ensure any grammar errors are eliminated.
+
+- [**HTML Formatter**](https://www.freeformatter.com/html-formatter.html) and [**CSS Formatter**](https://www.freeformatter.com/css-beautifier.html)
+  - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 
 ---
 
@@ -374,7 +381,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
 
 #### Responsive Design
 

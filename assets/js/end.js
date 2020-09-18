@@ -25,7 +25,7 @@ submitHighScore = (e) => {
   results.push(record);
   // Sort scores highest to lowest //
   results.sort((a, b) => b.score - a.score);
-  // Only keep top 5 scores //
+  // Only keep top 10 scores //
   results.splice(10);
 
   localStorage.setItem("results", JSON.stringify(results));

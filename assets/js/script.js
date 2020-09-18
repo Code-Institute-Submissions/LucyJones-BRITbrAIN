@@ -1,35 +1,7 @@
 $(document).ready(function () {
-  // Toggle question //
-  $(".btn-info").click(function () {
-    $("#question-box").toggle();
-  });
-
-  // Scoring //
-
-  let score = 0;
+  // const variables//
   const scoreCountElement = document.getElementById("score-number");
-
-  function correctScore() {
-    score += 10;
-    scoreCountElement.textContent = score;
-  }
-
-  function incorrectScore() {
-    score -= 5;
-    scoreCountElement.textContent = score;
-  }
-
-  // Progress //
-
-  let questionCount = 0;
   const questionCountElement = document.getElementById("question-number");
-
-  function progress() {
-    questionCount++;
-    questionCountElement.textContent = questionCount;
-  }
-
-  // Start Quiz //
   const popupStartBox = document.getElementById("start-popup");
   const startButton = document.getElementById("letsgo-btn");
   const gameHeaderElement = document.getElementById("game-header");
@@ -38,13 +10,39 @@ $(document).ready(function () {
   );
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
+  const countdownNumber = document.getElementById("countdown-number");
 
+  // let variables//
+  let score = 0;
+  let questionCount = 0;
+  let timeLeft = 30;
   let shuffledQuestions, currentQuestionIndex;
 
-  //Event listener to start game//
+  //Event listeners//
   startButton.addEventListener("click", startGame);
 
-  //Function to start game//
+  // Toggle question //
+  $(".btn-info").click(function () {
+    $("#question-box").toggle();
+  });
+
+  // Scoring //
+  function correctScore() {
+    score += 10;
+    scoreCountElement.textContent = score;
+  }
+  function incorrectScore() {
+    score -= 5;
+    scoreCountElement.textContent = score;
+  }
+
+  // Question progress //
+  function progress() {
+    questionCount++;
+    questionCountElement.textContent = questionCount;
+  }
+
+  // Start game //
   function startGame() {
     popupStartBox.classList.add("hide");
     gameHeaderElement.classList.remove("hide");
@@ -56,20 +54,18 @@ $(document).ready(function () {
     setNextQuestion();
   }
 
-  // Function to show next question//
+  // Next question//
   function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
     $("#question-box").show();
     progress();
   }
-  // Show question content from question array //
+  // Show question from array //
   function showQuestion(question) {
     questionElement.innerText = question.question;
   }
-  //Timer//
 
-  let timeLeft = 30;
-  const countdownNumber = document.getElementById("countdown-number");
+  // Timer //
 
   function countdown() {
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;

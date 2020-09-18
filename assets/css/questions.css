@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700");
+/* -------------------- General*/
 
 .hide {
   visibility: hidden;
 }
 
 .container {
-  min-height: 100vh;
+  min-height: 95vh;
   min-width: 100%;
   overflow: hidden;
   display: block;
@@ -13,22 +13,20 @@
   margin: auto;
 }
 
-/* ------Header------ */
+/* -------------------- Game header*/
 
-#game-header,
-#leaderboard-header {
-  margin-top: 85px;
-}
-
-/* Score count */
 #game-header {
+  margin-top: 85px;
   padding: 0 20px;
 }
+
+/* ---------- Score count & Question count */
 
 #score-count h3,
 #question-count h3 {
   font-size: 14px;
 }
+
 #score-number,
 #question-number {
   color: #8c5f66;
@@ -36,13 +34,8 @@
   font-weight: 500;
 }
 
-#finalScore {
-  color: #8c5f66;
-  font-size: 40px;
-  font-weight: 500;
-}
+/* ---------- Timer */
 
-/* 30s Timer */
 #countdown {
   position: relative;
   margin: auto;
@@ -51,6 +44,7 @@
   height: 80px;
   width: 80px;
 }
+
 #countdown-number {
   color: #adbca5;
   position: absolute;
@@ -61,12 +55,14 @@
   font-weight: 500;
   line-height: 80px;
 }
+
 #svg-timer {
   position: relative;
   width: 80px;
   height: 80px;
   transform: rotateY(-180deg) rotateZ(-90deg);
 }
+
 #timer-animation {
   stroke-dasharray: 226px;
   stroke-dashoffset: 0px;
@@ -76,6 +72,7 @@
   fill: none;
   animation: countdown 30s linear 1 forwards;
 }
+
 @keyframes countdown {
   from {
     stroke-dashoffset: 0px;
@@ -85,7 +82,7 @@
   }
 }
 
-/* ------Start popup------ */
+/* -------------------- Start & End popup*/
 
 #start-popup ul {
   padding-inline-start: 20px;
@@ -94,6 +91,7 @@
   font-weight: 400;
   text-align: left;
 }
+
 #start-popup ul,
 #start-popup li {
   margin-bottom: 10px;
@@ -101,7 +99,7 @@
 
 #start-popup,
 #end-popup {
-  min-width: 70%;
+  min-width: 80%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -110,14 +108,23 @@
   padding: 15px;
   border: 1px solid #333333;
   border-radius: 5px;
-  text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #end-popup {
-  margin-bottom: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#end-popup h2 {
+  margin-bottom: 0;
+}
+
+#finalScore {
+  color: #8c5f66;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 a.start-btn.btn {
@@ -142,7 +149,7 @@ a.start-btn.btn:focus {
   box-shadow: 0 0.1rem 0.5rem 0 #333333;
 }
 
-/* Map */
+/* -------------------- Map- answer buttons*/
 
 #answer-buttons {
   display: block;
@@ -150,14 +157,16 @@ a.start-btn.btn:focus {
   max-width: 75%;
   margin-bottom: 5%;
 }
+
 .choice {
   fill: #e8b9ab;
 }
+
 .choice:hover {
   fill: #e09891;
 }
 
-/* Question */
+/* -------------------- Questions*/
 
 #question-container {
   position: absolute;
@@ -165,18 +174,21 @@ a.start-btn.btn:focus {
   left: 0;
   width: 100%;
 }
+
 .btn-info {
   background: rgba(203, 118, 158, 0.7);
   font-size: 28px;
   border: 2px dotted #fafafa;
   max-width: 80px;
 }
+
 .btn-info:focus,
 .btn-info:hover {
   background: rgba(203, 118, 158, 1);
   border: 2px dotted #fafafa;
   box-shadow: none;
 }
+
 .btn-info:active,
 .btn-info:not(:disabled):not(.disabled):active {
   background: rgba(203, 118, 158, 1);
@@ -192,7 +204,7 @@ a.start-btn.btn:focus {
   color: #fafafa;
 }
 
-/*---------------------------------Media Queries---*/
+/* -------------------- Media queries*/
 
 /*Small devices (landscape phones, 576px and up)*/
 
@@ -200,12 +212,16 @@ a.start-btn.btn:focus {
   #answer-buttons {
     max-width: 50%;
   }
+  #start-popup {
+    top: 40%;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) {
   #start-popup {
-    top: 40%;
+    top: 35%;
   }
   #answer-buttons {
     max-width: 50%;
@@ -214,13 +230,17 @@ a.start-btn.btn:focus {
     font-size: 24px;
     padding: 20px;
   }
+  #start-popup,
+  #end-popup {
+    min-width: 50%;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) {
   #start-popup {
-    top: 35%;
+    top: 30%;
   }
   #answer-buttons {
     max-width: 40%;
@@ -233,4 +253,5 @@ a.start-btn.btn:focus {
   #answer-buttons {
     max-width: 35%;
   }
+
 }
