@@ -77,7 +77,7 @@ The <u>key priorities</u> for my user are as follows:
 
 - **Structure**
 
-  - A simple design structure with a dropdown menu and page navigation to allow easy navigation throughout site.
+  - A simple design structure with a fixed dropdown menu and page navigation to allow easy navigation throughout site.
 
 - **Colour scheme**
 
@@ -287,7 +287,8 @@ Testing my user's <u>key priorities</u>:
 
 1. **A user friendly site that is easy to navigate**
 
-- Site includes a main menu and also scroll navigation arrows on home page.
+- Site includes a main dropdown menu and also scroll navigation arrows on home page.
+- Navigation menu is fixed so is always visible to the user.
 - Button to start game easy to access.
 
 ![Navigation](assets/images/readme/US1-1.png)

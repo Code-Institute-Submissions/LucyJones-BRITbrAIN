@@ -6,6 +6,7 @@
 
 .container {
   min-height: 100vh;
+  min-width: 100%;
   overflow: hidden;
   display: block;
   position: relative;
@@ -137,6 +138,7 @@ a.start-btn.btn:focus {
 }
 
 #username {
+  margin: auto;
   box-shadow: 0 0.1rem 0.5rem 0 #333333;
 }
 
@@ -167,7 +169,7 @@ a.start-btn.btn:focus {
   background: rgba(203, 118, 158, 0.7);
   font-size: 28px;
   border: 2px dotted #fafafa;
-  max-width: 60px;
+  max-width: 80px;
 }
 .btn-info:focus,
 .btn-info:hover {
@@ -207,6 +209,10 @@ a.start-btn.btn:focus {
   }
   #answer-buttons {
     max-width: 50%;
+  }
+  #question-box {
+    font-size: 24px;
+    padding: 20px;
   }
 }
 
