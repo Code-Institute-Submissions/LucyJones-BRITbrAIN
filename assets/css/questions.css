@@ -36,11 +36,6 @@
   font-weight: 500;
 }
 
-#score-number h3,
-#question-number h3 {
-  text-align: center;
-}
-
 #finalScore {
   color: #8c5f66;
   font-size: 40px;

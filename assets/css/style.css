@@ -36,7 +36,6 @@ html body {
 .dropdown-toggle:focus {
   margin: 10px 10px 0 10px;
   font-size: 30px;
-  border-color: none;
   color: #8c5f66;
   border: none;
   box-shadow: none;
@@ -85,6 +84,12 @@ html body {
 .list-inline a:active {
   filter: brightness(120%);
   text-decoration: none;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background: none;
+  color: #333333;
 }
 
 /*---- Callout ---- */

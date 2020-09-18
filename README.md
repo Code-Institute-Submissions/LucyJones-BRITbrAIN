@@ -90,7 +90,7 @@ The <u>key priorities</u> for my user are as follows:
 
   - The main font used throughout the site is 'Raleway' belongs to the sans-serif typeface family and is clean and elegant, making it a good choice for web design.
   
-  - Ranchers font has been used for the 'BRITbrAIN' logo due to the comparison with the brain and it being a good pairing with Raleway.
+  - Ranchers font has been used for the 'BRITbrAIN' logo to add fun with its general style comparison with the Brain.
   
   - Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly.
 

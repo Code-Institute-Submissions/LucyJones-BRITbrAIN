@@ -38,15 +38,11 @@
         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <a class="dropdown-item menu-item" href="index.html">Home</a>
           <a class="dropdown-item menu-item" href="index.html#about">About</a>
-          <a class="dropdown-item menu-item" href="index.html#features"
-            >Features</a
-          >
+          <a class="dropdown-item menu-item" href="index.html#features">Features</a>
           <a class="dropdown-item menu-item" href="index.html#instructions"
             >How to play</a
           >
-          <a class="dropdown-item menu-item" href="index.html#contact"
-            >Contact</a
-          >
+          <a class="dropdown-item menu-item" href="index.html#contact">Contact</a>
           <a
             class="dropdown-item"
             id="menu-item-leaderboard"
@@ -54,43 +50,43 @@
             ><span id="dropdown-item-leaderboard">Leaderboard</span></a
           >
           <ul class="list-inline dropdown-item row">
-            <a
-              class="col"
-              target="_blank"
-              href="https://github.com/Lucyjpjones/"
-            >
-              <li class="list-inline-item">
+            <li class="list-inline-item">
+              <a
+                class="col"
+                target="_blank"
+                href="https://github.com/Lucyjpjones/"
+              >
                 <i class="fa fa-github" aria-hidden="true"></i>
                 <span class="sr-only">GitHub</span>
-              </li>
-            </a>
-            <a
-              class="col"
-              target="_blank"
-              href="https://www.instagram.com/lucyjpj/?hl=en"
-            >
-              <li class="list-inline-item">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="col"
+                target="_blank"
+                href="https://www.instagram.com/lucyjpj/?hl=en"
+              >
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
-              </li>
-            </a>
-            <a
-              class="col"
-              target="_blank"
-              href="https://www.linkedin.com/in/lucy-jones-1304"
-            >
-              <li class="list-inline-item">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="col"
+                target="_blank"
+                href="https://www.linkedin.com/in/lucy-jones-1304"
+              >
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 <span class="sr-only">Linkedin</span>
-              </li>
-            </a>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </header>
 
     <div class="container text-center">
-      <!----Game Header---->
+      <!--Game Header-->
       <div class="row hide" id="game-header">
         <!--Score count-->
         <div class="col-3" id="score-count">
@@ -111,20 +107,33 @@
         </div>
       </div>
 
-      <!----Start popup---->
+      <!--Start popup-->
       <div id="start-popup">
         <h2>HOW TO PLAY <i class="fa fa-question feature-icon"></i></h2>
-        <p>
-          The BRITbrAIN quiz will test your general knowledge but with only 30
-          seconds to answer as many questions as you can. Read the question and
-          select the correct region on the map to score points. Each correct
-          answer will score you 10 points. Be warned — if you get a question
-          wrong, it will cost you 5 points!
-        </p>
+        <ul class="text-left">
+          <li>
+            Read the question and select your answer by clicking a region on the
+            map.
+          </li>
+          <li>
+            Answer as many questions as you can before the 30 second timer runs
+            out.
+          </li>
+          <li>
+            Each correct answer with score you 10 points, but every wrong any
+            will cost you 5.
+          </li>
+          <li>
+            Finally, you will be presented with your score and have the option
+            to add your name to the Leaderboard.
+          </li>
+        </ul>
+        <p>Good Luck!</p>
+
         <button id="letsgo-btn" class="start-btn btn">Lets go!</button>
       </div>
 
-      <!----Question box---->
+      <!--Question box-->
       <div class="row hide" id="question-container">
         <!--Question button-->
         <button class="col-2 btn btn-info" type="button">
@@ -136,7 +145,7 @@
         </div>
       </div>
 
-      <!----Map Answers---->
+      <!--Map Answers-->
       <svg
         class="hide"
         id="answer-buttons"
@@ -371,7 +380,7 @@
       </svg>
     </div>
 
-    <!----Footer---->
+    <!--Footer-->
     <footer class="container-fluid text-center" id="questions-footer">
       <!--Footer copyright-->
       <h6 class="copyright">Copyright © 2020 Lucy J P Jones</h6>
