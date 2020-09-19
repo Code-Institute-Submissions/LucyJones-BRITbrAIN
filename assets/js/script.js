@@ -104,6 +104,7 @@ $(document).ready(function () {
         showConfirmButton: false,
         timer: 1200,
       });
+      console.log(userAnswer);
       incorrectScore();
       currentQuestionIndex++;
       setNextQuestion();
@@ -118,7 +119,7 @@ $(document).ready(function () {
     },
     {
       question: "In which region would you find the Angel of the North?",
-      correctAnswer: "yorkshire-and-the-humber",
+      correctAnswer: "north-east",
     },
     {
       question: "In which region were the Beatles formed?",
