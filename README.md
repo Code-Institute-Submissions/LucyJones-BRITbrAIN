@@ -432,6 +432,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [codeinstitute.net](https://courses.codeinstitute.net/): Sending Emails Using EmailJS.
 
+- [dev.to](https://dev.to/nzonnenberg/making-an-animated-timer-with-css--javascript-jpa): Helped with animation for the countdown timer.
+
 #### Media
 
 - [pixabay.com](https://pixabay.com/): Brain image for game logo.
