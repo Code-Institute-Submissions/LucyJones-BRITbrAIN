@@ -8,7 +8,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 How well do you know Britain?
 
-[Take the Quiz](https://lucyjpjones.github.io/LucyJones-BRITbrBRAIN/)
+[Take the Quiz](https://lucyjpjones.github.io/LucyJones-BRITbrAIN/)
 
 ---
 
