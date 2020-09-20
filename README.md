@@ -2,7 +2,7 @@
 
 ![title](assets/images/readme/title.png)
 
-BRITbrAIN is a map based quiz game with Britain based general knowledge questions. Answer the question by choosing the correct region on the map.
+BRITbrAIN is an interactive map based quiz game with Britain based trivia questions. Answer the question by choosing the correct region on the map.
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
@@ -47,7 +47,7 @@ How well do you know Britain?
 
 #### Purpose
 
-The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge of my country.
+The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge on my country.
 
 #### User stories
 
@@ -55,7 +55,7 @@ The <u>key priorities</u> for my user are as follows:
 
 1. A user friendly site that is easy to navigate.
 
-2. An enjoyable, interactive quiz to play which also aims to develop their knowledge on Britain.
+2. An enjoyable, interactive quiz to play which also aims to develop the users knowledge on Britain.
 
 3. An easily accessible button to start the quiz.
 
@@ -63,9 +63,9 @@ The <u>key priorities</u> for my user are as follows:
 
 5. Recorded score and leaderboard, for user to check personal performance and ranking against other players.
 
-6. A question counter to keep track of their progress throughout the quiz.
+6. A question counter to keep track of the users progress throughout the quiz.
 
-7. A timer to limit the time per question to add further interaction for the user and prevent any users from cheating.
+7. A timer to limit the time per question, to add further interaction for the user and prevent any users from cheating.
 
 8. Ability to contact me through an online form.
 
@@ -88,9 +88,9 @@ The <u>key priorities</u> for my user are as follows:
 
 - **Typography**
 
-  - The main font used throughout the site is 'Raleway' belongs to the sans-serif typeface family and is clean and elegant, making it a good choice for web design.
+  - The main font used throughout the site is'Raleway' which belongs to the sans-serif typeface family and is clean and elegant, making it a good choice for web design.
 
-  - Ranchers font has been used for the 'BRITbrAIN' logo to add fun with its general style comparison with the Brain.
+  - 'Ranchers' font has been used for the 'BRITbrAIN' title as it is fun and has a general style comparison with the Brain.
 
   - Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly.
 
@@ -143,16 +143,16 @@ As part of the design process, before starting my project I sketched out initial
 
 > Project is: <u>ongoing</u>
 
-I will continue to update my project with new questions to allow the user to play frequently and also have future development plans as listed below.
+I will continue to update my project with new questions to allow the user to play frequently. I also have future development plans which I have listed below.
 
 **Future Development plans**
 
 - Creating different levels of difficulty;
 
   - Questions of different difficulty
-  - Breaking up region answer selectors into smaller areas such as cities.
+  - Breaking up regions further into smaller areas such as cities.
 
-- Creating different games based on categories.
+- Creating different games based focusing on specific categories such as landmarks.
 
 ---
 
@@ -172,11 +172,11 @@ I will continue to update my project with new questions to allow the user to pla
 
 - [**Google fonts**](https://fonts.google.com/)
 
-  - Google fonts were used to import the 'Raleway' font into the style.css file which is used on all pages throughout the project.
+  - Google fonts were used to import the fonts into the css file which is used on all pages throughout the project.
 
 - [**Font Awesome 4.7.0**](https://fontawesome.com/)
 
-  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
 - [**jQuery:**](https://jquery.com/)
 
@@ -296,11 +296,10 @@ Testing my user's <u>key priorities</u>:
 
 - Site includes a main dropdown menu and also scroll navigation arrows on home page.
 - Navigation menu is fixed so is always visible to the user.
-- Button to start game easy to access.
 
 ![Navigation](assets/images/readme/US1-1.png)
 
-2. **An enjoyable, interactive quiz to play which also aims to develop their knowledge on Britain**
+2. **An enjoyable, interactive quiz to play which also aims to develop the users knowledge on Britain**
 
 - An interactive quiz with questions based on Britain.
 
@@ -324,7 +323,7 @@ Testing my user's <u>key priorities</u>:
 
 5. **Recorded score and leaderboard, for user to check personal performance and ranking against other players**
 
-- Score counter displayed at top of question page to keep track of users score.
+- Score counter displayed at the top left of question page to keep track of users score.
 
 ![Score counter](assets/images/readme/US5-1.png)
 
@@ -338,16 +337,16 @@ Testing my user's <u>key priorities</u>:
 
 - Leaderboard shows top 10 scores to user using local storage.
 
-6. **A question counter to keep track of their progress throughout the quiz**
+6. **A question counter to keep track of the users progress throughout the quiz**
 
-- Question counter displayed at top of page to keep track of question number.
+- Question counter displayed at top right of page to keep track of question number.
 
 ![Question progress](assets/images/readme/US6-1.png)
 
 7.**A timer to limit the time per question to add further interaction for the user and prevent any users from cheating**
 
 - Timer visible on question page once game has started.
-- Timer limit is a total of 60 seconds with the game automatically ending when it reaches 0.
+- Timer limit is a total of 30 seconds with the game automatically ending when it reaches 0.
 
 ![Timer](assets/images/readme/US7-1.png)
 
@@ -364,7 +363,7 @@ Testing my user's <u>key priorities</u>:
 
 9. **About us and features section on site**
 
-- 'About us' and 'features' section found on homepage and easily navigated to through the main menu or same page scroll arrows..
+- 'About us' and 'features' section found on homepage and easily navigated to through the main menu or same page scroll arrows.
 
 ![About us and features section](assets/images/readme/US9-1.png)
 
