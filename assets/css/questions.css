@@ -95,15 +95,15 @@
 }
 
 #start-popup div {
-    display: flex;
-    max-width: 300px;
-    border: 1.5px dashed #8c5f66;
-    padding: 10px;
-    margin: auto;
-    font-size: 12px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: flex;
+  max-width: 300px;
+  border: 1.5px dashed #8c5f66;
+  padding: 10px;
+  margin: auto;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #start-popup ul,
@@ -116,10 +116,10 @@
   min-width: 85%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
   background-color: #fafafa;
-  padding: 15px;
+  padding: 20px;
   border: 1px solid #333333;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -227,7 +227,7 @@ a.start-btn.btn:focus {
     max-width: 50%;
   }
   #start-popup {
-    top: 40%;
+    top: 50%;
   }
   #countdown-number {
     left: 50%;
@@ -237,7 +237,7 @@ a.start-btn.btn:focus {
 
 @media (min-width: 768px) {
   #start-popup {
-    top: 35%;
+    top: 40%;
   }
   #answer-buttons {
     max-width: 50%;
@@ -256,10 +256,10 @@ a.start-btn.btn:focus {
 
 @media (min-width: 992px) {
   #start-popup {
-    top: 30%;
+    top: 35%;
   }
   #answer-buttons {
-    max-width: 40%;
+    max-width: 35%;
   }
 }
 

@@ -19,7 +19,6 @@ $(document).ready(function () {
   let timeLeft = 30;
   let shuffledQuestions, currentQuestionIndex;
 
-
   //Event listeners//
   startButton.addEventListener("click", startGame);
 
