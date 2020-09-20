@@ -63,13 +63,15 @@
   transform: rotateY(-180deg) rotateZ(-90deg);
 }
 
-#timer-animation {
+#timer {
   stroke-dasharray: 226px;
   stroke-dashoffset: 0px;
   stroke-linecap: round;
   stroke-width: 4px;
   stroke: #adbca5;
   fill: none;
+}
+.animation {
   animation: countdown 30s linear 1 forwards;
 }
 
@@ -111,7 +113,7 @@
 
 #start-popup,
 #end-popup {
-  min-width: 80%;
+  min-width: 85%;
   position: absolute;
   left: 50%;
   top: 50%;

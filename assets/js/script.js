@@ -11,12 +11,14 @@ $(document).ready(function () {
   const questionElement = document.getElementById("question");
   const answerButtonsElement = document.getElementById("answer-buttons");
   const countdownNumber = document.getElementById("countdown-number");
+  const animationTimer = document.getElementById("timer");
 
   // let variables//
   let score = 0;
   let questionCount = 0;
   let timeLeft = 30;
   let shuffledQuestions, currentQuestionIndex;
+
 
   //Event listeners//
   startButton.addEventListener("click", startGame);
@@ -68,6 +70,7 @@ $(document).ready(function () {
   // Timer //
 
   function countdown() {
+    animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
     countdownNumber.textContent = timeLeft;
     if (timeLeft === 0) {
