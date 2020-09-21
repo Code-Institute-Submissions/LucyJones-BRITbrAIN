@@ -138,18 +138,18 @@ As part of the design process, before starting my project I sketched out initial
 
 > Project is: <u>ongoing</u>
 
-I will continue to update my project with new questions to allow my users to play frequently. I also have future development plans which I have listed below.
+I will continue to update my quiz with new questions to allow my users to play frequently. I also have future development plans which I have listed below.
 
 **Future Development plans**
 
-- As my game expands I will Merge all my js files into one, as well as all my css files. This will ensure that my game loading stays efficient and creates the best user experience for my user. 
+- As my game expands I will Merge all my js files into one, as well as all my css files. This will ensure that my game loading stays efficient and creates the best user experience for my user.
 
 - Create different levels of difficulty;
 
   - Questions of different difficulty
   - Breaking up regions further into smaller areas such as cities.
 
-- Create different games focusing on specific categories such as landmarks.
+- Create different games focusing on specific categories such as British landmarks.
 
 ---
 
@@ -200,12 +200,9 @@ I will continue to update my project with new questions to allow my users to pla
 
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
 
-- [EmailJS](https://www.emailjs.com/)
+- [**EmailJS**](https://www.emailjs.com/)
 
   - Used to send emails directly from a from to my gmail account.
-
-- [JS hint](https://jshint.com/)
-  - To check for any errors with JS code.
 
 ---
 
@@ -357,7 +354,6 @@ Testing my user's <u>key priorities</u>:
 
 ![contact form](assets/images/readme/US8-1.png)
 
-
 9. **About us and features section on site**
 
 - 'About us' and 'features' section found on homepage and easily navigated to through the main menu or same page scroll arrows.
@@ -370,18 +366,40 @@ Testing my user's <u>key priorities</u>:
 
 ![Socail media links](assets/images/readme/US10-1.png)
 
-
 #### Manual function testing
 
 To ensure my site was working correctly I carried out some manual function testing as follows:
 
-1. Testing the site navigation.
-2. Testing the score countdown function
-3. Testing the question counter function.
-4. Testing the timer countdown and animation.
-5. Testing the toggle function.
-6. Testing emailJS.
-7. Testing leaderboard input.
+**1. Site navigation**
+
+- I checked the site dropdown menu was working correcting by starting on the homepage and navigating around the site from and to every screen the user would be faced with.
+- I checked the scroll navigation arrows on the homepage were working by clicking through each section one by one.
+- Links to external social platforms were checked by ensuring when clicked that the user would be navigated to the site based on the icon.
+
+**2. Score countdown function**
+
+- To check the score count was adding and subtracting correctly depending on the users selected answer, I clicked 'START QUIZ' and went on to click an answer correctly and then one incorrectly. 10 points were added for the first, and minus 5 for the second so I knew it was working correctly.
+
+**3. Question counter function**
+
+- To make sure the question counter was increasing by 1 everytime the user moved onto a different question I started the game and checked the value after each time a new question was given. This moved up by one each time so I knew this function was working well.
+
+**4. Timer countdown and animation**
+  - The countdown timer starts at 30s and decreasing by 1 every second until the timer hits zero and the game ends. The game end popup always popped up when the timer reached 0 which showed it was functioning correctly. 
+ 
+**5. Toggle function**
+  - To check the toggle was working i started the game and clicked the button once to hide the question then again to see if the question reappeared. And it did.
+
+**6. Shuffled questions**
+  - I played the quiz multiple times to ensure that each time the questions that appeared were different and also that none were repeated more than once. This was indeed the case so i know the shuffled questions function was working correctly.
+
+**7. Sending email via contact form using emailJS**
+  - I added an alert on my js file for when a message was sent with success.
+  - I filled out the contact form and sent myself a message multiple times to see if I recieved it to my gmail account, which I did.
+
+**8. Leaderboard name and score input**
+  - To ensure the names and scores were adding correctly to the leaderboard I played multiple times to see if the name and score matched correctly.
+  - I also played over 10 times to ensure that the top 10 best scores were the ones being saved.
 
 #### Validator checks
 
@@ -390,6 +408,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
 - [**CSS Validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+JS hint was used to check for any errors with my Javascript files.
+
+- [**JS hint**](https://jshint.com/)
 
 #### Responsive Design
 
@@ -417,13 +439,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### Content
 
-- Bootstrap 4.5: Bootstrap Library used throughout the project, components used include the grid System, forms, buttons, modals, nav menu, leaderboard table
+- [Bootstrap 4.5](https://getbootstrap.com/): Bootstrap Library used throughout the project, components used include the grid System, forms, buttons, modals, nav menu, leaderboard table
 
 - [css-tricks.com](https://css-tricks.com/): Using 8 digit hex codes.
 
 - [w3schools.com](https://www.w3schools.com/): Overlaying text
 
-- [codepen.io](https://codepen.io/)
+- [codepen.io](https://codepen.io/):
 
   - [Countdown timer with SVG circle](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for game timer.
   - [UK clickable map](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
@@ -432,12 +454,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [youtube.com](youtube.com):
 
-  - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with code for js file.
-  - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped with js for Leaderboard.
+  - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with general quiz code structure for js file.
+  - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped when writing code for javascript Leaderboard and seperate file for json questions.
 
 - [sitpoint.com](https://www.sitepoint.com/):
 
-  - [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/): Helped with code for js file.
+  - [How to Make a Simple JavaScript Quiz](https://www.sitepoint.com/simple-javascript-quiz/): Helped with general code structure for javascript file.
 
 - [codeinstitute.net](https://courses.codeinstitute.net/): Sending Emails Using EmailJS.
 
