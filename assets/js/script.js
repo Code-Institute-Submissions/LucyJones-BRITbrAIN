@@ -18,6 +18,18 @@ $(document).ready(function () {
   let questionCount = 0;
   let timeLeft = 30;
   let shuffledQuestions, currentQuestionIndex;
+  let questions = [];
+
+  //Get json file//
+  fetch("assets/js/questions.json")
+    .then((res) => {
+      console.log(res);
+      return res.json();
+    })
+    .then((loadedQuestions) => {
+      console.log(loadedQuestions);
+      questions = loadedQuestions;
+    });
 
   //Event listeners//
   startButton.addEventListener("click", startGame);
@@ -112,44 +124,4 @@ $(document).ready(function () {
       setNextQuestion();
     }
   });
-
-  // My questions //
-  var questions = [
-    {
-      question: "In which region would you find a 'Brummie'?",
-      correctAnswer: "west-midlands",
-    },
-    {
-      question: "In which region would you find the Angel of the North?",
-      correctAnswer: "north-east",
-    },
-    {
-      question: "In which region were the Beatles formed?",
-      correctAnswer: "north-west",
-    },
-    {
-      question: "In which region would you find Windsor Castle?",
-      correctAnswer: "south-east",
-    },
-    {
-      question: "Which region is home to Glastonbury Festival?",
-      correctAnswer: "south-west",
-    },
-    {
-      question: "In which region is the capital of the UK?",
-      correctAnswer: "london",
-    },
-    {
-      question: "In which region is Coronation Street filmed?",
-      correctAnswer: "north-west",
-    },
-    {
-      question: "In which region would you find 'The Humber Bridge'?",
-      correctAnswer: "yorkshire-and-the-humber",
-    },
-    {
-      question: "In which region would you find 'The University of Cambridge'?",
-      correctAnswer: "eastern",
-    },
-  ];
 });
