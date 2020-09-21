@@ -2,11 +2,11 @@
 
 ![title](assets/images/readme/title.png)
 
-BRITbrAIN is an interactive map based quiz game with Britain based trivia questions. Answer the question by choosing the correct region on the map.
+BRITbrAIN is an interactive map based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
-How well do you know Britain?
+**How well do you know Britain??**
 
 [Take the Quiz](https://lucyjpjones.github.io/LucyJones-BRITbrAIN/)
 
@@ -47,7 +47,7 @@ How well do you know Britain?
 
 #### Purpose
 
-The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge on my country.
+The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge on Britain.
 
 #### User stories
 
@@ -55,7 +55,7 @@ The <u>key priorities</u> for my user are as follows:
 
 1. A user friendly site that is easy to navigate.
 
-2. An enjoyable, interactive quiz to play which also aims to develop the users knowledge on Britain.
+2. An enjoyable, interactive quiz to play.
 
 3. An easily accessible button to start the quiz.
 
@@ -65,7 +65,7 @@ The <u>key priorities</u> for my user are as follows:
 
 6. A question counter to keep track of the users progress throughout the quiz.
 
-7. A timer to limit the time per question, to add further interaction for the user and prevent any users from cheating.
+7. A quiz timer to limit the length of the game.
 
 8. Ability to contact me through an online form.
 
@@ -82,15 +82,15 @@ The <u>key priorities</u> for my user are as follows:
 - **Colour scheme**
 
   - The colour scheme is primarily based around peaches in association with the brain and extra colours were added to compliment the palette using [Coolors](https://coolors.co).
-  - I have used the 'opacity' property to create lighter and darker shades.
+  - I have used the 'opacity' property to create lighter and darker shades throughout the site.
 
     ![Colour Scheme](assets/images/readme/colourScheme.png)
 
 - **Typography**
 
-  - The main font used throughout the site is'Raleway' which belongs to the sans-serif typeface family and is clean and elegant, making it a good choice for web design.
+  - The main font used throughout the site is'Raleway' which belongs to the sans-serif typeface family. The font is clean and elegant, making it a good choice for web design.
 
-  - 'Ranchers' font has been used for the 'BRITbrAIN' title as it is fun and has a general style comparison with the Brain.
+  - I have used 'Ranchers' font for the 'BRITbrAIN' title as it is fun and pairs well with the Brain theme.
 
   - Sans Serif as the fallback font if for any reason the font isn't being imported into the site correctly.
 
@@ -110,32 +110,26 @@ As part of the design process, before starting my project I sketched out initial
 
 - **Responsive on all device sizes**
 
-  - Responsive through using Bootstrap grid system and CSS media queries.
+  - Mobile first design, responsive on all devices through using Bootstrap grid system and CSS media queries.
 
-- **Navigation dropdown menu**
+- **User friendly interface with easy navigation throughout site**
 
-  - A navigation dropdown menu to allow the user to easily access different pages of the site.
+  - Attractive, minimalistic design with visuals and information presented in a clear and concise manner.
 
-- **Page navigation Arrows**
+  - Easy readable fonts and simple navigation throughout site.
 
-  - Arrow navigations to scroll down through sections on homepage.
-
-- **External links to social platforms**
-
-  - Recognisable icons with links to my external social platforms located at the bottom of dropdown navigation menu.
-
-- **Contact Form with JSemail**
+- **Option for user to reach out**
 
   - A contact form with submit button for users to easily get in touch via my website.
   - The form has been set up to ensure all fields are filled out and that the email is written in the correct format.
-  - The from is working and messages sent are linked to my gmail account.
+  - The form uses JSemail to allow messages to be sent directly to my gmail account.
 
 - **Timer**
 
-  - 30s circle countdown timer created using html, css and javascript.
+  - Interactive 30s circle countdown timer created using html, css and javascript.
 
 - **Leaderboard**
-  - Game leaderboard created through javascript and local storage.
+  - Players can access a game leaderboard created through javascript and local storage.
 
 #### To-do list:
 
@@ -143,16 +137,16 @@ As part of the design process, before starting my project I sketched out initial
 
 > Project is: <u>ongoing</u>
 
-I will continue to update my project with new questions to allow the user to play frequently. I also have future development plans which I have listed below.
+I will continue to update my project with new questions to allow my users to play frequently. I also have future development plans which I have listed below.
 
 **Future Development plans**
 
-- Creating different levels of difficulty;
+- Create different levels of difficulty;
 
   - Questions of different difficulty
   - Breaking up regions further into smaller areas such as cities.
 
-- Creating different games based focusing on specific categories such as landmarks.
+- Create different games focusing on specific categories such as landmarks.
 
 ---
 
@@ -176,7 +170,7 @@ I will continue to update my project with new questions to allow the user to pla
 
 - [**Font Awesome 4.7.0**](https://fontawesome.com/)
 
-  - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+  - Font Awesome was used to add icons for aesthetic and UX purposes.
 
 - [**jQuery:**](https://jquery.com/)
 
@@ -190,17 +184,25 @@ I will continue to update my project with new questions to allow the user to pla
 - [**GitHub**](https://github.com/)
 
   - GitHub is used to store the project code after being pushed from Git.
-  - GitHub Wiki TOC generator used to format README.md table of contents.
 
 - [**Sweetalert2**](https://sweetalert2.github.io/)
 
   - Used for responsive pop up boxes.
 
 - [**Grammarly**](https://www.grammarly.com/)
+
   - Grammarly was used to ensure any grammar errors are eliminated.
 
 - [**HTML Formatter**](https://www.freeformatter.com/html-formatter.html) and [**CSS Formatter**](https://www.freeformatter.com/css-beautifier.html)
+
   - Used to format my HTML and CSS file with desired indentation level for optimal readability.
+
+- [EmailJS](https://www.emailjs.com/)
+
+  - Used to send emails directly from a from to my gmail account.
+
+- [JS hint](https://jshint.com/)
+  - To check for any errors with JS code.
 
 ---
 
@@ -299,7 +301,7 @@ Testing my user's <u>key priorities</u>:
 
 ![Navigation](assets/images/readme/US1-1.png)
 
-2. **An enjoyable, interactive quiz to play which also aims to develop the users knowledge on Britain**
+2. **An enjoyable, interactive quiz to play.**
 
 - An interactive quiz with questions based on Britain.
 
@@ -315,27 +317,21 @@ Testing my user's <u>key priorities</u>:
 
 - Instructions on 'How to play' is located on the homepage and can be navigated to through the main menu or same page scroll arrows.
 
+- - When user clicks start game they are presented with a popup box 'how to play?' before they begin.
+
 ![How to play](assets/images/readme/US4-1.png)
-
-- When user clicks start game they are presented with a popup box 'how to play?' before they begin.
-
-![How to play popup](assets/images/readme/US4-2.png)
 
 5. **Recorded score and leaderboard, for user to check personal performance and ranking against other players**
 
 - Score counter displayed at the top left of question page to keep track of users score.
 
-![Score counter](assets/images/readme/US5-1.png)
-
 - When timer ends, final score is presented to the user.
-
-![End of game popup](assets/images/readme/US5-2.png)
 
 - User is able to enter their name and submit score to leaderboard.
 
-![Leaderboard](assets/images/readme/US5-3.png)
-
 - Leaderboard shows top 10 scores to user using local storage.
+
+![Score counter](assets/images/readme/US5-1.png)
 
 6. **A question counter to keep track of the users progress throughout the quiz**
 
@@ -343,7 +339,7 @@ Testing my user's <u>key priorities</u>:
 
 ![Question progress](assets/images/readme/US6-1.png)
 
-7.**A timer to limit the time per question to add further interaction for the user and prevent any users from cheating**
+7.**A quiz timer to limit the length of the game.**
 
 - Timer visible on question page once game has started.
 - Timer limit is a total of 30 seconds with the game automatically ending when it reaches 0.
@@ -354,12 +350,10 @@ Testing my user's <u>key priorities</u>:
 
 - Contact form on landing page linked directly to my gmail account allowing user to easily get in touch.
 
-![contact form](assets/images/readme/US8-1.png)
-![contact form email delivery](assets/images/readme/US8-2.png)
-
 - Easily navigated to form through the main menu or scroll arrows located on homepage.
 
-![contact form navigation](assets/images/readme/US8-3.png)
+![contact form](assets/images/readme/US8-1.png)
+
 
 9. **About us and features section on site**
 
