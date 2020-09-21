@@ -31,6 +31,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
   - [Accessing code](#accessing-code)
 - [&rarr; **Testing**](#-rarr----testing--)
   - [Testing user stories](#testing-user-stories)
+  - [Manual function testing](#manual-function-testing)
   - [Validator checks](#validator-checks)
   - [Responsive Design](#responsive-design)
   - [Additional Testing](#additional-testing)
@@ -140,6 +141,8 @@ As part of the design process, before starting my project I sketched out initial
 I will continue to update my project with new questions to allow my users to play frequently. I also have future development plans which I have listed below.
 
 **Future Development plans**
+
+- As my game expands I will Merge all my js files into one, as well as all my css files. This will ensure that my game loading stays efficient and creates the best user experience for my user. 
 
 - Create different levels of difficulty;
 
@@ -366,6 +369,19 @@ Testing my user's <u>key priorities</u>:
 - Social media links found in main menu.
 
 ![Socail media links](assets/images/readme/US10-1.png)
+
+
+#### Manual function testing
+
+To ensure my site was working correctly I carried out some manual function testing as follows:
+
+1. Testing the site navigation.
+2. Testing the score countdown function
+3. Testing the question counter function.
+4. Testing the timer countdown and animation.
+5. Testing the toggle function.
+6. Testing emailJS.
+7. Testing leaderboard input.
 
 #### Validator checks
 
