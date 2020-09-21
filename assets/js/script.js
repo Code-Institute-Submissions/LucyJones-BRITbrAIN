@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // const variables//
+  // const variables
   const scoreCountElement = document.getElementById("score-number");
   const questionCountElement = document.getElementById("question-number");
   const popupStartBox = document.getElementById("start-popup");
@@ -13,14 +13,16 @@ $(document).ready(function () {
   const countdownNumber = document.getElementById("countdown-number");
   const animationTimer = document.getElementById("timer");
 
-  // let variables//
+  // let variables
+
   let score = 0;
   let questionCount = 0;
   let timeLeft = 30;
   let shuffledQuestions, currentQuestionIndex;
   let questions = [];
 
-  //Get json file//
+  //Fetch questions and answers from local json file
+  //Convert http response to json
   fetch("assets/js/questions.json")
     .then((res) => {
       console.log(res);
@@ -31,31 +33,12 @@ $(document).ready(function () {
       questions = loadedQuestions;
     });
 
-  //Event listeners//
+  //Event listener to start game when user clicks startButton
   startButton.addEventListener("click", startGame);
 
-  // Toggle question //
-  $(".btn-info").click(function () {
-    $("#question-box").toggle();
-  });
-
-  // Scoring //
-  function correctScore() {
-    score += 10;
-    scoreCountElement.textContent = score;
-  }
-  function incorrectScore() {
-    score -= 5;
-    scoreCountElement.textContent = score;
-  }
-
-  // Question progress //
-  function progress() {
-    questionCount++;
-    questionCountElement.textContent = questionCount;
-  }
-
-  // Start game //
+  // Function to start game
+  // Hide start popupStartBox once 'startButton' is clicked
+  // Make all game elements so user can play game
   function startGame() {
     popupStartBox.classList.add("hide");
     gameHeaderElement.classList.remove("hide");
@@ -67,19 +50,22 @@ $(document).ready(function () {
     setNextQuestion();
   }
 
-  // Next question//
-  function setNextQuestion() {
-    showQuestion(shuffledQuestions[currentQuestionIndex]);
-    $("#question-box").show();
-    progress();
+  // Scoring function
+  // Add 10 points to score for every correct answer
+  // Remove 5 points from score for every wrong answer
+  function correctScore() {
+    score += 10;
+    scoreCountElement.textContent = score;
   }
-  // Show question from array //
-  function showQuestion(question) {
-    questionElement.innerText = question.question;
+  function incorrectScore() {
+    score -= 5;
+    scoreCountElement.textContent = score;
   }
 
-  // Timer //
-
+  // Timer function
+  // CSS animation to start at same time as number countdown
+  // Timer to countdown from 30s
+  // If timer reaches 0, go to noTimeLeft function
   function countdown() {
     animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
@@ -90,13 +76,40 @@ $(document).ready(function () {
       countdownNumber.textContent = timeLeft;
     }
   }
-
+  // If no time left, save final score to local storage
+  // Take user to end.html page
   function noTimeLeft() {
     localStorage.setItem("newScore", score);
     return window.location.assign("end.html");
   }
 
-  // Select answer //
+  // Question progress function
+  // Add one to question counter every time a new question is displayed
+  function progress() {
+    questionCount++;
+    questionCountElement.textContent = questionCount;
+  }
+
+  // Toggle function to show and hide question
+  $(".btn-info").click(function () {
+    $("#question-box").toggle();
+  });
+
+  // Next question function
+  function setNextQuestion() {
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
+    $("#question-box").show();
+    progress();
+  }
+  // Show question function
+  function showQuestion(question) {
+    questionElement.innerText = question.question;
+  }
+
+  // Selecting answer function
+  // User Answer becomes id value from which the user clicks
+  // If user Answer value matches the correctAnswer in json array, correct popup appears
+  // If user Answer doesn't match correctAnswer in json array, incorrect answer appears
   $(".choice").on("click", function () {
     let userAnswer = $(this).attr("id");
     if (userAnswer === questions[currentQuestionIndex].correctAnswer) {
@@ -118,7 +131,6 @@ $(document).ready(function () {
         showConfirmButton: false,
         timer: 1200,
       });
-      console.log(userAnswer);
       incorrectScore();
       currentQuestionIndex++;
       setNextQuestion();
