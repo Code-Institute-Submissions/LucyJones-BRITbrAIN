@@ -172,8 +172,6 @@ html body {
 /* ---------- Brain image */
 
 #brain {
-  width: 60%;
-  max-width: 250px;
   margin-top: 25%;
   padding-bottom: 20px;
   filter: opacity(0.9);
