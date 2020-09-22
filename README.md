@@ -32,6 +32,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 - [&rarr; **Testing**](#-rarr----testing--)
   - [Testing user stories](#testing-user-stories)
   - [Manual function testing](#manual-function-testing)
+  - [Automated testing](#automated-testing)
   - [Validator checks](#validator-checks)
   - [Responsive Design](#responsive-design)
   - [Additional Testing](#additional-testing)
