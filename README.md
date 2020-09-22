@@ -189,6 +189,17 @@ I will continue to update my quiz with new questions to allow my users to play f
 
   - GitHub is used to store the project code after being pushed from Git.
 
+- [**Paint 3D:**](https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
+  - Paint 3D was used to edit and create images for the website.
+
+- [**Snipping Tool:**](https://support.microsoft.com/en-gb/help/13776/windows-10-use-snipping-tool-to-capture-screenshots)
+
+  - Snipping Tool was used for screenshots of my website.
+
+- [**Balsamiq**](https://balsamiq.com/)
+
+  - Balsamiq was used to create the wireframes during the design process.
+
 - [**Sweetalert2**](https://sweetalert2.github.io/)
 
   - Used for responsive pop-up boxes.
@@ -340,7 +351,7 @@ Testing my user's <u>key priorities</u>:
 
 ![Question progress](assets/images/readme/US6-1.png)
 
-**7.A quiz timer to limit the length of the game.**
+**7. A quiz timer to limit the length of the game.**
 
 - Timer visible on the question page once the game has started.
 - Timer limit is a total of 30 seconds with the game automatically ending when it reaches 0.
@@ -377,30 +388,49 @@ To ensure my site was working correctly I carried out some manual function testi
 - I checked the scroll navigation arrows on the home-page was working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring when clicked that the user would be navigated to the site based on the icon.
 
-**2. Score countdown function**
+**2. Hover, focus and active effects**
+
+- Hovered over the following button elements to ensure the correct brightness effects were in place;
+  - 'Leadboard' link in dropdown menu
+  - social icons in dropdown menu
+  - 'SEND' button on contact form
+  - 'START QUIZ' button
+  - 'LETS GO' button
+  - 'SUBMIT', 'PLAY AGAIN' and 'LEADERBOARD' buttons on end screen
+
+**3. Score countdown function**
 
 - To check the score count was adding and subtracting correctly depending on the user's selected answer, I clicked 'START QUIZ' and went on to click a right answer and then a wrong. Ten points were added for the first, and minus five for the second so I knew it was working correctly.
 
-**3. Question counter function**
+**4. Question counter function**
 
 - To make sure the question counter was increasing by one every time the user moved onto a different question I started the game and checked the value after each time a new question was given. This moved up by one each time so I knew this function was working well.
 
-**4. Timer countdown and animation**
-  - The countdown timer starts at thirty, decreasing by one every second until the timer hits zero and the game ends. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be. 
- 
-**5. Toggle function**
-  - To check the toggle was working I started the game and clicked the button once to hide the question then again to see if the question reappeared. And it did. This was tested throughout multiple questions.
+**5. Timer countdown and animation**
 
-**6. Shuffled questions**
-  - I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the shuffled question maths was working correctly.
+- The countdown timer starts at thirty, decreasing by one every second until the timer hits zero and the game ends. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
 
-**7. Sending email via contact form using emailJS**
-  - I added an alert on my javascript file for when a message was sent with success.
-  - I filled out the contact form and sent myself a message multiple times to see if I received it to my Gmail account, which I did.
+**6. Toggle function**
 
-**8. Leaderboard name and score input**
-  - To ensure the names and scores were adding correctly to the leaderboard I played multiple times to see if the name and score matched correctly.
-  - I also played over 10 times to ensure that the top 10 best scores were the ones being kept on the leaderboard.
+- To check the toggle was working I started the game and clicked the button once to hide the question then again to see if the question reappeared. And it did. This was tested throughout multiple questions.
+
+**7. Shuffled questions**
+
+- I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the shuffled question maths was working correctly.
+
+**8. Sending email via contact form using emailJS**
+
+- I added an alert on my javascript file for when a message was sent with success.
+- I filled out the contact form and sent myself a message multiple times to see if I received it to my Gmail account, which I did.
+
+**9. Leaderboard name and score input**
+
+- To ensure the names and scores were adding correctly to the leaderboard I played multiple times to see if the name and score matched correctly.
+- I also played over 10 times to ensure that the top 10 best scores were the ones being kept on the leaderboard.
+
+**10. Submitting score only when username is entered**
+
+- I played the game and when presented with the end pop-up I tried to submit my score before entering my username. As desired, the button was not clickable until I had entered text into the input box.
 
 #### Validator checks
 
