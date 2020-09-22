@@ -1,8 +1,8 @@
-# ![// PUT RESPONSIVE IMAGE HERE //](assets/images/readme/responsive-BRITbrAIN.png)
+# ![Responsive images](assets/images/readme/responsive-BRITbrAIN.png)
 
 ![title](assets/images/readme/title.png)
 
-BRITbrAIN is an interactive map based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
+BRITbrAIN is an interactive map-based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
@@ -48,13 +48,13 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 #### Purpose
 
-The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge on Britain. My decision to create this site was based on a family interest of map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge on Britain.
+The purpose of this site is to create a fun interactive quiz for the user whilst developing both their general and geographical knowledge of Britain. My decision to create this site was based on a family interest in map games and my lack of general knowledge on Britain. By completing this project I will have shown greater experience using Javascript and hopefully expanded my knowledge on Britain.
 
 #### User stories
 
 The <u>key priorities</u> for my user are as follows:
 
-1. A user friendly site that is easy to navigate.
+1. A user-friendly site that is easy to navigate.
 
 2. An enjoyable, interactive quiz to play.
 
@@ -62,9 +62,9 @@ The <u>key priorities</u> for my user are as follows:
 
 4. Clear instructions for the user on how to play.
 
-5. Recorded score and leaderboard, for user to check personal performance and ranking against other players.
+5. Recorded score and leaderboard, for the user to check personal performance and ranking against other players.
 
-6. A question counter to keep track of the users progress throughout the quiz.
+6. A question counter to keep track of the user's progress throughout the quiz.
 
 7. A quiz timer to limit the length of the game.
 
@@ -72,13 +72,13 @@ The <u>key priorities</u> for my user are as follows:
 
 9. About us and features section on site.
 
-10. Links to social media sites.
+10. Links to external social media sites.
 
 #### Design
 
 - **Structure**
 
-  - A simple design structure with a fixed dropdown menu and page navigation to allow easy navigation throughout site.
+  - A simple design structure with a fixed dropdown menu and scroll arrows to allow easy navigation throughout the site.
 
 - **Colour scheme**
 
@@ -89,7 +89,7 @@ The <u>key priorities</u> for my user are as follows:
 
 - **Typography**
 
-  - The main font used throughout the site is'Raleway' which belongs to the sans-serif typeface family. The font is clean and elegant, making it a good choice for web design.
+  - The main font used throughout the site is 'Raleway' which belongs to the sans-serif typeface family. The font is clean and elegant, making it a good choice for web design.
 
   - I have used 'Ranchers' font for the 'BRITbrAIN' title as it is fun and pairs well with the Brain theme.
 
@@ -97,7 +97,7 @@ The <u>key priorities</u> for my user are as follows:
 
 #### Wireframes
 
-As part of the design process, before starting my project I sketched out initial drawings then used <u>Balsamiq</u> to create sharper looking wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
+As part of the design process, before starting my project I sketched out initial drawings then used <u>Balsamiq</u> to create sharper-looking wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
 
 [view initial drawings](assets/images/readme/initial-drawing.jpg)
 
@@ -111,23 +111,22 @@ As part of the design process, before starting my project I sketched out initial
 
 - **Responsive on all device sizes**
 
-  - Mobile first design, responsive on all devices through using Bootstrap grid system and CSS media queries.
+  - Mobile-first design, responsive on all devices through using the Bootstrap grid system and CSS media queries.
 
-- **User friendly interface with easy navigation throughout site**
+- **A user-friendly interface with easy navigation throughout the site**
 
-  - Attractive, minimalistic design with visuals and information presented in a clear and concise manner.
+  - Attractive, minimalistic design with visuals and information presented clearly and concisely.
+  - Easily readable fonts and simple navigation throughout the site.
 
-  - Easy readable fonts and simple navigation throughout site.
-
-- **Option for user to reach out**
+- **Option for the user to reach out**
 
   - A contact form with submit button for users to easily get in touch via my website.
   - The form has been set up to ensure all fields are filled out and that the email is written in the correct format.
-  - The form uses JSemail to allow messages to be sent directly to my gmail account.
+  - The form uses JSemail to allow messages to be sent directly to my Gmail account.
 
 - **Timer**
 
-  - Interactive 30s circle countdown timer created using html, css and javascript.
+  - Interactive 30s circle countdown timer created using HTML, CSS and javascript.
 
 - **Leaderboard**
   - Players can access a game leaderboard created through javascript and local storage.
@@ -142,14 +141,16 @@ I will continue to update my quiz with new questions to allow my users to play f
 
 **Future Development plans**
 
-- As my game expands I will Merge all my js files into one, as well as all my css files. This will ensure that my game loading stays efficient and creates the best user experience for my user.
+- As my game expands I will merge all my javascript files into one, as well as all my CSS files. This will ensure that my game loading stays efficient and creates the best experience for my user.
 
-- Create different levels of difficulty;
+- Create different levels of difficulty- easy, medium and hard;
 
-  - Questions of different difficulty
-  - Breaking up regions further into smaller areas such as cities.
+  - Tailored questions for each level.
+  - Breaking up regions further into smaller areas, such as cities.
 
 - Create different games focusing on specific categories such as British landmarks.
+
+- Social media icons are currently linked to my Github page, the Instagram home-page and my Linkedin profile. If the game progresses I will create customized social links for BRITbrAIN to create further player interaction.
 
 ---
 
@@ -169,7 +170,7 @@ I will continue to update my quiz with new questions to allow my users to play f
 
 - [**Google fonts**](https://fonts.google.com/)
 
-  - Google fonts were used to import the fonts into the css file which is used on all pages throughout the project.
+  - Google fonts were used to import the fonts into the CSS file which is used on all pages throughout the project.
 
 - [**Font Awesome 4.7.0**](https://fontawesome.com/)
 
@@ -182,7 +183,7 @@ I will continue to update my quiz with new questions to allow my users to play f
 
 - [**Git**](https://git-scm.com/)
 
-  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 
 - [**GitHub**](https://github.com/)
 
@@ -190,7 +191,7 @@ I will continue to update my quiz with new questions to allow my users to play f
 
 - [**Sweetalert2**](https://sweetalert2.github.io/)
 
-  - Used for responsive pop up boxes.
+  - Used for responsive pop-up boxes.
 
 - [**Grammarly**](https://www.grammarly.com/)
 
@@ -202,7 +203,7 @@ I will continue to update my quiz with new questions to allow my users to play f
 
 - [**EmailJS**](https://www.emailjs.com/)
 
-  - Used to send emails directly from a from to my gmail account.
+  - Used to send emails directly from a from to my Gmail account.
 
 ---
 
@@ -294,75 +295,75 @@ Now, you have a local copy of your fork of the BRITbrAIN repository.
 
 Testing my user's <u>key priorities</u>:
 
-1. **A user friendly site that is easy to navigate**
+**1. A user-friendly site that is easy to navigate**
 
-- Site includes a main dropdown menu and also scroll navigation arrows on home page.
+- Site includes the main dropdown menu and also scroll navigation arrows on the home-page.
 - Navigation menu is fixed so is always visible to the user.
 
 ![Navigation](assets/images/readme/US1-1.png)
 
-2. **An enjoyable, interactive quiz to play.**
+**2. An enjoyable, interactive quiz to play.**
 
 - An interactive quiz with questions based on Britain.
 
 ![Game images](assets/images/readme/US2-1.png)
 
-3. **An easily accessible button to start the quiz**
+**3. An easily accessible button to start the quiz**
 
-- 'Start Quiz' button visible to user on first view of site.
+- 'Start Quiz' button visible to the user on the first view of the site.
 
 ![start button](assets/images/readme/US3-1.png)
 
-4. **Clear instructions for the user on how to play**
+**4. Clear instructions for the user on how to play**
 
-- Instructions on 'How to play' is located on the homepage and can be navigated to through the main menu or same page scroll arrows.
+- Instructions on 'How to play' is located on the home-page and can be navigated to through the main menu or same page scroll arrows.
 
-- - When user clicks start game they are presented with a popup box 'how to play?' before they begin.
+- When the user clicks start game they are presented with a pop-up box 'how to play?' before they begin.
 
 ![How to play](assets/images/readme/US4-1.png)
 
-5. **Recorded score and leaderboard, for user to check personal performance and ranking against other players**
+**5. Recorded score and leaderboard, for the user to check personal performance and ranking against other players**
 
-- Score counter displayed at the top left of question page to keep track of users score.
+- Score counter displayed at the top left of the question page to keep track of the user's score.
 
-- When timer ends, final score is presented to the user.
+- When the timer ends, the final score is presented to the user.
 
-- User is able to enter their name and submit score to leaderboard.
+- User can enter their name and submit their score to the leaderboard.
 
-- Leaderboard shows top 10 scores to user using local storage.
+- Leaderboard shows the top 10 scores to the user using local storage.
 
 ![Score counter](assets/images/readme/US5-1.png)
 
-6. **A question counter to keep track of the users progress throughout the quiz**
+**6. A question counter to keep track of the user's progress throughout the quiz**
 
-- Question counter displayed at top right of page to keep track of question number.
+- Question counter displayed at the top right of the page to keep track of the question number.
 
 ![Question progress](assets/images/readme/US6-1.png)
 
-7.**A quiz timer to limit the length of the game.**
+**7.A quiz timer to limit the length of the game.**
 
-- Timer visible on question page once game has started.
+- Timer visible on the question page once the game has started.
 - Timer limit is a total of 30 seconds with the game automatically ending when it reaches 0.
 
 ![Timer](assets/images/readme/US7-1.png)
 
-8. **Ability to contact me through an online form**
+**8. Ability to contact me through an online form**
 
-- Contact form on landing page linked directly to my gmail account allowing user to easily get in touch.
+- Contact form on the landing page linked directly to my Gmail account allowing the user to easily get in touch.
 
-- Easily navigated to form through the main menu or scroll arrows located on homepage.
+- Easily navigated to form through the main menu or the scroll arrows located on home-page.
 
 ![contact form](assets/images/readme/US8-1.png)
 
-9. **About us and features section on site**
+**9. About us and features section on site**
 
-- 'About us' and 'features' section found on homepage and easily navigated to through the main menu or same page scroll arrows.
+- 'About us' and 'features' section found on the home-page and easily navigated to through the main menu or same page scroll arrows.
 
 ![About us and features section](assets/images/readme/US9-1.png)
 
-10. **Links to social media sites**
+**10. Links to external social media sites**
 
-- Social media links found in main menu.
+- Social media links found on the main menu.
 
 ![Socail media links](assets/images/readme/US10-1.png)
 
@@ -372,34 +373,34 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **1. Site navigation**
 
-- I checked the site dropdown menu was working correcting by starting on the homepage and navigating around the site from and to every screen the user would be faced with.
-- I checked the scroll navigation arrows on the homepage were working by clicking through each section one by one.
+- I checked the site dropdown menu was working correcting by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
+- I checked the scroll navigation arrows on the home-page was working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring when clicked that the user would be navigated to the site based on the icon.
 
 **2. Score countdown function**
 
-- To check the score count was adding and subtracting correctly depending on the users selected answer, I clicked 'START QUIZ' and went on to click an answer correctly and then one incorrectly. 10 points were added for the first, and minus 5 for the second so I knew it was working correctly.
+- To check the score count was adding and subtracting correctly depending on the user's selected answer, I clicked 'START QUIZ' and went on to click a right answer and then a wrong. Ten points were added for the first, and minus five for the second so I knew it was working correctly.
 
 **3. Question counter function**
 
-- To make sure the question counter was increasing by 1 everytime the user moved onto a different question I started the game and checked the value after each time a new question was given. This moved up by one each time so I knew this function was working well.
+- To make sure the question counter was increasing by one every time the user moved onto a different question I started the game and checked the value after each time a new question was given. This moved up by one each time so I knew this function was working well.
 
 **4. Timer countdown and animation**
-  - The countdown timer starts at 30s and decreasing by 1 every second until the timer hits zero and the game ends. The game end popup always popped up when the timer reached 0 which showed it was functioning correctly. 
+  - The countdown timer starts at thirty, decreasing by one every second until the timer hits zero and the game ends. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be. 
  
 **5. Toggle function**
-  - To check the toggle was working i started the game and clicked the button once to hide the question then again to see if the question reappeared. And it did.
+  - To check the toggle was working I started the game and clicked the button once to hide the question then again to see if the question reappeared. And it did. This was tested throughout multiple questions.
 
 **6. Shuffled questions**
-  - I played the quiz multiple times to ensure that each time the questions that appeared were different and also that none were repeated more than once. This was indeed the case so i know the shuffled questions function was working correctly.
+  - I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the shuffled question maths was working correctly.
 
 **7. Sending email via contact form using emailJS**
-  - I added an alert on my js file for when a message was sent with success.
-  - I filled out the contact form and sent myself a message multiple times to see if I recieved it to my gmail account, which I did.
+  - I added an alert on my javascript file for when a message was sent with success.
+  - I filled out the contact form and sent myself a message multiple times to see if I received it to my Gmail account, which I did.
 
 **8. Leaderboard name and score input**
   - To ensure the names and scores were adding correctly to the leaderboard I played multiple times to see if the name and score matched correctly.
-  - I also played over 10 times to ensure that the top 10 best scores were the ones being saved.
+  - I also played over 10 times to ensure that the top 10 best scores were the ones being kept on the leaderboard.
 
 #### Validator checks
 
@@ -447,15 +448,15 @@ JS hint was used to check for any errors with my Javascript files.
 
 - [codepen.io](https://codepen.io/):
 
-  - [Countdown timer with SVG circle](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for game timer.
+  - [Countdown timer with SVG circle](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for the game timer.
   - [UK clickable map](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
 
-- [sweetalert2](https://sweetalert2.github.io/): Used for responsive popup boxes.
+- [sweetalert2](https://sweetalert2.github.io/): Used for responsive pop-up boxes.
 
 - [youtube.com](youtube.com):
 
-  - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with general quiz code structure for js file.
-  - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped when writing code for javascript Leaderboard and seperate file for json questions.
+  - [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k): Helped with general quiz code structure for javascript file.
+  - [Build A Quiz App- James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx): Helped when writing code for javascript Leaderboard and a separate file for JSON questions.
 
 - [sitpoint.com](https://www.sitepoint.com/):
 
@@ -467,9 +468,9 @@ JS hint was used to check for any errors with my Javascript files.
 
 #### Media
 
-- [pixabay.com](https://pixabay.com/): Brain image for game logo.
+- [pixabay.com](https://pixabay.com/): Brain image for the game logo.
 
-- [mapchart.net](https://mapchart.net/): map image for game logo.
+- [mapchart.net](https://mapchart.net/): map image for the game logo.
 
 - The mockup image showing all devices on my README.md was created using [About Am I Responsive](http://ami.responsivedesign.is/)
 
