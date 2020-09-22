@@ -432,6 +432,10 @@ To ensure my site was working correctly I carried out some manual function testi
 
 - I played the game and when presented with the end pop-up I tried to submit my score before entering my username. As desired, the button was not clickable until I had entered text into the input box.
 
+#### Automated testing
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages.
+
 #### Validator checks
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input.
@@ -451,6 +455,8 @@ JS hint was used to check for any errors with my Javascript files.
 - Viewport tag included in the head of HTML files to tell the browser how to respond to different resolutions, particularly mobile ones.
 
 - Media queries used in the CSS file to target larger devices.
+
+- [Troy](http://troy.labs.daum.net/) was used to view game on a range of devices.
 
 #### Additional Testing
 
