@@ -14,7 +14,9 @@ $(document).ready(function () {
   const animationTimer = document.getElementById("timer");
 
   // let variables
-
+  // Start score and question counters at 0
+  // Start timer at 30 seconds
+  // create questions empty array to link with json file
   let score = 0;
   let questionCount = 0;
   let timeLeft = 30;
@@ -38,14 +40,16 @@ $(document).ready(function () {
 
   // Function to start game
   // Hide start popupStartBox once 'startButton' is clicked
-  // Make all game elements so user can play game
+  // Make all game elements visible so user can play game
   function startGame() {
     popupStartBox.classList.add("hide");
     gameHeaderElement.classList.remove("hide");
     questionContainerElement.classList.remove("hide");
     answerButtonsElement.classList.remove("hide");
+    // Shuffled questions maths to ensure questions are selected in random order
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
+
     setInterval(countdown, 1000);
     setNextQuestion();
   }

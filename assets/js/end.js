@@ -9,6 +9,7 @@ const maxHighScores = 10;
 // JSON parse to get a JS object array
 const results = JSON.parse(localStorage.getItem("results")) || [];
 
+// Set text content of endScore to newScore value. 
 endScore.innerText = newScore;
 
 // Disabled 'submitScoreBtn' so button can not be clicked unless a username has been entered
