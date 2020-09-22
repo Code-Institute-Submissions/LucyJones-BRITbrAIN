@@ -391,12 +391,12 @@ To ensure my site was working correctly I carried out some manual function testi
 **2. Hover, focus and active effects**
 
 - Hovered over the following button elements to ensure the correct brightness effects were in place;
-  - 'Leadboard' link in dropdown menu
+  - 'Leaderboard' link in dropdown menu
   - social icons in dropdown menu
-  - 'SEND' button on contact form
-  - 'START QUIZ' button
-  - 'LETS GO' button
-  - 'SUBMIT', 'PLAY AGAIN' and 'LEADERBOARD' buttons on end screen
+  - 'Send' button on contact form
+  - 'Start quiz' button
+  - 'Let's go' button
+  - 'Submit', 'PLAY AGAIN' and 'LEADERBOARD' buttons on end screen
 
 **3. Score countdown function**
 
@@ -428,7 +428,7 @@ To ensure my site was working correctly I carried out some manual function testi
 - To ensure the names and scores were adding correctly to the leaderboard I played multiple times to see if the name and score matched correctly.
 - I also played over 10 times to ensure that the top 10 best scores were the ones being kept on the leaderboard.
 
-**10. Submitting score only when username is entered**
+**10. Submitting score only when the username is entered**
 
 - I played the game and when presented with the end pop-up I tried to submit my score before entering my username. As desired, the button was not clickable until I had entered text into the input box.
 
@@ -472,16 +472,14 @@ JS hint was used to check for any errors with my Javascript files.
 
 - [Bootstrap 4.5](https://getbootstrap.com/): Bootstrap Library used throughout the project, components used include the grid System, forms, buttons, modals, nav menu, leaderboard table
 
-- [css-tricks.com](https://css-tricks.com/): Using 8 digit hex codes.
+- [css-tricks.com](https://css-tricks.com/)
 
-- [w3schools.com](https://www.w3schools.com/): Overlaying text
+- [w3schools.com](https://www.w3schools.com/)
 
 - [codepen.io](https://codepen.io/):
 
   - [Countdown timer with SVG circle](https://codepen.io/zebateira/pen/VvqJwm?css-preprocessor=none): Helped with code for the game timer.
   - [UK clickable map](https://codepen.io/vaughan1/pen/ZXOxKW): Helped with code for displaying the clickable map regions.
-
-- [sweetalert2](https://sweetalert2.github.io/): Used for responsive pop-up boxes.
 
 - [youtube.com](youtube.com):
 
