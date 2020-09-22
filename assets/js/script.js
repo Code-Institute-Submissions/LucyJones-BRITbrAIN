@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // const variables
+  // Create const variables
   const scoreCountElement = document.getElementById("score-number");
   const questionCountElement = document.getElementById("question-number");
   const popupStartBox = document.getElementById("start-popup");
@@ -21,8 +21,8 @@ $(document).ready(function () {
   let shuffledQuestions, currentQuestionIndex;
   let questions = [];
 
-  //Fetch questions and answers from local json file
-  //Convert http response to json
+  // Fetch questions and answers from local json file
+  // Convert http response to json
   fetch("assets/js/questions.json")
     .then((res) => {
       console.log(res);
