@@ -3,7 +3,7 @@
   <img src="assets/images/readme/title.png">
 <hr>
 
-An interactive map-based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
+### An interactive map-based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
