@@ -389,9 +389,9 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **1. Site navigation**
 
-- I checked the site dropdown menu was working correcting by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
+- I checked the site dropdown menu was working correctly by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
 - I checked the scroll navigation arrows were working by clicking through each section one by one.
-- Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested for every site page.
+- Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested from every page on the site.
 
 **2. Hover, focus and active effects**
 
@@ -413,7 +413,7 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **5. Timer countdown and animation**
 
-- The countdown timer starts at thirty, decreasing by one every second until the timer hits zero and the game ends. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
+- The countdown timer started at thirty, decreasing by one every second until the timer hits zero and the game ends. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
 
 **6. Toggle function**
 
@@ -426,7 +426,7 @@ To ensure my site was working correctly I carried out some manual function testi
 **8. Sending email via contact form using emailJS**
 
 - I added alerts to my javascript file for when a message was sent with success or had failed.
-- I filled out the contact form and sent myself a message multiple times to see if I received it to my Gmail account, which I did.
+- I filled out the contact form and sent myself a message multiple times from different devices to see if I received it to my Gmail account, which I did.
 
 **9. Leaderboard name and score input**
 
