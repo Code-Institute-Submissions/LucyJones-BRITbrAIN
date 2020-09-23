@@ -1,6 +1,7 @@
-# ![Responsive images](assets/images/readme/responsive-BRITbrAIN.png)
-
-![title](assets/images/readme/title.png)
+<div align="center">
+  <img src="assets/images/readme/responsive-BRITbrAIN.png">
+  <img src="assets/images/readme/title.png">
+</div>
 
 BRITbrAIN is an interactive map-based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
 
