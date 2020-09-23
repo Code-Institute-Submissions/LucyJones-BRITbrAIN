@@ -1,15 +1,17 @@
 <div align="center">
   <img src="assets/images/readme/responsive-BRITbrAIN.png">
   <img src="assets/images/readme/title.png">
-</div>
+<hr>
 
-BRITbrAIN is an interactive map-based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
+An interactive map-based quiz game with British trivia questions. Answer the question by choosing the correct region on the map.
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
 **How well do you know Britain??**
 
 [Take the Quiz](https://lucyjpjones.github.io/LucyJones-BRITbrAIN/)
+
+</div>
 
 ---
 
@@ -439,14 +441,13 @@ To ensure my site was working correctly I carried out some manual function testi
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages.
 
-  <u>Errors found:</u>
+<u>Errors found:</u>
 
-   - Serve images in next-gen formats;
-   
-   ![Lighthouse image error](assets/images/readme/lh-1.png)
+- Serve images in next-gen formats;
+
+![Lighthouse image error](assets/images/readme/lh-1.png)
 
 I decided not to change my image format as WebP is supported on less browsers.
-
 
 #### Validator checks
 
