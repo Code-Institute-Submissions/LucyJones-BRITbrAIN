@@ -438,6 +438,15 @@ To ensure my site was working correctly I carried out some manual function testi
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages.
 
+  <u>Errors found:</u>
+
+   - Serve images in next-gen formats;
+   
+   ![Lighthouse image error](assets/images/readme/lh-1.png)
+
+I decided not to change my image format as WebP is supported on less browsers.
+
+
 #### Validator checks
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input. JS hint was used to check for any errors with my Javascript files.
