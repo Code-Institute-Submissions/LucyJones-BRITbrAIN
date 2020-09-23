@@ -28,7 +28,7 @@ submitHighScore = (e) => {
     name: username.value,
     score: newScore,
   };
-  // add 'record' object to array
+  // Add 'record' object to array
   results.push(record);
   // Sort scores highest to lowest
   results.sort((a, b) => b.score - a.score);
