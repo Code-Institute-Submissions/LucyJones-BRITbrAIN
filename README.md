@@ -385,13 +385,13 @@ Testing my user's <u>key priorities</u>:
 
 #### Manual function testing
 
-To ensure my site was working correctly I carried out some manual function testing as follows:
+To ensure my site was working correctly I carried out some manual function testing;
 
 **1. Site navigation**
 
 - I checked the site dropdown menu was working correcting by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
-- I checked the scroll navigation arrows on the home-page was working by clicking through each section one by one.
-- Links to external social platforms were checked by ensuring when clicked that the user would be navigated to the site based on the icon.
+- I checked the scroll navigation arrows were working by clicking through each section one by one.
+- Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested for every site page.
 
 **2. Hover, focus and active effects**
 
@@ -401,15 +401,15 @@ To ensure my site was working correctly I carried out some manual function testi
   - 'Send' button on contact form
   - 'Start quiz' button
   - 'Let's go' button
-  - 'Submit', 'PLAY AGAIN' and 'LEADERBOARD' buttons on end screen
+  - 'Submit', 'Play again' and 'Leaderboard' buttons on end screen
 
 **3. Score countdown function**
 
-- To check the score count was adding and subtracting correctly depending on the user's selected answer, I clicked 'START QUIZ' and went on to click a right answer and then a wrong. Ten points were added for the first, and minus five for the second so I knew it was working correctly.
+- To check that the score count was adding and subtracting correctly depending on the user's selected answer, I clicked 'Start quiz' and went on to click a right answer and then a wrong. Ten points were added for the first, and minus five for the second so I knew the functions were working correctly.
 
 **4. Question counter function**
 
-- To make sure the question counter was increasing by one every time the user moved onto a different question I started the game and checked the value after each time a new question was given. This moved up by one each time so I knew this function was working well.
+- I checked the value after each time a new question was given to make sure the question counter was increasing by one every time. This confirmed that the function was working well.
 
 **5. Timer countdown and animation**
 
@@ -425,7 +425,7 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **8. Sending email via contact form using emailJS**
 
-- I added an alert on my javascript file for when a message was sent with success.
+- I added alerts to my javascript file for when a message was sent with success or had failed.
 - I filled out the contact form and sent myself a message multiple times to see if I received it to my Gmail account, which I did.
 
 **9. Leaderboard name and score input**
@@ -447,7 +447,7 @@ To ensure my site was working correctly I carried out some manual function testi
 
 ![Lighthouse image error](assets/images/readme/lh-1.png)
 
-I decided not to change my image format as WebP is supported on less browsers.
+I decided not to change my image format as WebP is supported on fewer browsers.
 
 #### Validator checks
 
@@ -463,7 +463,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ![CSS Validator error](assets/images/readme/css-validatorError.png)
 
-  Code not altered as this is a valid property in css.
+  Code not altered as this is a valid property in CSS.
 
 - [**JS hint**](https://jshint.com/)
 
