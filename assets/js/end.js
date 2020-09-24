@@ -19,7 +19,7 @@ username.addEventListener("keyup", () => {
 
 // Define 'submitHighScore' function and get event 'e' onclick
 // Prevent form from submitting to new page
-submitHighScore = (e) => {
+const submitHighScore = (e) => {
   console.log("clicked the submit button!");
   e.preventDefault();
 
