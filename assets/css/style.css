@@ -218,7 +218,7 @@ html body {
 
 #start-btn,
 #letsgo-btn {
-	background-color: #adbca590;
+	background-color: rgba(173, 188, 165, 0.564);
 	border: 1.5px dashed #8c5f66;
 	border-radius: 5%;
 	padding: 5px 20px;
