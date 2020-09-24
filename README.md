@@ -413,15 +413,15 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **5. Timer countdown and animation**
 
-- The countdown timer started at thirty, decreasing by one every second until the timer hits zero and the game ends. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
+- To test the timer function was correctly in place, I bagan by clicking the start button. The countdown inner text began at thirty and decreased by one every second until the timer hit zero and the game ended. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
 
 **6. Toggle function**
 
-- To check the toggle was working I started the game and clicked the button once to hide the question then again to see if the question reappeared. And it did. This was tested throughout multiple questions.
+- To check the toggle was working I started the game and clicked the button once to hide the question then again to see if the question reappeared, and it did. This was tested throughout multiple questions.
 
 **7. Shuffled questions**
 
-- I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the shuffled question maths was working correctly.
+- I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the maths behind shuffled question was working correctly.
 
 **8. Sending email via contact form using emailJS**
 
