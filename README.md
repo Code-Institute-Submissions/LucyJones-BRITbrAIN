@@ -479,34 +479,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <u>Performance</u>
 
+- Eliminate render-blocking resources;
+
+![Lighthouse render-blocking resources](assets/images/readme/lh-1.png)
+
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to this issue was Bootstrap CSS (See screenshot below). As this is a third party file I have chosen to leave this.
+
+![Lighthouse coverage](assets/images/readme/lh-2.png)
+
 - Serve images in next-gen formats;
 
-![Lighthouse image error](assets/images/readme/lh-1.png)
+![Lighthouse image error](assets/images/readme/lh-3.png)
 
 I decided not to change my image format as WebP is supported on fewer browsers.
-
-- Remove unused CSS
-
-![Lighthouse unused css error](assets/images/readme/lh-2.png)
-
-I viewed the unused css via inspect > coverage and found that bootstrap css was the main result of unused css. 
-
-
-![Lighthouse coverage screenshot](assets/images/readme/lh-3.png)
 
 
 <u>Accessibility</u>
 
 - Heading elements are not in a sequentially-descending order;
 
-![Lighthouse heading order error](assets/images/readme/lh-2.png)
+![Lighthouse heading order error](assets/images/readme/lh-4.png)
 
 I wanted to keep the same level header for my footer throughout all pages of my site so it was consistent and easily styled through css.
 
 
 <u>Best practices</u>
 
+- Includes front-end JavaScript libraries with known security vulnerabilities
+
+![Lighthouse security vulnerabilities](assets/images/readme/lh-5.png)
+
+vulnerabilities from third party sites, 
+
 <u>SEO</u>
+
+- Document does not have a meta description.
+
+![Lighthouse meta description](assets/images/readme/lh-6.png)
+
+All my html are given a meta name and content so I am unsure why I am recieving this warning.
 
 
 #### Responsive Design
