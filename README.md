@@ -489,7 +489,7 @@ I decided not to change my image format as WebP is supported on fewer browsers.
 
 - Eliminate render-blocking resources and unused CSS;
 
-Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third party file I have chosen to leave this.
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third party file I have chosen to not to action on this.
 
 ![Lighthouse coverage](assets/images/readme/lh-2.png)
 
@@ -507,7 +507,7 @@ I wanted to keep the same level header for my footer throughout all pages of my 
 
 - Includes front-end JavaScript libraries with known security vulnerabilities.
 
-vulnerabilities from third party sites
+I decided not to remove the third party libaries with warnings as they are widely used by developers.
 
 <u>SEO</u>
 
@@ -537,9 +537,16 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
   - Feedback action:
 
+    - 'I was not able to click on north-east as the question was blocking the region'. Although this is explained in the 'how to play?' I found that many users going straight into the game and skipping the instructions. Takign this into consideration I decided to add another function that hid the question when a user hovered over so allow the user to easily click onto the region and make it an easier user experience.
+
 - Project posted on Slack, asking for feedback from fellow students.
 
 #### Bugs
+
+| | Bug                                                  | Action                                           |
+|-----------|------------------------------------------------------|--------------------------------------------------|
+| [X]       | Hex 8 digit colours not compatible with internet explorer | Used a converter to change all 8 digit hex colours to rgba format  |
+| [ ]       | Glitch with the timer during countdown, giving users more time                     | As this has only occured twice I have not yet been able to identify the problem |
 
 ## &rarr; **Credits**
 
