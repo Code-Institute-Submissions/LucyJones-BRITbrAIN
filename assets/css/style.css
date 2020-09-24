@@ -44,7 +44,7 @@ html body {
 	padding: 0;
 	height: 100%;
 	position: relative;
-	background: #e8b8ab40;
+	background: rgba(232, 184, 171, 0.25);
 	font-family: "Raleway", sans-serif;
 	color: #333333;
 	font-weight: 300;
@@ -52,7 +52,7 @@ html body {
 }
 
 .bg-darker {
-	background-color: #e8b8ab80;
+	background-color: rgba(232, 184, 171, 0.501);
 }
 
 .container {
@@ -187,7 +187,7 @@ html body {
 /* ---------- Overlay text */
 
 #overlay-text {
-	background-color: #8c5f6690;
+	background-color: rgba(140, 95, 102, 0.564);
 	font-family: "Ranchers", sans-serif;
 	padding: 0% 14%;
 	letter-spacing: 1px;
@@ -315,6 +315,8 @@ footer {
 	text-align: center;
 	padding: 10px 0;
 }
+
+
 
 
 /*---------------------------------Media Queries---*/
