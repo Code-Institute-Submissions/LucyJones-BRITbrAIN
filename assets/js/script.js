@@ -93,9 +93,13 @@ $(document).ready(function () {
     questionCountElement.textContent = questionCount;
   }
 
-  // Toggle function to show and hide question
+  // Toggle click function to show and hide question
   $(".btn-info").click(function () {
     $("#question-box").toggle();
+  });
+// Toggle hover function to hide question
+  $("#question-box").hover(function () {
+    $("#question-box").hide();
   });
 
   // Next question function
