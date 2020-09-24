@@ -97,7 +97,7 @@ $(document).ready(function () {
   $(".btn-info").click(function () {
     $("#question-box").toggle();
   });
-// Toggle hover function to hide question
+  // Toggle hover function to hide question
   $("#question-box").hover(function () {
     $("#question-box").hide();
   });
