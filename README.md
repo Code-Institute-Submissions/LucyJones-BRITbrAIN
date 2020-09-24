@@ -529,7 +529,7 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 #### Additional Testing
 
-- The Website was tested on Google Chrome, Internet Explorer and Safari browsers.
+- The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors.
 
 - The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhones (Version 6,8).
 
@@ -546,6 +546,7 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 | | Bug                                                  | Action                                           |
 |-----------|------------------------------------------------------|--------------------------------------------------|
 | [X]       | Hex 8 digit colours not compatible with internet explorer | Used a converter to change all 8 digit hex colours to rgba format  |
+| []       | Javascript errors showing in Internet explorer and not allowing game to begin| As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this codeq   |
 | [ ]       | Glitch with the timer during countdown, giving users more time                     | As this has only occured twice I have not yet been able to identify the problem |
 
 ## &rarr; **Credits**
@@ -575,6 +576,8 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 - [codeinstitute.net](https://courses.codeinstitute.net/): Sending Emails Using EmailJS.
 
 - [dev.to](https://dev.to/nzonnenberg/making-an-animated-timer-with-css--javascript-jpa): Helped with animation for the countdown timer.
+
+- [8-digit-hex-converter.website](https://8-digit-hex-converter.website/): Used to convert 8 digit hex colours into rgba format.
 
 #### Media
 
