@@ -1,4 +1,4 @@
-// Code taken from EmailJS.com with small personal amendments
+// Code taken from EmailJS.com with small amendments
 // EmailJS sendmail function with 'service ID', 'template ID', 'template parameters'
 // Template parameters linked to name attributes in form template
 function sendMail(contactForm) {

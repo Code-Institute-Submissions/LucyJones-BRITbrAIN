@@ -1,9 +1,9 @@
+// Code sourced from You tube 'Build a Quiz App'- James Q Quick
 // Create const variables
 const username = document.getElementById("username");
 const submitScoreBtn = document.getElementById("submitScoreBtn");
 const endScore = document.getElementById("finalScore");
 const newScore = localStorage.getItem("newScore");
-const maxHighScores = 10;
 
 // Get 'highscores' or if first time create empty array to initialise empty 'results' array
 // JSON parse to get a JS object array
@@ -28,7 +28,7 @@ submitHighScore = (e) => {
     name: username.value,
     score: newScore,
   };
-  // Add 'record' object to array
+  // Push new 'record' object to array
   results.push(record);
   // Sort scores highest to lowest
   results.sort((a, b) => b.score - a.score);

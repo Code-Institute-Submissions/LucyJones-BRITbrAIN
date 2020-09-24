@@ -24,7 +24,7 @@ $(document).ready(function () {
   let questions = [];
 
   // Fetch questions and answers from local json file
-  // Convert http response to json
+  // Code sourced from You tube 'Build a Quiz App'- James Q Quick
   fetch("assets/js/questions.json")
     .then((res) => {
       console.log(res);
@@ -40,7 +40,7 @@ $(document).ready(function () {
 
   // Function to start game
   // Hide start popupStartBox once 'startButton' is clicked
-  // Make all game elements visible so user can play game
+  // Remove 'hide' on all game elements visible so user can play game
   function startGame() {
     popupStartBox.classList.add("hide");
     gameHeaderElement.classList.remove("hide");
@@ -49,7 +49,6 @@ $(document).ready(function () {
     // Shuffled questions maths to ensure questions are selected in random order
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
-
     setInterval(countdown, 1000);
     setNextQuestion();
   }
