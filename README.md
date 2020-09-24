@@ -455,7 +455,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [**JS hint**](https://jshint.com/)
 
-  Warnings recieved;
+  <u>Warnings recieved;</u>
 
   > 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
@@ -465,13 +465,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   Warnings occured as JShint is using ECMAScript 5.1 specification and my code uses ECMAScript 6 specific syntax. However, all code is valid.
 
-  Undefined variables;
+  <u>Undefined variables;</u>
   
   ![Undefined variables](assets/images/readme/jshint-undefined.png)
 
-- EmailJS defined in index.html
-- $ (Jquery) defined in html files.
-- Swal defined in questions.html.
+  - EmailJS defined in index.html
+  - $ (Jquery) defined in html files.
+  - Swal defined in questions.html.
 
 #### Audits
 
