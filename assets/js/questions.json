@@ -103,7 +103,7 @@
     "question": "Where do 'Cockles' originate from?",
     "correctAnswer": "london"
   },
-   {
+  {
     "question": "Where does 'Scouse' originate from?",
     "correctAnswer": "north-west"
   },
@@ -134,5 +134,38 @@
   {
     "question": "Which region is home to 'Rugby'?",
     "correctAnswer": "west-midlands"
+  },
+  {
+    "question": "In which region would you find 'Durham Cathedral'?",
+    "correctAnswer": "north-east"
+  },
+  {
+    "question": "In which region would you find 'Hadrian’s Wall'?",
+    "correctAnswer": "north-east"
+  },
+  {
+    "question": "In which region would you find 'Tower Bridge'?",
+    "correctAnswer": "london"
+  },
+  {
+    "question": "In which region would you find 'Brighton Palace Pier'?",
+    "correctAnswer": "south-east"
+  },
+  {
+    "question": "In which region would you find 'The Iron Bridge'?",
+    "correctAnswer": "west-midlands"
+  },
+  {
+    "question": "In which region would you find 'Chatsworth House'?",
+    "correctAnswer": "east-midlands"
+  },
+  {
+    "question": "In which region would you find 'Canterbury Cathedral'?",
+    "correctAnswer": "south-east"
+  },
+  {
+    "question": "In which region would you find 'Canterbury Cathedral'?",
+    "correctAnswer": "south-east"
   }
+
 ]
