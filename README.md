@@ -475,15 +475,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### Audits
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages.
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages. Overall performance and errors highlighted below.
 
-<u>Errors found:</u>
+<u>Performance</u>
 
 - Serve images in next-gen formats;
 
 ![Lighthouse image error](assets/images/readme/lh-1.png)
 
 I decided not to change my image format as WebP is supported on fewer browsers.
+
+- Remove unused CSS
+
+![Lighthouse unused css error](assets/images/readme/lh-2.png)
+
+I viewed the unused css via inspect > coverage and found that bootstrap css was the main result of unused css. 
+
+
+![Lighthouse coverage screenshot](assets/images/readme/lh-3.png)
+
+
+<u>Accessibility</u>
+
+- Heading elements are not in a sequentially-descending order;
+
+![Lighthouse heading order error](assets/images/readme/lh-2.png)
+
+I wanted to keep the same level header for my footer throughout all pages of my site so it was consistent and easily styled through css.
+
+
+<u>Best practices</u>
+
+<u>SEO</u>
+
 
 #### Responsive Design
 
