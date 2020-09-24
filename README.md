@@ -461,64 +461,61 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   > 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
 
-  >	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+  >     'template literal syntax' is only available in ES6 (use 'esversion: 6').
 
   Warnings occured as JShint is using ECMAScript 5.1 specification and my code uses ECMAScript 6 specific syntax. However, all code is valid.
 
   <u>Undefined variables;</u>
-  
+
   ![Undefined variables](assets/images/readme/jshint-undefined.png)
 
   - EmailJS defined in index.html
-  - $ (Jquery) defined in html files.
+  - \$ (Jquery) defined in html files.
   - Swal defined in questions.html.
 
 #### Audits
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages. Overall performance and errors highlighted below.
 
+![Lighthouse overall performance](assets/images/readme/lh-sum.png)
+
 <u>Performance</u>
 
-- Eliminate render-blocking resources;
-
-![Lighthouse render-blocking resources](assets/images/readme/lh-1.png)
-
-Using the Coverage tab in Chrome DevTools I identified that the main file linked to this issue was Bootstrap CSS (See screenshot below). As this is a third party file I have chosen to leave this.
-
-![Lighthouse coverage](assets/images/readme/lh-2.png)
+![Lighthouse render-blocking resources](assets/images/readme/1-lh.png)
 
 - Serve images in next-gen formats;
 
-![Lighthouse image error](assets/images/readme/lh-3.png)
-
 I decided not to change my image format as WebP is supported on fewer browsers.
 
+- Eliminate render-blocking resources and unused CSS;
+
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third party file I have chosen to leave this.
+
+![Lighthouse coverage](assets/images/readme/lh-2.png)
 
 <u>Accessibility</u>
 
-- Heading elements are not in a sequentially-descending order;
+![Lighthouse heading order error](assets/images/readme/2-lh.png)
 
-![Lighthouse heading order error](assets/images/readme/lh-4.png)
+- Heading elements are not in a sequentially-descending order;
 
 I wanted to keep the same level header for my footer throughout all pages of my site so it was consistent and easily styled through css.
 
-
 <u>Best practices</u>
 
-- Includes front-end JavaScript libraries with known security vulnerabilities
+![Lighthouse security vulnerabilities](assets/images/readme/3-lh.png)
 
-![Lighthouse security vulnerabilities](assets/images/readme/lh-5.png)
+- Includes front-end JavaScript libraries with known security vulnerabilities.
 
-vulnerabilities from third party sites, 
+vulnerabilities from third party sites
 
 <u>SEO</u>
 
+![Lighthouse meta description](assets/images/readme/4-lh.png)
+
 - Document does not have a meta description.
 
-![Lighthouse meta description](assets/images/readme/lh-6.png)
-
 All my html are given a meta name and content so I am unsure why I am recieving this warning.
-
 
 #### Responsive Design
 
