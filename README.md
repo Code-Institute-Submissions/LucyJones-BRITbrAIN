@@ -35,8 +35,8 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 - [&rarr; **Testing**](#-rarr----testing--)
   - [Testing user stories](#testing-user-stories)
   - [Manual function testing](#manual-function-testing)
-  - [Automated testing](#automated-testing)
   - [Validator checks](#validator-checks)
+  - [Audits](#audits)
   - [Responsive Design](#responsive-design)
   - [Additional Testing](#additional-testing)
   - [Bugs](#bugs)
@@ -437,18 +437,6 @@ To ensure my site was working correctly I carried out some manual function testi
 
 - I played the game and when presented with the end pop-up I tried to submit my score before entering my username. As desired, the button was not clickable until I had entered text into the input box.
 
-#### Automated testing
-
-[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages.
-
-<u>Errors found:</u>
-
-- Serve images in next-gen formats;
-
-![Lighthouse image error](assets/images/readme/lh-1.png)
-
-I decided not to change my image format as WebP is supported on fewer browsers.
-
 #### Validator checks
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input. JS hint was used to check for any errors with my Javascript files.
@@ -463,9 +451,39 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   ![CSS Validator error](assets/images/readme/css-validatorError.png)
 
-  Code not altered as this is a valid property in CSS.
+  Code not altered as this is a valid CSS property as referred in [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start).
 
 - [**JS hint**](https://jshint.com/)
+
+  Warnings recieved;
+
+  > 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+  > 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+
+  >	'template literal syntax' is only available in ES6 (use 'esversion: 6').
+
+  Warnings occured as JShint is using ECMAScript 5.1 specification and my code uses ECMAScript 6 specific syntax. However, all code is valid.
+
+Undefined variables;
+
+![Undefined variables](assets/images/readme/jshint-undefined.png)
+
+- EmailJS defined in index.html
+- $ (Jquery) defined in html files.
+- Swal defined in questions.html.
+
+#### Audits
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages.
+
+<u>Errors found:</u>
+
+- Serve images in next-gen formats;
+
+![Lighthouse image error](assets/images/readme/lh-1.png)
+
+I decided not to change my image format as WebP is supported on fewer browsers.
 
 #### Responsive Design
 
