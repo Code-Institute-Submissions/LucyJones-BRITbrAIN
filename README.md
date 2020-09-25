@@ -504,10 +504,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Lighthouse render-blocking resources](assets/images/readme/1-lh.png)
 
-- Serve images in next-gen formats;
-
-I decided not to change my image format as WebP is supported on fewer browsers.
-
 - Eliminate render-blocking resources and unused CSS;
 
 Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party file I have chosen to not to act on this.
