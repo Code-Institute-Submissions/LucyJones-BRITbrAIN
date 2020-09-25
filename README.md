@@ -103,15 +103,15 @@ The <u>key priorities</u> for my user are as follows:
 
 As part of the design process, before starting my project I sketched out initial drawings then used <u>Balsamiq</u> to create sharper-looking wireframes. Creating these mock-ups helped me plan the basic structure and arrangement of the features for my site.
 
-[view initial drawings](assets/images/readme/initial-drawing.jpg)
+[view initial drawings](assets/files/initial-drawings.pdf)
 
 [View wireframes](assets/files/wireframes.pdf)
 
 - **Wireframes vs. finished project**
 
-  During the making of my site I made some amendments from the ideas presented on my original wireframes;
+  Whilst building my site I made some changes to my design ideas, these are highlighted below;
 
-| Wireframes                     | End site                                     | Reason                                                                                                            |
+| Wireframes                     | End site                                     | Explanation                                                                                                            |
 | ------------------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Timer: 10 seconds per question | Timer: 30 seconds for overall game           | Greater user interaction to race against the clock and see how many questions they could answer in the time limit |
 | Questions: total of 10         | Questions: unlimited                         | See explanation above                                                                                             |
@@ -334,7 +334,7 @@ Testing my user's <u>key priorities</u>:
 
 ![Navigation](assets/images/readme/US1-1.png)
 
-- <u>404 Error page</u>: I decided to create a custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage.
+- <u>404 Error page</u>: I decided to create a custom 404.html page for my user so if they are directed to a non-existent domain, they are presented with an appealing page and an easy navigation button back to the homepage.
 
 ![404 error page](assets/images/readme/404.png)
 
@@ -460,7 +460,8 @@ To ensure my site was working correctly I carried out some manual function testi
 
 #### Validator checks
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input. JS hint was used to check for any errors with my Javascript files.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Code was entered through direct input. JS hint was used to check for any errors with my Javascript files. 
+JS was also tested by opening the developer console window on Chrome and checking for any errors as I clicked through the site.
 
 - [**HTML Validator**](https://validator.w3.org/nu/#textarea)
 
@@ -494,6 +495,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - \$ (Jquery) defined in HTML files.
   - Swal defined in questions.html.
 
+
 #### Audits
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages. Overall performance and errors highlighted below.
@@ -506,11 +508,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Serve images in next-gen formats;
 
-I tried using different image formats as suggested however, changing to JPEG gave a black background by default and WebP was accessible on less browsers. Therefore I have kept my image in a PNG format.
+I tried using different image formats as suggested however, JPEG gave a black background by default and WebP was accessible on less browsers. Therefore I have kept my image in a PNG format.
 
 - Eliminate render-blocking resources and unused CSS;
 
-Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party library and isn't causing noticable restrictions to my site I have chosen to not to act on this.
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party library and isn't causing significant disruptions to my site I have chosen to not to act on this.
 
 ![Lighthouse coverage](assets/images/readme/lh-2.png)
 
@@ -528,7 +530,7 @@ I wanted to keep the same level header for my footer throughout all pages of my 
 
 - Includes front-end JavaScript libraries with known security vulnerabilities.
 
-Although suggested, I decided not to remove the third-party libraries with warnings as they are widely used by developers.
+Although suggested, I decided not to remove the third-party libraries with warnings as they are creditable sources used widely by developers.
 
 <u>SEO</u>
 
@@ -550,13 +552,13 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
 #### Additional Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors, details added to bugs section.
+- The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors, specific details have been added to bugs section.
 
   - To ensure my users get the best experience I decided to create an alert message for any users on Internet Explorer to switch to chrome;
 
   ![Internet experience alert message](assets/images/readme/ieAlert.png)
 
-  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer;
+  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. This enabled me to check it was working correctly;
 
   ![Good browsers](assets/images/readme/goodBrowser.png)
 
@@ -576,7 +578,7 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 | --- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [X] | Hex 8 digit colours not compatible with Internet Explorer                         | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                           |
 | [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
-| [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify the problem                                                                                                                                            |
+| [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem                                                                                                                                            |
 | [ ] | Questions being repeated more than once                                           | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                            |
 
 ## &rarr; **Credits**
