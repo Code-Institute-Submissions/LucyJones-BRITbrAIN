@@ -70,7 +70,7 @@ The <u>key priorities</u> for my user are as follows:
 
 6. A question counter to keep track of the user's progress throughout the quiz.
 
-7. A quiz timer to limit the length of the game.
+7. A quiz timer.
 
 8. Ability to contact me through an online form.
 
@@ -107,6 +107,17 @@ As part of the design process, before starting my project I sketched out initial
 
 [View wireframes](assets/files/wireframes.pdf)
 
+- **Wireframes vs. finished project**
+
+  During the making of my site I made some amendments which differ from the content in my wireframes;
+
+| Wireframes                     | End site                                     | Reason                                                                                                            |
+| ------------------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Timer: 10 seconds per question | Timer: 30 seconds for overall game           | Greater user interaction to race against the clock and see how many questions they could answer in the time limit |
+| Questions: total of 10         | Questions: unlimited                         | See explanation above                                                                                             |
+| Map marker above brain         | Removed map marker                           | Decided I preferred the design without the marker and it wasn't necessary                                         |
+| no 404 custom page             | Added 404 custom page to fit site style spec | Enhance the user experience                                                                                       |
+
 ---
 
 ## &rarr; **Features**
@@ -121,6 +132,7 @@ As part of the design process, before starting my project I sketched out initial
 
   - Attractive, minimalistic design with visuals and information presented clearly and concisely.
   - Easily readable fonts and simple navigation throughout the site.
+  - A custom 404 page if the user is directed to a non-existent page.
 
 - **Option for the user to reach out**
 
@@ -152,7 +164,7 @@ I will continue to update my quiz with new questions to allow my users to play f
   - Tailored questions for each level.
   - Breaking up regions further into smaller areas, such as cities.
 
-- Create different games focusing on specific categories such as British landmarks.
+- Create different games focusing on specific categories such as British landmarks, famous people and football stadiums.
 
 - Social media icons are currently linked to my Github page, the Instagram home-page and my Linkedin profile. If the game progresses I will create customized social links for BRITbrAIN to create further player interaction.
 
@@ -183,7 +195,7 @@ I will continue to update my quiz with new questions to allow my users to play f
 - [**jQuery:**](https://jquery.com/)
 
   - jQuery came with Bootstrap to make the components used responsive.
-  - Included at end of body tag within HTML files to ensure smooth running off HMTL and CSS.
+  - Included at end of body tag within HTML files to ensure smooth running of HMTL and CSS.
 
 - [**Git**](https://git-scm.com/)
 
@@ -220,6 +232,10 @@ I will continue to update my quiz with new questions to allow my users to play f
 - [**EmailJS**](https://www.emailjs.com/)
 
   - Used to send emails directly from a from to my Gmail account.
+
+- [**Tablesgenerator**](https://www.tablesgenerator.com/markdown_tables)
+
+  - Used to create tables in my readme file.
 
 ---
 
@@ -392,7 +408,7 @@ To ensure my site was working correctly I carried out some manual function testi
 - I checked the site dropdown menu was working correctly by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
 - I checked the scroll navigation arrows were working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested from every page on the site.
-- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage. This has been tested by creating a broken link in the game url. 
+- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage. This has been tested by creating a broken link in the game url.
 
 ![404 error page](assets/images/readme/404.png)
 
@@ -439,7 +455,6 @@ To ensure my site was working correctly I carried out some manual function testi
 **10. Submitting score only when the username is entered**
 
 - I played the game and when presented with the end pop-up I tried to submit my score before entering my username. As desired, the button was not clickable until I had entered text into the input box.
-
 
 #### Validator checks
 
@@ -555,12 +570,12 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 #### Bugs
 
-|     | Bug                                                                           | Action                                                                                                                                      |
-| --- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [X] | Hex 8 digit colours not compatible with internet explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                           |
-| [ ]  | Javascript errors showing in Internet explorer and not allowing game to begin | As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead I have added an alert message for anyone using  IE to switch to chrome. |
-| [ ] | Glitch with the timer during countdown, giving users more time                | As this has only occured twice I have not yet been able to identify the problem                                                             |
-| [ ] | Questions being repeated more than once                | This has only occured once during my testing so I have not yet been able to identify the problem                                                             |
+|     | Bug                                                                           | Action                                                                                                                                                                                                                     |
+| --- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [X] | Hex 8 digit colours not compatible with internet explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
+| [ ] | Javascript errors showing in Internet explorer and not allowing game to begin | As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead I have added an alert message for anyone using IE to switch to chrome. |
+| [ ] | Glitch with the timer during countdown, giving users more time                | As this has only occured twice I have not yet been able to identify the problem                                                                                                                                            |
+| [ ] | Questions being repeated more than once                                       | This has only occured once during my testing so I have not yet been able to identify the problem                                                                                                                           |
 
 ## &rarr; **Credits**
 
@@ -592,7 +607,7 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 - [8-digit-hex-converter.website](https://8-digit-hex-converter.website/): Used to convert 8 digit hex colours into rgba format.
 
-- [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page  '404'.
+- [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page '404'.
 
 - [stackoverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
 
