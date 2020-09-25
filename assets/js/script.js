@@ -26,11 +26,9 @@ $(document).ready(function () {
   // Fetch json question file
   fetch("assets/js/questions.json")
     .then((res) => {
-      console.log(res);
       return res.json();
     })
     .then((loadedQuestions) => {
-      console.log(loadedQuestions);
       questions = loadedQuestions;
     });
 
