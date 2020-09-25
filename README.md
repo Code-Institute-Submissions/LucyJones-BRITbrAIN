@@ -392,6 +392,9 @@ To ensure my site was working correctly I carried out some manual function testi
 - I checked the site dropdown menu was working correctly by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
 - I checked the scroll navigation arrows were working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested from every page on the site.
+- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage.
+
+![404 error page](assets/images/readme/404.png)
 
 **2. Hover, focus and active effects**
 
@@ -436,6 +439,7 @@ To ensure my site was working correctly I carried out some manual function testi
 **10. Submitting score only when the username is entered**
 
 - I played the game and when presented with the end pop-up I tried to submit my score before entering my username. As desired, the button was not clickable until I had entered text into the input box.
+
 
 #### Validator checks
 
@@ -529,7 +533,15 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 #### Additional Testing
 
-- The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors.
+- The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors, details added to bugs section.
+
+  - To ensure my users get the best experience I decided to created an alert message for any users on Internet explorer to switch to chrome;
+
+  ![Internet experience alert message](assets/images/readme/ieAlert.png)
+
+  To test that this was working I added a temporary alert to my html file for any browsers that weren't Internet explorer;
+
+  ![Good browsers](assets/images/readme/goodBrowser.png)
 
 - The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhones (Version 6,8).
 
@@ -543,11 +555,12 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 #### Bugs
 
-| | Bug                                                  | Action                                           |
-|-----------|------------------------------------------------------|--------------------------------------------------|
-| [X]       | Hex 8 digit colours not compatible with internet explorer | Used a converter to change all 8 digit hex colours to rgba format  |
-| []       | Javascript errors showing in Internet explorer and not allowing game to begin| As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this codeq   |
-| [ ]       | Glitch with the timer during countdown, giving users more time                     | As this has only occured twice I have not yet been able to identify the problem |
+|     | Bug                                                                           | Action                                                                                                                                      |
+| --- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [X] | Hex 8 digit colours not compatible with internet explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                           |
+| [ ]  | Javascript errors showing in Internet explorer and not allowing game to begin | As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead I have added an alert message for anyone using  IE to switch to chrome. |
+| [ ] | Glitch with the timer during countdown, giving users more time                | As this has only occured twice I have not yet been able to identify the problem                                                             |
+| [ ] | Questions being repeated more than once                | This has only occured once during my testing so I have not yet been able to identify the problem                                                             |
 
 ## &rarr; **Credits**
 
@@ -579,7 +592,9 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 - [8-digit-hex-converter.website](https://8-digit-hex-converter.website/): Used to convert 8 digit hex colours into rgba format.
 
-- [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page.
+- [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page  '404'.
+
+- [stackoverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
 
 #### Media
 
