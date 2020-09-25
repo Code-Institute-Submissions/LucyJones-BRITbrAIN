@@ -13,7 +13,6 @@ $(document).ready(function () {
   const countdownNumber = document.getElementById("countdown-number");
   const animationTimer = document.getElementById("timer");
 
-  // let variables
   // Start score and question counters at 0
   // Start timer at 30 seconds
   // create questions empty array to link with json file
@@ -23,8 +22,8 @@ $(document).ready(function () {
   let shuffledQuestions, currentQuestionIndex;
   let questions = [];
 
-  // Fetch questions and answers from local json file
   // Code sourced from You tube 'Build a Quiz App'- James Q Quick
+  // Fetch json question file
   fetch("assets/js/questions.json")
     .then((res) => {
       console.log(res);
@@ -39,23 +38,19 @@ $(document).ready(function () {
   startButton.addEventListener("click", startGame);
 
   // Function to start game
-  // Hide start popupStartBox once 'startButton' is clicked
-  // Remove 'hide' on all game elements visible so user can play game
+  // Shuffled questions maths to ensure questions are selected in random order
   function startGame() {
     popupStartBox.classList.add("hide");
     gameHeaderElement.classList.remove("hide");
     questionContainerElement.classList.remove("hide");
     answerButtonsElement.classList.remove("hide");
-    // Shuffled questions maths to ensure questions are selected in random order
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     setInterval(countdown, 1000);
     setNextQuestion();
   }
 
-  // Scoring function
-  // Add 10 points to score for every correct answer
-  // Remove 5 points from score for every wrong answer
+  // Scoring function, +10 points for correct answer, -5 points for wrong answer
   function correctScore() {
     score += 10;
     scoreCountElement.textContent = score;
@@ -65,10 +60,7 @@ $(document).ready(function () {
     scoreCountElement.textContent = score;
   }
 
-  // Timer function
-  // CSS animation to start at same time as number countdown
-  // Timer to countdown from 30s
-  // If timer reaches 0, go to noTimeLeft function
+  // Timer function, counts 
   function countdown() {
     animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
@@ -79,25 +71,23 @@ $(document).ready(function () {
       countdownNumber.textContent = timeLeft;
     }
   }
-  // If no time left, save final score to local storage
-  // Take user to end.html page
+  // If no time left, save final score to local storage and take user to end.html page
   function noTimeLeft() {
     localStorage.setItem("newScore", score);
     return window.location.assign("end.html");
   }
 
-  // Question progress function
-  // Add one to question counter every time a new question is displayed
+  // Question progress function- add one to question counter every time a new question is displayed
   function progress() {
     questionCount++;
     questionCountElement.textContent = questionCount;
   }
 
   // Toggle click function to show and hide question
+  // Hide hover function to hide question when mouse moves over #question-box
   $(".btn-info").click(function () {
     $("#question-box").toggle();
   });
-  // Toggle hover function to hide question
   $("#question-box").hover(function () {
     $("#question-box").hide();
   });
@@ -108,15 +98,12 @@ $(document).ready(function () {
     $("#question-box").show();
     progress();
   }
-  // Show question function
+  // Show question function shows question in #question
   function showQuestion(question) {
     questionElement.innerText = question.question;
   }
 
-  // Selecting answer function
-  // User Answer becomes id value from which the user clicks
-  // If user Answer value matches the correctAnswer in json array, correct popup appears
-  // If user Answer doesn't match correctAnswer in json array, incorrect answer appears
+  // ID of region clicked becomes userAnswer, userAnswer checked against CorrectAnswer
   $(".choice").on("click", function () {
     let userAnswer = $(this).attr("id");
     if (userAnswer === questions[currentQuestionIndex].correctAnswer) {
