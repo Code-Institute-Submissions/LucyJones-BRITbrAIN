@@ -504,7 +504,7 @@ JS was also tested by opening the developer console window on Chrome and checkin
 
 <u>Performance</u>
 
-![Lighthouse render-blocking resources](assets/images/readme/l-lh.png)
+![Lighthouse render-blocking resources](assets/images/readme/1-lh.png)
 
 - Serve images in next-gen formats;
 
@@ -554,11 +554,11 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
 - The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors, specific details have been added to bugs section.
 
-  - To ensure my users get the best experience I decided to create an alert message for any users on Internet Explorer to switch to chrome;
+  - To ensure my users get the best experience I decided to create an alert message for any users on Internet Explorer to switch to chrome.
 
   ![Internet experience alert message](assets/images/readme/ieAlert.png)
 
-  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. This enabled me to check it was working correctly;
+  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. This enabled me to check it was working correctly.
 
   ![Good browsers](assets/images/readme/goodBrowser.png)
 
