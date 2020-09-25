@@ -528,7 +528,7 @@ I wanted to keep the same level header for my footer throughout all pages of my 
 
 - Includes front-end JavaScript libraries with known security vulnerabilities.
 
-I decided not to remove the third party libraries with warnings as they are widely used by developers.
+I decided not to remove the third-party libraries with warnings as they are widely used by developers.
 
 <u>SEO</u>
 
@@ -574,8 +574,8 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
 |     | Bug                                                                           | Action                                                                                                                                                                                                                     |
 | --- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [X] | Hex 8 digit colours not compatible with internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
-| [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
+| [X] | Hex 8 digit colours not compatible with Internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
+| [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
 | [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify the problem                                                                                                                                            |
 | [ ] | Questions being repeated more than once                                       | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                           |
 
@@ -611,7 +611,7 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
 - [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page '404'.
 
-- [stackOverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
+- [StackOverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
 
 #### Media
 
