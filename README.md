@@ -195,7 +195,7 @@ I will continue to update my quiz with new questions to allow my users to play f
 - [**jQuery:**](https://jquery.com/)
 
   - jQuery came with Bootstrap to make the components used responsive.
-  - Included at end of body tag within HTML files to ensure smooth running of HMTL and CSS.
+  - Included at end of body tag within HTML files to ensure a smooth running of HMTL and CSS.
 
 - [**Git**](https://git-scm.com/)
 
@@ -310,8 +310,8 @@ $ git clone https://github.com/YOUR-USERNAME/BRITbrAIN.git
 > remote: Enumerating objects: 299, done.
 > remote: Counting objects: 100%, (299/299),  done.
 > remote: Compressing objects: 100% (156/156), done.
-> Recieving objects: remove: Total 299 (delta 145), reused 267 (delta 126), pack-reused 0
-> Recieving objects: 100% (299/299), 4.61MiB | 2.98 MiB/s, done.
+> Receiving objects: remove: Total 299 (delta 145), reused 267 (delta 126), pack-reused 0
+> Receiving objects: 100% (299/299), 4.61MiB | 2.98 MiB/s, done.
 > Resolving deltas: 100% (145/145), done. Unpacking objects: 100% (10/10), done.
 ```
 
@@ -334,7 +334,7 @@ Testing my user's <u>key priorities</u>:
 
 ![Navigation](assets/images/readme/US1-1.png)
 
-- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage.
+- <u>404 Error page</u>: I decided to create a custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage.
 
 ![404 error page](assets/images/readme/404.png)
 
@@ -412,7 +412,7 @@ To ensure my site was working correctly I carried out some manual function testi
 - I checked the site dropdown menu was working correctly by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
 - I checked the scroll navigation arrows were working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested from every page on the site.
-- 404 Error page was tested by creating a broken link in the game url and making sure it responded with my custom page.
+- 404 Error page was tested by creating a broken link in the game URL and making sure it responded with my custom page.
 
 **2. Hover, focus and active effects**
 
@@ -434,7 +434,7 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **5. Timer countdown and animation**
 
-- To test the timer function was correctly in place, I bagan by clicking the start button. The countdown inner text began at thirty and decreased by one every second until the timer hit zero and the game ended. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
+- To test the timer function was correctly in place, I began by clicking the start button. The countdown inner text began at thirty and decreased by one every second until the timer hit zero and the game ended. The game end pop-up always popped up when the timer reached zero which showed it was functioning as it should be.
 
 **6. Toggle function**
 
@@ -442,7 +442,7 @@ To ensure my site was working correctly I carried out some manual function testi
 
 **7. Shuffled questions**
 
-- I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the maths behind shuffled question was working correctly.
+- I played the quiz multiple times to ensure that each time the questions appeared they were different and also that none were repeated more than once. This was indeed the case so I knew the maths behind the shuffled question was working correctly.
 
 **8. Sending email via contact form using emailJS**
 
@@ -476,7 +476,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [**JS hint**](https://jshint.com/)
 
-  <u>Warnings recieved;</u>
+  <u>Warnings received;</u>
 
   > 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
@@ -484,14 +484,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   > 'template literal syntax' is only available in ES6 (use 'esversion: 6').
 
-  Warnings occured as JShint is using ECMAScript 5.1 specification and my code uses ECMAScript 6 specific syntax. However, all code is valid.
+  Warnings occurred as JShint is using ECMAScript 5.1 specification and my code uses ECMAScript 6 specific syntax. However, all code is valid.
 
   <u>Undefined variables;</u>
 
   ![Undefined variables](assets/images/readme/jshint-undefined.png)
 
   - EmailJS defined in index.html
-  - \$ (Jquery) defined in html files.
+  - \$ (Jquery) defined in HTML files.
   - Swal defined in questions.html.
 
 #### Audits
@@ -510,7 +510,7 @@ I decided not to change my image format as WebP is supported on fewer browsers.
 
 - Eliminate render-blocking resources and unused CSS;
 
-Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third party file I have chosen to not to action on this.
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party file I have chosen to not to act on this.
 
 ![Lighthouse coverage](assets/images/readme/lh-2.png)
 
@@ -520,7 +520,7 @@ Using the Coverage tab in Chrome DevTools I identified that the main file linked
 
 - Heading elements are not in a sequentially-descending order;
 
-I wanted to keep the same level header for my footer throughout all pages of my site so it was consistent and easily styled through css.
+I wanted to keep the same level header for my footer throughout all pages of my site so it was consistent and easily styled through CSS.
 
 <u>Best practices</u>
 
@@ -528,7 +528,7 @@ I wanted to keep the same level header for my footer throughout all pages of my 
 
 - Includes front-end JavaScript libraries with known security vulnerabilities.
 
-I decided not to remove the third party libaries with warnings as they are widely used by developers.
+I decided not to remove the third party libraries with warnings as they are widely used by developers.
 
 <u>SEO</u>
 
@@ -536,7 +536,7 @@ I decided not to remove the third party libaries with warnings as they are widel
 
 - Document does not have a meta description.
 
-All my html are given a meta name and content so I am unsure why I am recieving this warning.
+All my HTML are given a meta name and content so I am unsure why I am receiving this warning.
 
 #### Responsive Design
 
@@ -546,17 +546,17 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 - Media queries used in the CSS file to target larger devices.
 
-- [Troy](http://troy.labs.daum.net/) was used to view game on a range of devices.
+- [Troy](http://troy.labs.daum.net/) was used for viewing the game on a range of devices.
 
 #### Additional Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, Safari browsers, Firefox and Edge. Internet Explorer was the only browser experiencing errors, details added to bugs section.
 
-  - To ensure my users get the best experience I decided to created an alert message for any users on Internet explorer to switch to chrome;
+  - To ensure my users get the best experience I decided to create an alert message for any users on Internet Explorer to switch to chrome;
 
   ![Internet experience alert message](assets/images/readme/ieAlert.png)
 
-  To test that this was working I added a temporary alert to my html file for any browsers that weren't Internet explorer;
+  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer;
 
   ![Good browsers](assets/images/readme/goodBrowser.png)
 
@@ -574,10 +574,10 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 |     | Bug                                                                           | Action                                                                                                                                                                                                                     |
 | --- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [X] | Hex 8 digit colours not compatible with internet explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
-| [ ] | Javascript errors showing in Internet explorer and not allowing game to begin | As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead I have added an alert message for anyone using IE to switch to chrome. |
-| [ ] | Glitch with the timer during countdown, giving users more time                | As this has only occured twice I have not yet been able to identify the problem                                                                                                                                            |
-| [ ] | Questions being repeated more than once                                       | This has only occured once during my testing making it difficult for me to identify the problem                                                                                                                           |
+| [X] | Hex 8 digit colours not compatible with internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
+| [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
+| [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify the problem                                                                                                                                            |
+| [ ] | Questions being repeated more than once                                       | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                           |
 
 ## &rarr; **Credits**
 
@@ -611,7 +611,7 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 - [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page '404'.
 
-- [stackoverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
+- [stackOverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
 
 #### Media
 
