@@ -392,7 +392,7 @@ To ensure my site was working correctly I carried out some manual function testi
 - I checked the site dropdown menu was working correctly by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
 - I checked the scroll navigation arrows were working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested from every page on the site.
-- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage.
+- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage. This has been tested by creating a broken link in the game url. 
 
 ![404 error page](assets/images/readme/404.png)
 
