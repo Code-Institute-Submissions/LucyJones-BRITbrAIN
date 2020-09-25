@@ -579,6 +579,8 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
 - [8-digit-hex-converter.website](https://8-digit-hex-converter.website/): Used to convert 8 digit hex colours into rgba format.
 
+- [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page.
+
 #### Media
 
 - [pixabay.com](https://pixabay.com/): Brain image for the game logo.
