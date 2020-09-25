@@ -504,9 +504,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ![Lighthouse render-blocking resources](assets/images/readme/1-lh.png)
 
+- Serve images in next-gen formats;
+
+I tried changing my image to a different format as suggested however, changing using JPEG format gave a black background by default and WebP was accessible on less browsers. Therefore I have kept my image in a PNG format.
+
 - Eliminate render-blocking resources and unused CSS;
 
-Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party file I have chosen to not to act on this.
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party file and isn't causing noticable restrictions to my site I have chosen to not to act on this.
 
 ![Lighthouse coverage](assets/images/readme/lh-2.png)
 
@@ -524,7 +528,7 @@ I wanted to keep the same level header for my footer throughout all pages of my 
 
 - Includes front-end JavaScript libraries with known security vulnerabilities.
 
-I decided not to remove the third-party libraries with warnings as they are widely used by developers.
+Although suggested, I decided not to remove the third-party libraries with warnings as they are widely used by developers.
 
 <u>SEO</u>
 
@@ -568,12 +572,12 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
 #### Bugs
 
-|     | Bug                                                                           | Action                                                                                                                                                                                                                     |
-| --- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [X] | Hex 8 digit colours not compatible with Internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
+|     | Bug                                                                               | Action                                                                                                                                                                                                                      |
+| --- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [X] | Hex 8 digit colours not compatible with Internet Explorer                         | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                           |
 | [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
 | [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify the problem                                                                                                                                            |
-| [ ] | Questions being repeated more than once                                       | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                           |
+| [ ] | Questions being repeated more than once                                           | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                            |
 
 ## &rarr; **Credits**
 
