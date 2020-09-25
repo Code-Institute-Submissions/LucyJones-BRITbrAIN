@@ -109,7 +109,7 @@ As part of the design process, before starting my project I sketched out initial
 
 - **Wireframes vs. finished project**
 
-  During the making of my site I made some amendments which differ from the content in my wireframes;
+  During the making of my site I made some amendments from the ideas presented on my original wireframes;
 
 | Wireframes                     | End site                                     | Reason                                                                                                            |
 | ------------------------------ | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -334,6 +334,10 @@ Testing my user's <u>key priorities</u>:
 
 ![Navigation](assets/images/readme/US1-1.png)
 
+- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage.
+
+![404 error page](assets/images/readme/404.png)
+
 **2. An enjoyable, interactive quiz to play.**
 
 - An interactive quiz with questions based on Britain.
@@ -408,9 +412,7 @@ To ensure my site was working correctly I carried out some manual function testi
 - I checked the site dropdown menu was working correctly by starting on the home-page and navigating around the site from and to every screen the user would be faced with.
 - I checked the scroll navigation arrows were working by clicking through each section one by one.
 - Links to external social platforms were checked by ensuring that when the icons were clicked the user would be navigated to the correct site opened on a new window. This was tested from every page on the site.
-- <u>404 Error page</u>: I decided to create my own custom 404.html page for my user to ensure that if they are directed to a non-existent page, they are presented with a pleasant screen and an easy navigation button back to the homepage. This has been tested by creating a broken link in the game url.
-
-![404 error page](assets/images/readme/404.png)
+- 404 Error page was tested by creating a broken link in the game url and making sure it responded with my custom page.
 
 **2. Hover, focus and active effects**
 
@@ -480,7 +482,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   > 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
 
-  >     'template literal syntax' is only available in ES6 (use 'esversion: 6').
+  > 'template literal syntax' is only available in ES6 (use 'esversion: 6').
 
   Warnings occured as JShint is using ECMAScript 5.1 specification and my code uses ECMAScript 6 specific syntax. However, all code is valid.
 
@@ -564,7 +566,7 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 
   - Feedback action:
 
-    - 'I was not able to click on north-east as the question was blocking the region'. Although this is explained in the 'how to play?' I found that many users going straight into the game and skipping the instructions. Takign this into consideration I decided to add another function that hid the question when a user hovered over so allow the user to easily click onto the region and make it an easier user experience.
+    - 'I was not able to click on north-east as the question was blocking the region'. Although this is explained in the 'how to play?' I found that many users were going straight into the game and skipping the instructions. Taking this into consideration I decided to add another function that hid the question when a user hovered over to allow the user to easily click onto the region.
 
 - Project posted on Slack, asking for feedback from fellow students.
 
@@ -575,7 +577,7 @@ All my html are given a meta name and content so I am unsure why I am recieving 
 | [X] | Hex 8 digit colours not compatible with internet explorer                     | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                          |
 | [ ] | Javascript errors showing in Internet explorer and not allowing game to begin | As internet explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead I have added an alert message for anyone using IE to switch to chrome. |
 | [ ] | Glitch with the timer during countdown, giving users more time                | As this has only occured twice I have not yet been able to identify the problem                                                                                                                                            |
-| [ ] | Questions being repeated more than once                                       | This has only occured once during my testing so I have not yet been able to identify the problem                                                                                                                           |
+| [ ] | Questions being repeated more than once                                       | This has only occured once during my testing making it difficult for me to identify the problem                                                                                                                           |
 
 ## &rarr; **Credits**
 
