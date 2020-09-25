@@ -470,7 +470,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
   One warning message received;
 
-  ![CSS Validator error](assets/images/readme/css-validatorError.png)
+  ![CSS Validator error](assets/images/readme/cssError.png)
 
   Code not altered as this is a valid CSS property as referred in [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start).
 
@@ -498,19 +498,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to run a series of audits to improve the quality of web pages. Overall performance and errors highlighted below.
 
-![Lighthouse overall performance](assets/images/readme/lh-sum.png)
+![Lighthouse overall performance](assets/images/readme/lhSummary.png)
 
 <u>Performance</u>
 
-![Lighthouse render-blocking resources](assets/images/readme/1-lh.png)
+![Lighthouse render-blocking resources](assets/images/readme/l-lh.png)
 
 - Serve images in next-gen formats;
 
-I tried changing my image to a different format as suggested however, changing using JPEG format gave a black background by default and WebP was accessible on less browsers. Therefore I have kept my image in a PNG format.
+I tried using different image formats as suggested however, changing to JPEG gave a black background by default and WebP was accessible on less browsers. Therefore I have kept my image in a PNG format.
 
 - Eliminate render-blocking resources and unused CSS;
 
-Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party file and isn't causing noticable restrictions to my site I have chosen to not to act on this.
+Using the Coverage tab in Chrome DevTools I identified that the main file linked to these issues was the Bootstrap CSS (See screenshot below). As this is a third-party library and isn't causing noticable restrictions to my site I have chosen to not to act on this.
 
 ![Lighthouse coverage](assets/images/readme/lh-2.png)
 
