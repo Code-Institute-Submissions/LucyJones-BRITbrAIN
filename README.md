@@ -107,7 +107,7 @@ As part of the design process, before starting my project I sketched out initial
 
 [View wireframes](assets/files/wireframes.pdf)
 
-- **Wireframes vs. finished project**
+- **Wireframes vs. End site**
 
   Whilst building my site I made some changes to my design ideas, these are highlighted below;
 
@@ -376,7 +376,7 @@ Testing my user's <u>key priorities</u>:
 
 ![Question progress](assets/images/readme/US6-1.png)
 
-**7. A quiz timer to limit the length of the game.**
+**7. A quiz timer**
 
 - Timer visible on the question page once the game has started.
 - Timer limit is a total of 30 seconds with the game automatically ending when it reaches 0.
@@ -508,7 +508,7 @@ JS was also tested by opening the developer console window on Chrome and checkin
 
 - Serve images in next-gen formats;
 
-I tried using different image formats as suggested however, JPEG gave a black background by default and WebP was accessible on less browsers. Therefore I have kept my image in a PNG format.
+I tried using different image formats as suggested, however, JPEG gave a black background by default and WebP was accessible on fewer browsers. Therefore I have kept my image in a PNG format.
 
 - Eliminate render-blocking resources and unused CSS;
 
@@ -578,11 +578,11 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 |     | Bug                                                                           | Action                                                            |
 |-----|-------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [X] | Hex 8 digit colours not compatible with Internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format. |
-| [ ] | Javascript errors showing in Internet Explorer and not allowing game to begin. | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome.                                            |
+| [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin. | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome.                                            |
 | [ ] | Glitch with the timer during the countdown, giving users more time.                                                                           | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem.                                                                |
 | [ ] | Questions being repeated more than once.                                                                             | This was reported by one of my users and I have not personally experienced this bug so it is difficult for me to identify if there is a problem.                                                                |
-| [X] | After tapping an answer on a touchscreen device the hover effect is stuck on the element causing confusion for the user.                                                         | I was able to fix this bug by adding '@media (pointer: coarse)' to my css file to remove the colour change on hover when the user is on touchscreen devices.                                                                |
-| [X] | On Safari and firefox, after the user is presented with the end screen they are able to click back in the window and restart the quiz without the score and question counter being reset.                                                                       |   After researching into this I discovered this was a [user cache issue](https://gomakethings.com/fixing-safaris-back-button-browser-cache-issue-with-vanilla-js/). I have added Javascript code to the questions.html file which ensures that if the user clicks back in the browser they will not be able to continue the quiz. This ensures that any possible cheating has been eliminated.                                                              |                                                                                                                     | 
+| [X] | After tapping an answer on a touchscreen device the hover effect is stuck on the element making it confusing for the user.                                                         | I was able to fix this bug by adding '@media (pointer: coarse)' to my CSS file to remove the colour change on hover when the user is on touchscreen devices.                                                                |
+| [X] | On Safari and firefox, after the user is presented with the end screen they can click back in the window and restart the quiz without the score and question counter being reset.                                                                       |   After researching into this I discovered this was a [user cache issue](https://gomakethings.com/fixing-safaris-back-button-browser-cache-issue-with-vanilla-js/). I have added Javascript code to the questions.html file which ensures that if the user clicks back in the browser they will not be able to continue the quiz. This ensures that any possible cheating has been eliminated.                                                              |                                                                                                                     | 
 
 ## &rarr; **Credits**
 
