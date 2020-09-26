@@ -580,6 +580,17 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 | [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
 | [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem                                                                                                                                            |
 | [ ] | Questions being repeated more than once                                           | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                            |
+                                                                     |
+| [ ] | Questions being repeated more than once                                           | This has only occurred once during my testing making it difficult for me to identify the problem       
+
+|     | Bug                                                                           | Action                                                            |
+|-----|-------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [X] | Hex 8 digit colours not compatible with Internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format |
+| [ ] | Javascript errors showing in Internet Explorer and not allowing game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome.                                            |
+| [ ] | Glitch with the timer during the countdown, giving users more time                                                                           | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem                                                                |
+| [ ] | Questions being repeated more than once                                                                             | This has only occurred once during my testing making it difficult for me to identify the problem                                                                |
+| [ ] | :hover on touchscreen devices- after the tap has been done, the hover effect is stuck on the element.                                                                           | 5*                                                                |
+| [ ] | When user is presented with the end screen then click back in the window, the timer restarts the game but the score hasn't reset                                                                       | 6*                                                                |                                                                                                                     |
 
 ## &rarr; **Credits**
 
