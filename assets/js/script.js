@@ -16,8 +16,7 @@ $(document).ready(function () {
   // Start score and question counters at 0
   // Start timer at 30 seconds
   // create questions empty array to link with json file
-  let score = 0;
-  let questionCount = 0;
+  let score, questionCount;
   let timeLeft = 30;
   let shuffledQuestions, currentQuestionIndex;
   let questions = [];
@@ -38,6 +37,8 @@ $(document).ready(function () {
   // Function to start game
   // Shuffled questions maths to ensure questions are selected in random order
   function startGame() {
+    score = 0;
+    questionCount = 0;
     popupStartBox.classList.add("hide");
     gameHeaderElement.classList.remove("hide");
     questionContainerElement.classList.remove("hide");
@@ -58,7 +59,7 @@ $(document).ready(function () {
     scoreCountElement.textContent = score;
   }
 
-  // Timer function, counts 
+  // Timer function, counts
   function countdown() {
     animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
