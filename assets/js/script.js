@@ -22,8 +22,7 @@ $(document).ready(function () {
   let shuffledQuestions, currentQuestionIndex;
   let questions = [];
 
-  // Code sourced from You tube 'Build a Quiz App'- James Q Quick
-  // Fetch json question file
+  // Code sourced from You tube 'Build a Quiz App'- James Q Quick to fetch json question file
   fetch("assets/js/questions.json")
     .then((res) => {
       return res.json();
@@ -58,7 +57,7 @@ $(document).ready(function () {
     scoreCountElement.textContent = score;
   }
 
-  // Timer function, counts
+  // Timer countdown function
   function countdown() {
     animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
@@ -90,18 +89,17 @@ $(document).ready(function () {
     $("#question-box").hide();
   });
 
-  // Next question function
+  // Show question function inside next question to select random question from array
   function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
     $("#question-box").show();
     progress();
   }
-  // Show question function shows question in #question
   function showQuestion(question) {
     questionElement.innerText = question.question;
   }
 
-  // ID of region clicked becomes userAnswer, userAnswer checked against CorrectAnswer
+  // ID of region clicked becomes userAnswer, userAnswer checked against CorrectAnswer in array
   $(".choice").on("click", function () {
     let userAnswer = $(this).attr("id");
     if (userAnswer === questions[currentQuestionIndex].correctAnswer) {
