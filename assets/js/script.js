@@ -60,8 +60,6 @@ $(document).ready(function () {
 
   // Timer function, counts
   function countdown() {
-    score = 0;
-    questionCount = 0;
     animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
     countdownNumber.textContent = timeLeft;
