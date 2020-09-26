@@ -45,8 +45,6 @@ $(document).ready(function () {
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     setInterval(countdown, 1000);
-    score = 0;
-    questionCount = 0;
     setNextQuestion();
   }
 
@@ -62,6 +60,8 @@ $(document).ready(function () {
 
   // Timer function, counts
   function countdown() {
+    score = 0;
+    questionCount = 0;
     animationTimer.classList.add("animation");
     timeLeft = --timeLeft <= -1 ? 30 : timeLeft;
     countdownNumber.textContent = timeLeft;
