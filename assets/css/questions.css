@@ -177,7 +177,7 @@ a.start-btn.btn:focus {
   fill: #e8b9ab;
 }
 
-.choice:hover {
+.choice:hover, .choice:focus {
   fill: #e09891;
 }
 
