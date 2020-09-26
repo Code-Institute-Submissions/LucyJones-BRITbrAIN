@@ -182,8 +182,9 @@ a.start-btn.btn:focus {
 }
 
 @media (pointer: coarse) {
- .choice:hover {
-  fill: none;
+  .choice:hover {
+    fill: #e8b9ab;
+  }
 }
 
 /* -------------------- Questions*/
