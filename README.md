@@ -573,15 +573,7 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 - Project posted on Slack, asking for feedback from fellow students.
 
 #### Bugs
-
-|     | Bug                                                                               | Action                                                                                                                                                                                                                      |
-| --- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [X] | Hex 8 digit colours not compatible with Internet Explorer                         | Used a converter to change all 8 digit hex colours to rgba format                                                                                                                                                           |
-| [ ] | Javascript errors showing in Internet Explorer and not allowing the game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome. |
-| [ ] | Glitch with the timer during the countdown, giving users more time                | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem                                                                                                                                            |
-| [ ] | Questions being repeated more than once                                           | This has only occurred once during my testing making it difficult for me to identify the problem                                                                                                                            |
-                                                                     |
-| [ ] | Questions being repeated more than once                                           | This has only occurred once during my testing making it difficult for me to identify the problem       
+      
 
 |     | Bug                                                                           | Action                                                            |
 |-----|-------------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -589,7 +581,7 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 | [ ] | Javascript errors showing in Internet Explorer and not allowing game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome.                                            |
 | [ ] | Glitch with the timer during the countdown, giving users more time                                                                           | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem                                                                |
 | [ ] | Questions being repeated more than once                                                                             | This has only occurred once during my testing making it difficult for me to identify the problem                                                                |
-| [ ] | :hover on touchscreen devices- after the tap has been done, the hover effect is stuck on the element.                                                                           | 5*                                                                |
+| [ ] | After tapping an answer on touchscreen device the hover effect is stuck on the element causing confusion for the user                                                          | I was able to fix this bug by adding '@media (pointer: coarse)' to my css file to remove the colour change on hover when user is on touch screen devices                                                                |
 | [ ] | When user is presented with the end screen then click back in the window, the timer restarts the game but the score hasn't reset                                                                       | 6*                                                                |                                                                                                                     |
 
 ## &rarr; **Credits**
@@ -625,6 +617,8 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 - [HTML Dog](https://htmldog.com/techniques/404/): Helped with creating custom error page '404'.
 
 - [StackOverflow](https://stackoverflow.com/questions/49185495/how-to-tell-user-to-open-page-in-chrome-with-browser-detect) and [javascriptkit.com](http://www.javascriptkit.com/javatutors/navigator.shtml) used to help create an alert for users using Internet Explorer.
+
+- [W3C Editor's draft](https://drafts.csswg.org/mediaqueries-4/#descdef-media-pointer) and [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/pointer) helped to find code to target hover property on touchscreen devices.
 
 #### Media
 
