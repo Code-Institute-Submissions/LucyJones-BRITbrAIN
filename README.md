@@ -558,11 +558,11 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
   ![Internet experience alert message](assets/images/readme/ieAlert.png)
 
-  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. The alert file also appeared when using firefox but as this is only a warning it will not affect the site.
+  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. The alert file did also appear when using firefox but as this is only a warning it will not affect the site.
 
   ![Good browsers](assets/images/readme/goodBrowser.png)
 
-- The website was viewed on a variety of devices including Laptop, Macbook, Ipad and IPhones (Version 6,8).
+- The website was viewed on a variety of devices including HP Laptop, Macbook pro, Ipad and IPhones (Version 6,7,8,11).
 
 - Friends and family members were asked to review the site to point out any bugs, user experience issues and/or suggestions.
 
