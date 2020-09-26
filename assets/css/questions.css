@@ -173,11 +173,11 @@ a.start-btn.btn:focus {
   margin-bottom: 5%;
 }
 
-.choice {
+.choice, .choice:focus {
   fill: #e8b9ab;
 }
 
-.choice:hover, .choice:focus {
+.choice:hover {
   fill: #e09891;
 }
 
