@@ -558,7 +558,7 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
   ![Internet experience alert message](assets/images/readme/ieAlert.png)
 
-  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. This enabled me to check it was working correctly.
+  To test that this was working I added a temporary alert to my HTML file for any browsers that weren't Internet Explorer. The alert file also appeared when using firefox but as this is only a warning it will not affect the site.
 
   ![Good browsers](assets/images/readme/goodBrowser.png)
 
@@ -577,12 +577,12 @@ All my HTML are given a meta name and content so I am unsure why I am receiving 
 
 |     | Bug                                                                           | Action                                                            |
 |-----|-------------------------------------------------------------------------------|-------------------------------------------------------------------|
-| [X] | Hex 8 digit colours not compatible with Internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format |
-| [ ] | Javascript errors showing in Internet Explorer and not allowing game to begin | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome.                                            |
-| [ ] | Glitch with the timer during the countdown, giving users more time                                                                           | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem                                                                |
-| [ ] | Questions being repeated more than once                                                                             | This was reported by one of my users and I have not personally experienced this bug so it is difficult for me to identify if there is a problem                                                                |
-| [X] | After tapping an answer on a touchscreen device the hover effect is stuck on the element causing confusion for the user                                                          | I was able to fix this bug by adding '@media (pointer: coarse)' to my css file to remove the colour change on hover when the user is on touchscreen devices                                                                |
-| [ ] | On a mobile device, after the user is presented with the end screen they are able to click back in the window and restart the quiz without the score and question counter being reset                                                                       | 6*                                                                |                                                                                                                     |
+| [X] | Hex 8 digit colours not compatible with Internet Explorer                     | Used a converter to change all 8 digit hex colours to rgba format. |
+| [ ] | Javascript errors showing in Internet Explorer and not allowing game to begin. | As Internet Explorer is coming increasingly less popular, in addition to Microsoft ending support next year I decided not to fix this code. Instead, I have added an alert message for anyone using IE to switch to chrome.                                            |
+| [ ] | Glitch with the timer during the countdown, giving users more time.                                                                           | As this has only occurred twice I have not yet been able to identify if this is a reoccurring problem.                                                                |
+| [ ] | Questions being repeated more than once.                                                                             | This was reported by one of my users and I have not personally experienced this bug so it is difficult for me to identify if there is a problem.                                                                |
+| [X] | After tapping an answer on a touchscreen device the hover effect is stuck on the element causing confusion for the user.                                                         | I was able to fix this bug by adding '@media (pointer: coarse)' to my css file to remove the colour change on hover when the user is on touchscreen devices.                                                                |
+| [X] | On Safari and firefox, after the user is presented with the end screen they are able to click back in the window and restart the quiz without the score and question counter being reset.                                                                       |   After researching into this I discovered this was a user cache issue. I have added Javascript code to the questions.html file which ensures that if the user clicks back in the browser they will not be able to continue the quiz. This ensures that any possible cheating has been eliminated.                                                              |                                                                                                                     | 
 
 ## &rarr; **Credits**
 
