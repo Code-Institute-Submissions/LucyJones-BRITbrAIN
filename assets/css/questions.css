@@ -181,7 +181,8 @@ a.start-btn.btn:focus {
   fill: #e09891;
 }
 
-body.nontouch nav a:hover {
+@media (pointer: coarse) {
+ .choice:hover {
   fill: none;
 }
 
